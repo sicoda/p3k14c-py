@@ -1,0 +1,38 @@
+### Directions for how to execute Scrubbing on your p3k14c dataset before analysis:
+
+# Clone the official scrubbing repository
+!git clone https://github.com/people3k/p3k14c-data-scrubbing.git
+
+# Change the working directory to the cloned repo
+%cd p3k14c-data-scrubbing
+
+# Install the required dependencies listed in their documentation
+!pip install numpy pandas ftfy tqdm pyshp shapely matplotlib pyproj
+
+# Define your file paths
+raw_data = "../p3k14c_raw.csv"     # Your raw, uncleaned CSV
+scrubbed_data = "scrubbed.csv"     # The output cleaned CSV
+graveyard = "graveyard.csv"        # A log of everything deleted and WHY
+
+# Run the main scrubber via the command line
+!python scrub.py {raw_data} {scrubbed_data} {graveyard}
+
+# Define the final output name
+final_ready_data = "p3k14c_final_ready.csv"
+
+# Run the fuzzing script on the scrubbed data
+!python fuzz/fuzz.py {scrubbed_data} {final_ready_data}
+
+# Generates a table of suggested substitutions based on the GeoNames dataset
+!python charfix/correct.py {final_ready_data} suggested_fixes.csv
+
+# Once you review suggested_fixes.csv, you can apply them
+!python charfix/applyFixes.py {final_ready_data} suggested_fixes.csv final_fixed_names.csv
+
+# Load the newly scrubbed, fuzzed, and standardized dataset
+import pandas as pd
+df = pd.read_csv('p3k14c_final_ready.csv')
+
+# Check how many pristine dates you have left to work with!
+print(f"Total dates ready for calibration: {len(df)}")
+display(df.head())
