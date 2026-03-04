@@ -14,6 +14,14 @@ raw_data = "../p3k14c_raw.csv"     # Your raw, uncleaned CSV
 scrubbed_data = "scrubbed.csv"     # The output cleaned CSV
 graveyard = "graveyard.csv"        # A log of everything deleted and WHY
 
+
+there is a bug in this code
+
+# The traceback shows that the scrubber is successfully passing through the `deleteBadLabs` and `convertCoordinates` functions.
+# But when it hands the data over to `removeDuplicates.py`, the script slices the dataset to look for dates specifically from the "CARD" and "Wyoming" databases. 
+# It does this using an older, highly fragile pandas method that is causing the script to lose track of the Source column entirely, triggering a fatal KeyError.
+
+
 # Run the main scrubber via the command line
 !python scrub.py {raw_data} {scrubbed_data} {graveyard}
 
