@@ -2,6 +2,8 @@
 
 Python package for the p3k14c global archaeological radiocarbon database. (Currently in Progress, come back later!)
 
+file:///Users/daniellesicotte/p3k14c-data-scrubbing/interactive_spatial_map.html
+
 # Before Running
 
 This Python code assumes your data has already passed through the [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) process. This scrubbing package is essential for quality control and performs the following:
@@ -45,6 +47,9 @@ Radiocarbon ages (CRA) must be calibrated to account for historical fluctuations
 **Functionality**: The calibration scripts automatically map each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, formatted neatly into a `pandas` DataFrame for later analyses.
 
 <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/cff72b16-2b08-4856-bf5a-1e315571e249" />
+
+
+<img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/433fba98-494a-42f7-bd44-19cd2d7f99eb" />
 
 
 ## Summary Statistics
