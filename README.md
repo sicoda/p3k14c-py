@@ -31,7 +31,7 @@ This repository bridges that gap. `p3k14c-py` provides detailed Python scripts f
 To run the scripts in this repository, you will need Python 3.8+ and the following core libraries. You can install them via pip:
 
 ```python
-pip install pandas geopandas shapely scipy numpy matplotlib seaborn scikit-learn iosacal tqdm
+pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn iosacal tqdm
 ```
 
 # Overview of Scripts
@@ -53,7 +53,7 @@ A great first step to analysing any large dataset. Gives the researcher a genera
 
 **Tools**: We utilize `matplotlib`, `pandas`, and `numpy`.
 
-**Functionality**: Generates summaries of continental and regional data, missing values, error margins, and distributions.
+**Functionality**: Generates summaries of continental and regional data, missing values, error margins, and distributions. In addition to the text report below, this code also provides a Summary_{Global OR CounrtyName OR SiteName}.png visual showing Top 10 Countries (or Top 10 materials if limted to specific country/site), Distribution of Error, Geometry of Uncalibrated Ages (before implementing calibratoin script), Geometry of Calibrated Ages (after implementing the calibration script)
 
 ``` ========================================
         DATASET SUMMARY REPORT          
