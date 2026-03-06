@@ -55,7 +55,40 @@ A great first step to analysing any large dataset. Gives the researcher a genera
 
 **Functionality**: Generates summaries of continental and regional data, missing values, error margins, and distributions.
 
-TBD
+``` ========================================
+        DATASET SUMMARY REPORT          
+========================================
+Total Records: 172,823
+
+--- Continental Breakdown ---
+Continent
+Europe           74701
+North America    63771
+Asia             13725
+Africa            9354
+South America     6435
+Name: count, dtype: int64
+
+--- Top 5 Countries ---
+Country
+USA               55586
+United Kingdom    24437
+Canada             8185
+France             6987
+Norway             6475
+Name: count, dtype: int64
+
+--- Missing Values ---
+Lat               3772
+Long              3763
+Cal_Median_Age    3772
+
+--- Age & Error Margins ---
+                   Count     Mean  Median   Min      Max
+Age             172823.0  4542.57  3030.0  30.0  54940.0
+Error           172823.0    89.68    55.0  15.0   9300.0
+Cal_Median_Age  169051.0  5043.14  3191.0  48.0  53937.0
+```
 
 ## SPD (Summed Probability Distributions)
 
