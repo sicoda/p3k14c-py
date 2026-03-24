@@ -58,7 +58,7 @@ A great first step to analysing any large dataset. Gives the researcher a genera
 
 **Tools**: We utilize `matplotlib`, `pandas`, and `numpy`.
 
-**Functionality**: Generates summaries of continental and regional data, missing values, error margins, and distributions. In addition to the text report below, this code also provides a Summary_{Global OR CounrtyName OR SiteName}.png visual showing Top 10 Countries (or Top 10 materials if limted to specific country/site), Distribution of Error, Geometry of Uncalibrated Ages (before implementing calibratoin script), Geometry of Calibrated Ages (after implementing the calibration script)
+**Functionality**: Generates summaries of continental and regional data, missing values, error margins, and distributions. In addition to the text report below, this code also provides a Summary_{Global OR CounrtyName OR SiteName}.png visual showing Top 10 Countries (or Top 10 materials if limited to specific country/site), Distribution of Error, Geometry of Uncalibrated Ages (before implementing calibration script), Geometry of Calibrated Ages (after implementing the calibration script)
 
 ``` ========================================
         DATASET SUMMARY REPORT          
@@ -97,15 +97,19 @@ Cal_Median_Age  169051.0  5043.14  3191.0  48.0  53937.0
 
 ## SPD (Summed Probability Distributions)
 
-SPD's are a key technique in archaeology used to estimate population fluctuations over time as a proxy for human activity.
+SPD's can be used on calibrated radiocarbon data to estimate population fluctuations over time as a proxy for human activity. Essentially, SPD stacks calibrated dates and evaluates the shape they make. Note that this should only be used to visualize regional trends, as SPD tends to be mathematically biased. Based on [Palmisano et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
+
+Next, move to the **Bayesian script** for a final, detailed analysis. This analysis evaluates the simplest underlying population shape that could have produced the calibrated radiocarbon data. This analysis provides a cleaner, more realistic demographic curve that filters out the noise in radiocarbon data. Based on [Price et al. 2021]([https://c14.iosa.it/en/latest/](https://www.sciencedirect.com/science/article/pii/S0305440321001436#da1).
 
 **Functionality**: Because Python lacks a direct equivalent to R's `rcarbon::spd()`, this module provides custom scripts to:
-  - Standardize and "bin" the data (using `scikit-learn`'s agglomerative clustering) to prevent heavily-sampled sites from skewing the            distribution.
+  - Standardize and "bin" the data (using `scikit-learn`'s agglomerative clustering) to prevent heavily-sampled sites from skewing the distribution.
   - Calculate the probability matrices for each date.
   - Aggregate these probabilities into a unified temporal time-series.
   - Perform rolling averages and confidence envelope generation using `scipy` and `numpy`.
 
-TBD
+
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/f685e884-cb41-4008-9e6e-31bb5d5777f6" />
+
 
 ## Risk & Density Analysis
 
