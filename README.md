@@ -24,6 +24,8 @@ This Python code assumes your data has already passed through the [p3k14c-data-s
 
 - See the official [p3k14c GitHub page](https://github.com/people3k/p3k14c) for the original implementation using the **R Language**.
 
+**I've attached the cleaned, scrubbed, fuzzed, calibrated dataset on this page (see p3k14c_pristine_dates.csv). You can bypass the finnicky cleaninh and calibrating process entirely.**
+
 # Introduction
 
 The [PAGES People3000 Archaeological Radiocarbon Database](https://www.nature.com/articles/s41597-022-01118-7) (p3k14c) is a comprehensive, global database of archaeological radiocarbon dates. The raw data, however, is uncalibrated and can be messy. This can be daunting for researchers new to coding or who want to reproduce findings. The p3k14c project originally released code in [R](https://github.com/people3k/p3k14c) to help researchers tackle the dataset, relying heavily on great R packages like `rcarbon`.
@@ -55,6 +57,7 @@ Radiocarbon ages (CRA) must be calibrated to account for historical fluctuations
 
 <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/433fba98-494a-42f7-bd44-19cd2d7f99eb" />
 
+**I've attached the cleaned, scrubbed, fuzzed, calibrated dataset on this page (see p3k14c_pristine_dates.csv). You can bypass the finnicky cleaninh and calibrating process entirely.**
 
 ## Summary Statistics
 
