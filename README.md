@@ -2,7 +2,11 @@
 
 Python package for the p3k14c global archaeological radiocarbon database. (Currently in Progress, come back later!)
 
-file:///Users/daniellesicotte/p3k14c-data-scrubbing/interactive_spatial_map.html
+[View the interactive p3k14c database map](./interactive_spatial_map.html)
+
+<img width="742" height="345" alt="image" src="https://github.com/user-attachments/assets/67ce4f41-e512-4b5f-bf08-a05a8657e4f9" />
+
+Map showing all available datapoints in the p3k14c database
 
 # Before Running
 
@@ -12,7 +16,7 @@ This Python code assumes your data has already passed through the [p3k14c-data-s
 2. Standardizes coordinate formats among records with location data;
 3. Handles duplicate entries;
 4. Cleans anomalous data; and
-5. Obfuscates of precise coordinates for dates in the United States and Canada, as well as from the17 dataset, in order to protect site locations.
+5. Obfuscates precise coordinates for dates in the United States and Canada, as well as from the17 dataset, in order to protect site locations.
 
 - For more information on the database and scrubbing methodology, see the official [Scientific Data publication](https://www.nature.com/articles/s41597-022-01118-7).
 
@@ -33,7 +37,7 @@ This repository bridges that gap. `p3k14c-py` provides detailed Python scripts f
 To run the scripts in this repository, you will need Python 3.8+ and the following core libraries. You can install them via pip:
 
 ```python
-pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn iosacal tqdm
+pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn iosacal tqdm os
 ```
 
 # Overview of Scripts
@@ -44,7 +48,7 @@ Radiocarbon ages (CRA) must be calibrated to account for historical fluctuations
 
 **Tool**: We utilize `IOSACal`, an [open-source](https://c14.iosa.it/en/latest/) radiocarbon calibration library in Python.
 
-**Functionality**: The calibration scripts automatically map each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, formatted neatly into a `pandas` DataFrame for later analyses.
+**Functionality**: The calibration scripts automatically map each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, formatted neatly into a `pandas` DataFrame for later analyses. This script outputs a `p3k14c_pristine_dates.csv` file, which will be used in later analyses. 
 
 <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/cff72b16-2b08-4856-bf5a-1e315571e249" />
 
@@ -97,9 +101,9 @@ Cal_Median_Age  169051.0  5043.14  3191.0  48.0  53937.0
 
 ## SPD (Summed Probability Distributions)
 
-SPD's can be used on calibrated radiocarbon data to estimate population fluctuations over time as a proxy for human activity. Essentially, SPD stacks calibrated dates and evaluates the shape they make. Note that this should only be used to visualize regional trends, as SPD tends to be mathematically biased. Based on [Palmisano et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
+SPD's can be used on calibrated radiocarbon data to estimate population fluctuations over time as a proxy for human activity. Essentially, SPD stacks calibrated dates and evaluates the shape they make. Note that this should only be used to visualize archaeological activity, as SPD tends to be mathematically biased due to not incorporating data error. Based on [Palmisano et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
 
-Next, move to the **Bayesian script** for a final, detailed analysis. This analysis evaluates the simplest underlying population shape that could have produced the calibrated radiocarbon data. This analysis provides a cleaner, more realistic demographic curve that filters out the noise in radiocarbon data. Based on [Price et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
+(Weninger et al., 2015; Bevan et al., 2017) has suggested that normalised dates create artificial peaks in the resulting SPDs due to the steepening portions of the radiocarbon calibration curve 
 
 **Functionality**: Because Python lacks a direct equivalent to R's `rcarbon::spd()`, this module provides custom scripts to:
   - Standardize and "bin" the data (using `scikit-learn`'s agglomerative clustering) to prevent heavily-sampled sites from skewing the distribution.
@@ -107,8 +111,34 @@ Next, move to the **Bayesian script** for a final, detailed analysis. This analy
   - Aggregate these probabilities into a unified temporal time-series.
   - Perform rolling averages and confidence envelope generation using `scipy` and `numpy`.
 
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/4934d33b-647d-44f1-9fae-dadf47f06baf" />
 
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/f685e884-cb41-4008-9e6e-31bb5d5777f6" />
+
+### End-to-End Bayesian Analysis
+
+Next, move to the **Bayesian script** for a final, detailed analysis. This analysis evaluates the simplest underlying population shape that could have produced the calibrated radiocarbon data. This analysis provides a cleaner, more realistic demographic curve that filters out the noise in radiocarbon data. Based on [Price et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
+
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/85d036ff-4e50-413c-b7f6-6734cb33919b" />
+
+### Comparing the Two Approaches
+
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/7cb519a0-e57d-445b-847d-7f74885de60e" />
+
+**Why the peak shift if they are based on the same dataset?** The SPD is influenced by the median of each calibrated date, while the Bayesian model accounts for the uncertainty of every date simultaneously. Dates with large error are "weighted" differently in the Bayesian likelihood than they are when summed in an SPD, leading to shifts.
+
+**Why the jagged SPD peaks?** SPD acts like a mirror. If the calibration curve has a plateau, many different radiocarbon dates will pile up into that same calendar window. This creates a massive, artificial spike in the SPD that looks like a population spike. Meanwhile, Bayesian uses the calibration curve as part of its analysis. It recognizes where these plateaus are and mathematically irons out the artificial spikes, resulting in the smoother trend.
+
+**Which analysis should I use?** Use the SPD model if you want to show archaeological activity (where we have the most evidence and the most dates). Use the Bayesian model if you want to discuss general demographic trends (the most likely "true" shape of the population over time, reduced calibration noise).
+
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/f685e884-cb41-4008-9e6e-31bb5d5777f6" />
+
+Notice that the Africa data SPD and Bayesian models align because of the massive scale of the data, which acts as a sort of manual smoother for the SPD. This is due to the random fluctuations of the calibration curve, which are overwhelmed by the volume of the data.
+
+### Growth Rate
+
+This analysis mathematically describes the speed of population change at a particular site/country/continent. This is calculated as the first derivative of the log-transformed Bayesian curve. A positive value = population increase, a negative value = population decrease.
+
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/586f177b-82be-4fcb-9065-fdf786db27a2" />
 
 
 ## Risk & Density Analysis
