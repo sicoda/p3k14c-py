@@ -144,17 +144,18 @@ This analysis mathematically describes the speed of population change at a parti
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/586f177b-82be-4fcb-9065-fdf786db27a2" />
 
 
-## Risk & Density Analysis
+## Density Analysis
 
-Replicating the spatial relative risk surfaces often generated using R's `sparr` package.
+This analysis shows the geographical distribution of unweighted sites across a region (Plot a) and the weighted C14 dates at those sites (Plot b). This script allows the user to pick a specific temporal range and region (one of the seven continents) or to create a custom region (lat. & long.) to analyze. 
 
-Functionality: Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites versus dated sites, allowing researchers to visualize spatial sampling biases across the globe.
+Functionality: Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites vs. dated sites. Provides a visual of spatial sampling biases across the globe. Here is an example for North America:
 
-TBD
+<img width="550" height="800" alt="image" src="https://github.com/user-attachments/assets/c61ccfc8-758f-4a68-97b3-aac4301966f0" />
+
 
 ## Data Merging
 
-Archaeological data is inherently spatial. This module utilizes `geopandas` to merge and filter the p3k14c data against external spatial and environmental datasets.
+Archaeological data is inherently spatial. This module utilizes `geopandas` to merge and filter the p3k14c data against external spatial and environmental datasets. Essentially, this converts the archaeological data into .gpd files, commonly used file formats for storing environmental data. 
 
 TBD
 
