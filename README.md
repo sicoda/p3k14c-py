@@ -36,18 +36,37 @@ pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn io
 
 ## Cleaning
 
-This cleaning script is an essential step for quality control and later computational analyses. This script is adapted from  [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) to work using Python 3.12 and performs the following:
+This cleaning script is an essential step for quality control and later computational analyses. This script is adapted from  [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) to work using Python 3.12.10 and performs the following:
 
-1. Loads UTF-8: uses `encoding_errors="replace"` so a single bad byte won't crash the run.
-2. Trims whitespace: strips leading/trailing spaces from every string column.
-3. Required-field checks: removes rows missing LabID, Age, or Error.
-4. Age plausibility: flags negative ages and anything above 50,000 BP (beyond the practical ¹⁴C range).
-5. Coordinate validation: removes rows with missing, non-numeric, out-of-range (±90/±180), or Null-Island (0,0) coordinates.
-6. Duplicate detection: catches exact duplicates (LabID + Age + Error + Lat + Long) and stray duplicate LabIDs with different data.
-7. Controlled-vocabulary normalization: lowercases Material, uppercases Method for consistency.
-8. LocAccuracy range check: flags any value outside 0–5.
-9. Lab code audit: extracts the alphabetic prefix from every LabID and flags any not in the 358-prefix known-lab dictionary, writing them to unknown_codes.csv.
-10. Outputs: `out_file.csv` (clean), `graveyard.csv` (deleted + reason column), `unknown_codes.csv` (unknown lab prefixes).
+1. Lab-code validation via Labs.csv (typo correction included)
+2. LabID quality checks: must contain a numeral, no '?', no corrupted Unicode
+3. LabID standardisation: strip punctuation, uppercase, insert dash
+4. Coordinate-format conversion (deg/min/sec, Solheim Northing/Easting)
+5. SiteName / SiteID whitespace stripping
+6. Duplicate removal (LabID-exact; source-priority tiebreaking when DatasetFamilyTree.csv is present, first-occurrence fallback otherwise)
+7. Miscellaneous scrubbing:
+        - null Age / Error
+        - Age and Error must be whole numbers (integers)
+        - Age > 0  (future dates removed)
+        - Error >= 15 BP  (impossibly small errors removed)
+        - Error <= Age
+        - Age <= 55,000 BP
+        - "United States" normalized to "USA"
+8. Hardcoded bad-coordinate patches for 6 known problem LabIDs
+9. Encoding repair on text columns (ftfy when installed, stdlib fallback)
+10. Column sanitisation: strips stray quotes, commas, exotic whitespace
+11. Outputs: cleaned CSV, graveyard.csv, unknown_codes.csv
+
+```
+============================================================
+  Input    : 173,946 records
+  Output   : 172,823 records
+  Removed  : 1,123 records  (0.6%)
+  Cleaned  : cleaned_p3k14c.csv
+  Graveyard: graveyard.csv
+  Unknown  : unknown_codes.csv
+============================================================
+```
 
 ## Calibration
 
@@ -56,6 +75,11 @@ Radiocarbon ages (CRA) must be calibrated to account for historical fluctuations
 **Tool**: We utilize `IOSACal`, an [open-source](https://c14.iosa.it/en/latest/) radiocarbon calibration library in Python.
 
 **Functionality**: The calibration scripts automatically map each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, formatted neatly into a `pandas` DataFrame for later analyses. This script outputs a `p3k14c_pristine_dates.csv` file, which will be used in later analyses. 
+
+1. Curve selection: for every row, it checks the Lat column. Any sample at or above the equator gets `intcal20`; anything below gets `shcal20`. This is the standard approach for global datasets.
+2. Calibration: calls R(age, error, lab_id).calibrate(curve) from `IOSACal`, exactly as the official library intends.
+3. Extracting statistics: calls .quantiles() on each CalAge result, which returns the median (quants[50]) and the 1σ / 2σ confidence intervals (quants[68], quants[95]).
+4. Failure handling: rows with missing Age, Error, or Lat, or any row where IOSACal throws an exception, are written to calibration_failures.csv rather than crashing the whole run.
 
 <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/cff72b16-2b08-4856-bf5a-1e315571e249" />
 
