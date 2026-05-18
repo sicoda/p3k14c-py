@@ -10,19 +10,11 @@ Map showing all available datapoints in the p3k14c database
 
 # Before Running
 
-This Python code assumes your data has already passed through the [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) process. This scrubbing package is essential for quality control and performs the following:
+For more information on the database and scrubbing methodology, see the official [Scientific Data publication](https://www.nature.com/articles/s41597-022-01118-7).
 
-1. Removes records with lab codes from unknown laboratories;
-2. Standardizes coordinate formats among records with location data;
-3. Handles duplicate entries;
-4. Cleans anomalous data; and
-5. Obfuscates precise coordinates for dates in the United States and Canada, as well as from the17 dataset, in order to protect site locations.
+See the official [p3k14c GitHub page](https://github.com/people3k/p3k14c) for the original implementation using the **R Language**.
 
-- For more information on the database and scrubbing methodology, see the official [Scientific Data publication](https://www.nature.com/articles/s41597-022-01118-7).
-
-- See [Data_Prep](Data_Prep.md) for directions on how to use this package to prepare your dataset.
-
-- See the official [p3k14c GitHub page](https://github.com/people3k/p3k14c) for the original implementation using the **R Language**.
+**I've attached the cleaned and calibrated dataset on this page (see p3k14c_pristine_dates.csv). You can bypass the finicky cleaning and calibrating process entirely.**
 
 # Introduction
 
@@ -30,7 +22,7 @@ The [PAGES People3000 Archaeological Radiocarbon Database](https://www.nature.co
 
 While R is a fantastic language for statistical analysis and has been heavily adopted by archaeologists, it has limitations in areas pertaining to data engineering, complex GIS integration, machine learning scalability, and large-scale data handling.
 
-This repository bridges that gap. `p3k14c-py` provides detailed Python scripts for the calibration, filtering, and analysis of the p3k14c dataset, enabling better integration into the broader Python data science colloquium.
+This repository bridges that gap. `p3k14c-py` provides detailed Python scripts for the calibration, filtering, and analysis of the p3k14c dataset, enabling better integration into the broader Python data science community.
 
 # Installation and Requirements
 
@@ -41,6 +33,21 @@ pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn io
 ```
 
 # Overview of Scripts
+
+## Cleaning
+
+This cleaning script is an essential step for quality control and later computational analyses. This script is adapted from  [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) to work using Python 3.12 and performs the following:
+
+1. Loads UTF-8: uses `encoding_errors="replace"` so a single bad byte won't crash the run.
+2. Trims whitespace: strips leading/trailing spaces from every string column.
+3. Required-field checks: removes rows missing LabID, Age, or Error.
+4. Age plausibility: flags negative ages and anything above 50,000 BP (beyond the practical ¹⁴C range).
+5. Coordinate validation: removes rows with missing, non-numeric, out-of-range (±90/±180), or Null-Island (0,0) coordinates.
+6. Duplicate detection: catches exact duplicates (LabID + Age + Error + Lat + Long) and stray duplicate LabIDs with different data.
+7. Controlled-vocabulary normalization: lowercases Material, uppercases Method for consistency.
+8. LocAccuracy range check: flags any value outside 0–5.
+9. Lab code audit: extracts the alphabetic prefix from every LabID and flags any not in the 358-prefix known-lab dictionary, writing them to unknown_codes.csv.
+10. Outputs: `out_file.csv` (clean), `graveyard.csv` (deleted + reason column), `unknown_codes.csv` (unknown lab prefixes).
 
 ## Calibration
 
@@ -55,6 +62,7 @@ Radiocarbon ages (CRA) must be calibrated to account for historical fluctuations
 
 <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/433fba98-494a-42f7-bd44-19cd2d7f99eb" />
 
+**I've attached the cleaned and calibrated dataset on this page (see p3k14c_pristine_dates.csv). You can bypass the finicky cleaning and calibrating process entirely.**
 
 ## Summary Statistics
 
@@ -141,17 +149,18 @@ This analysis mathematically describes the speed of population change at a parti
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/586f177b-82be-4fcb-9065-fdf786db27a2" />
 
 
-## Risk & Density Analysis
+## Density Analysis
 
-Replicating the spatial relative risk surfaces often generated using R's `sparr` package.
+This analysis shows the geographical distribution of unweighted sites across a region (Plot a) and the weighted C14 dates at those sites (Plot b). This script allows the user to pick a specific temporal range and region (one of the seven continents) or to create a custom region (lat. & long.) to analyze. 
 
-Functionality: Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites versus dated sites, allowing researchers to visualize spatial sampling biases across the globe.
+Functionality: Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites vs. dated sites. Provides a visual of spatial sampling biases across the globe. Here is an example for North America:
 
-TBD
+<img width="550" height="800" alt="image" src="https://github.com/user-attachments/assets/c61ccfc8-758f-4a68-97b3-aac4301966f0" />
+
 
 ## Data Merging
 
-Archaeological data is inherently spatial. This module utilizes `geopandas` to merge and filter the p3k14c data against external spatial and environmental datasets.
+Archaeological data is inherently spatial. This module utilizes `geopandas` to merge and filter the p3k14c data against external spatial and environmental datasets. Essentially, this converts the archaeological data into .gpd files, commonly used file formats for storing environmental data. 
 
 TBD
 
