@@ -133,45 +133,26 @@ Cal_Median_Age  169051.0  5043.14  3191.0  48.0  53937.0
 
 ## SPD (Summed Probability Distributions)
 
-SPD's can be used on calibrated radiocarbon data to estimate population fluctuations over time as a proxy for human activity. Essentially, SPD stacks calibrated dates and evaluates the shape they make. Note that this should only be used to visualize archaeological activity, as SPD tends to be mathematically biased due to not incorporating data error. Based on [Palmisano et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
+SPD's can be used on calibrated radiocarbon data to estimate demographic fluctuations over time as a proxy for human activity. Essentially, SPD stacks calibrated radiocarbon dates and evaluates the general shape they make [Palmisano et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
 
-(Weninger et al., 2015; Bevan et al., 2017) has suggested that normalised dates create artificial peaks in the resulting SPDs due to the steepening portions of the radiocarbon calibration curve 
+This script combines several methodologies from paleodemography:
 
-**Functionality**: Because Python lacks a direct equivalent to R's `rcarbon::spd()`, this module provides custom scripts to:
-  - Standardize and "bin" the data (using `scikit-learn`'s agglomerative clustering) to prevent heavily-sampled sites from skewing the distribution.
-  - Calculate the probability matrices for each date.
-  - Aggregate these probabilities into a unified temporal time-series.
-  - Perform rolling averages and confidence envelope generation using `scipy` and `numpy`.
+1. Chronometric Hygiene & Binning: Filters out problematic materials (old-wood/marine effects), drops large-error dates, and applies spatial-temporal binning to control for oversampling biases from single archaeological phases.
+2. Taphonomic Correction: Applies power-function corrections (e.g., Bluhm & Surovell 2018) to account for the natural decay and loss of organic material over time.
+3. Null Hypothesis Significance Testing (NHST): Uses 5,000-iteration Monte Carlo simulations to test the empirical SPD against exponential and logistic null models, highlighting periods of statistically significant population deviation.
+4. Continuous Piecewise Linear (CPL) Modelling: Uses differential evolution and Bayesian Information Criterion (BIC) to identify optimal "hinge points" that represent major regime shifts in population growth and decline.
 
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/4934d33b-647d-44f1-9fae-dadf47f06baf" />
+Using the Neolithic Megasite Catalhoyuk as a case study, the script transforms the cleaned, calibrated radiocarbon dataset into SPDs:
+
+<img width="5345" height="3640" alt="image" src="https://github.com/user-attachments/assets/ad37a6ea-1c5a-44ab-b0b4-ed6d5a170a42" />
 
 
-### End-to-End Bayesian Analysis
 
-Next, move to the **Bayesian script** for a final, detailed analysis. This analysis evaluates the simplest underlying population shape that could have produced the calibrated radiocarbon data. This analysis provides a cleaner, more realistic demographic curve that filters out the noise in radiocarbon data. Based on [Price et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
+In summary, the model is prioritizing mathematical precision over archaeological roundness.
 
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/85d036ff-4e50-413c-b7f6-6734cb33919b" />
+By identifying that single most statistically heavy point, archaeologists can confidently say: "If nothing else, this specific century was the indisputable peak of this civilization's footprint on the landscape." The more complex models (like the 3-hinge or 4-hinge) simply add nuance, showing us the "plateaus" and "stutters" that happened on the way up and the way down.
 
-### Comparing the Two Approaches
-
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/7cb519a0-e57d-445b-847d-7f74885de60e" />
-
-**Why the peak shift if they are based on the same dataset?** The SPD is influenced by the median of each calibrated date, while the Bayesian model accounts for the uncertainty of every date simultaneously. Dates with large error are "weighted" differently in the Bayesian likelihood than they are when summed in an SPD, leading to shifts.
-
-**Why the jagged SPD peaks?** SPD acts like a mirror. If the calibration curve has a plateau, many different radiocarbon dates will pile up into that same calendar window. This creates a massive, artificial spike in the SPD that looks like a population spike. Meanwhile, Bayesian uses the calibration curve as part of its analysis. It recognizes where these plateaus are and mathematically irons out the artificial spikes, resulting in the smoother trend.
-
-**Which analysis should I use?** Use the SPD model if you want to show archaeological activity (where we have the most evidence and the most dates). Use the Bayesian model if you want to discuss general demographic trends (the most likely "true" shape of the population over time, reduced calibration noise).
-
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/f685e884-cb41-4008-9e6e-31bb5d5777f6" />
-
-Notice that the Africa data SPD and Bayesian models align because of the massive scale of the data, which acts as a sort of manual smoother for the SPD. This is due to the random fluctuations of the calibration curve, which are overwhelmed by the volume of the data.
-
-### Growth Rate
-
-This analysis mathematically describes the speed of population change at a particular site/country/continent. This is calculated as the first derivative of the log-transformed Bayesian curve. A positive value = population increase, a negative value = population decrease.
-
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/586f177b-82be-4fcb-9065-fdf786db27a2" />
-
+Significantly, the moment after this single hinge point marks the beginning of a long, slow trajectory of decline. While the population didn't vanish overnight, the architectural density began to loosen. In the final phases of Çatalhöyük East (leading up to the abandonment of the East mound and the shift to the West mound), the community started leaving more open courtyard spaces, and the sheer volume of radiocarbon-dated activity begins to taper off.
 
 ## Density Analysis
 
