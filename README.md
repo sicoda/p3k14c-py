@@ -4,7 +4,7 @@ Python package for the p3k14c global archaeological radiocarbon database. (Curre
 
 [View the interactive p3k14c database map](./interactive_spatial_map.html)
 
-<img width="742" height="345" alt="image" src="https://github.com/user-attachments/assets/67ce4f41-e512-4b5f-bf08-a05a8657e4f9" />
+<img width="730" height="350" alt="image" src="https://github.com/user-attachments/assets/67ce4f41-e512-4b5f-bf08-a05a8657e4f9" />
 
 Map showing all available datapoints in the p3k14c database
 
@@ -36,22 +36,24 @@ pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn io
 
 ## Cleaning
 
-This cleaning script is an essential step for quality control and later computational analyses. This script is adapted from  [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) to work using Python 3.12.10 and performs the following:
+This cleaning script is an essential step for quality control and later computational analyses. This script is adapted from  [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) to work using Python 3.12.10.
+
+**Functionality**: The cleaning script automatically cleans the dataset via these tasks:
 
 1. Lab-code validation via Labs.csv (typo correction included)
 2. LabID quality checks: must contain a numeral, no '?', no corrupted Unicode
 3. LabID standardisation: strip punctuation, uppercase, insert dash
 4. Coordinate-format conversion (deg/min/sec, Solheim Northing/Easting)
 5. SiteName / SiteID whitespace stripping
-6. Duplicate removal (LabID-exact; source-priority tiebreaking when DatasetFamilyTree.csv is present, first-occurrence fallback otherwise)
+6. Duplicate removal (LabID-exact; first-occurrence fallback otherwise)
 7. Miscellaneous scrubbing:
-        - null Age / Error
-        - Age and Error must be whole numbers (integers)
-        - Age > 0  (future dates removed)
-        - Error >= 15 BP  (impossibly small errors removed)
-        - Error <= Age
-        - Age <= 55,000 BP
-        - "United States" normalized to "USA"
+  - null Age / Error
+  - Age and Error must be whole numbers (integers)
+  - Age > 0  (future dates removed)
+  - Error >= 15 BP  (impossibly small errors removed)
+  - Error <= Age
+  - Age <= 55,000 BP
+  - "United States" normalized to "USA"
 8. Hardcoded bad-coordinate patches for 6 known problem LabIDs
 9. Encoding repair on text columns (ftfy when installed, stdlib fallback)
 10. Column sanitisation: strips stray quotes, commas, exotic whitespace
@@ -74,7 +76,7 @@ Radiocarbon ages (CRA) must be calibrated to account for historical fluctuations
 
 **Tool**: We utilize `IOSACal`, an [open-source](https://c14.iosa.it/en/latest/) radiocarbon calibration library in Python.
 
-**Functionality**: The calibration scripts automatically map each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, formatted neatly into a `pandas` DataFrame for later analyses. This script outputs a `p3k14c_pristine_dates.csv` file, which will be used in later analyses. 
+**Functionality**: The calibration script automatically maps each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, and formats them neatly into a `pandas` DataFrame for later analysis. This script outputs a `p3k14c_pristine_dates.csv` file, which will be used in the following statistical analyses. 
 
 1. Curve selection: for every row, it checks the Lat column. Any sample at or above the equator gets `intcal20`; anything below gets `shcal20`. This is the standard approach for global datasets.
 2. Calibration: calls R(age, error, lab_id).calibrate(curve) from `IOSACal`, exactly as the official library intends.
@@ -133,44 +135,79 @@ Cal_Median_Age  169051.0  5043.14  3191.0  48.0  53937.0
 
 ## SPD (Summed Probability Distributions)
 
-SPD's can be used on calibrated radiocarbon data to estimate demographic fluctuations over time as a proxy for human activity. Essentially, the frequency of datable anthropogenic carbon recovered from archaeological contexts serves as a direct proxy for past fluctuations in human population density and associated settlement activity. [Palmisano et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
+SPD's can be used on calibrated radiocarbon data to estimate demographic fluctuations over time as a proxy for human activity. Essentially, the frequency of datable anthropogenic carbon recovered from archaeological contexts serves as a direct proxy for past fluctuations in human population density and associated settlement activity.
 
-Functionality: This script combines several methodologies from paleodemography:
+**Functionality**: This script combines several methodologies from paleodemography:
 
-1. Chronometric Hygiene: Filters out problematic materials (old-wood/marine effects), drops large-error dates.
-2. Spatial-Temoral Binning: Controls oversampling biases from single archaeological phases.
-3. Taphonomic Correction: Applies power-function corrections (Surovell et al. 2009 and Bluhm & Surovell 2018) to account for the natural decay and loss of organic material over time.
-4. Null Hypothesis Significance Testing (NHST): Uses 5,000-iteration (adjustable) Monte Carlo simulations to test the empirical SPD against exponential and logistic null models, highlighting periods of statistically significant population deviation.
-5. Continuous Piecewise Linear (CPL) Modelling: Uses differential evolution and Bayesian Information Criterion (BIC) to identify optimal "hinge points" that represent major regime shifts in population growth and decline.
+1. Chronometric Hygiene: Filters out problematic materials (old-wood/marine effects), drops large-error dates ([Reimer et al. 2020](https://www.cambridge.org/core/journals/radiocarbon/article/intcal20-northern-hemisphere-radiocarbon-age-calibration-curve-055-cal-kbp/83257B63DC3AF9CFA6243F59D7503EFF)).
+2. Spatial-Temoral Binning: Controls oversampling biases from single archaeological phases ([Timpson et al. 2014](https://www.researchgate.net/publication/265421202_Reconstructing_regional_population_fluctuations_in_the_European_Neolithic_using_radiocarbon_dates_A_new_case-study_using_an_improved_method)).
+3. Taphonomic Correction: Applies power-function corrections to account for the natural decay and loss of organic material over time ([Surovell et al. 2009](https://www.sciencedirect.com/science/article/pii/S0305440309001204); [Bluhm & Surovell 2018](https://www.researchgate.net/publication/327320188_Validation_of_a_global_model_of_taphonomic_bias_using_geologic_radiocarbon_ages)).
+4. Null Hypothesis Significance Testing (NHST): Uses 5,000-iteration (adjustable) Monte Carlo simulations to test the empirical SPD against exponential and logistic null models, highlighting periods of statistically significant population deviation ([Timpson et al. 2014](https://www.researchgate.net/publication/265421202_Reconstructing_regional_population_fluctuations_in_the_European_Neolithic_using_radiocarbon_dates_A_new_case-study_using_an_improved_method); [Crema et al. 2017](https://www.sciencedirect.com/science/article/pii/S0305440317301310); [Weninger et al. 2015](https://www.tandfonline.com/doi/full/10.1080/00438243.2015.1064022); [Bettinger et al. 2016](https://www.pnas.org/doi/full/10.1073/pnas.1523806113); [Shennan et al. 2013](https://www.nature.com/articles/ncomms3486)).
+5. Continuous Piecewise Linear (CPL) Modelling: Uses differential evolution and Bayesian Information Criterion (BIC) to identify optimal "hinge points" that represent major regime shifts in population growth and decline ([McLaughlin 2019](https://link.springer.com/article/10.1007/s10816-018-9381-3); [Edinborough et al. 2017](https://www.pnas.org/doi/full/10.1073/pnas.1713012114)).
 
-Case Study: Catalhoyuk
+**Case Study**: Çatalhöyük
 
-<img width="5345" height="3640" alt="image" src="https://github.com/user-attachments/assets/ad37a6ea-1c5a-44ab-b0b4-ed6d5a170a42" />
+<img width="5055" height="3326" alt="image" src="https://github.com/user-attachments/assets/7e202d6b-47aa-4348-8af7-3a2a82ddc828" />
 
-Because the model prioritizes mathematical precision over roundness, 
+Because the model prioritizes mathematical precision over data roundness, the data is bumpy. However, significant areas of data are marked in green and red in Plots B & C, and as hinge points in Plot D. These plots show:
 
-By identifying hinge points, peaks of a civilization's footprint on the landscape can be elucidated. The more complex models (like the 3-hinge or 4-hinge) simply add nuance, showing us the "plateaus" and "stutters" that happened on the way up and the way down.
+1. Initial Settlement and Growth (9220 - 8477 Cal BP)
+  - Plot D shows an initial hinge point at 9220 Cal BP, marking the beginning of an upward demographic trend
+  - Plots B & C show this growth tracking relatively closely with expected baselines, staying within the null envelope.
+  - Aligns with the settlement of the East mound.
 
-Significantly, the moment after this single hinge point marks the beginning of a long, slow trajectory of decline. While the population didn't vanish overnight, the architectural density began to loosen. In the final phases of Çatalhöyük East (leading up to the abandonment of the East mound and the shift to the West mound), the community started leaving more open courtyard spaces, and the sheer volume of radiocarbon-dated activity begins to taper off.
+3. Sudden Population Decline (8477 - 8277 Cal BP)
+  - Plot D shows a sharp drop at 8277 Cal BP, and Plots B & C show a red "Below Null" zone shortly after this period.
+  - This aligns with the 8.2 ky climate event and the "Late" phase, bringing about social fragmentation.
+
+4. Population Boom (~8000 - 7500 Cal BP)
+  - Plot D shows a hinge point at 7921 Cal BP, showing a population recovery.
+  - Plot A spikes around this time.
+  - Plots B & C show massive red areas indicating "Above Null".
+  - This aligns with the occupation of the West mound; there may be sampling bias making this boom seem more prominent.
+
+5. Final Decline (post 7500 Cal BP)
+  - Across all plots, a sharp decline is seen after 7500 Cal BP.
+
+## Data Merging
+By merging the results from the SPD script with paleoclimate data, it can be elucidated whether or not a demographic trend was influenced by an environmental change. By overlaying the demographic proxy with smoothed environmental proxies, the script highlights distinct periods of environmental stress and then evaluates whether corresponding demographic drops (identified via Monte Carlo significance testing) represent true societal collapses or resilient recoveries.
+
+**Functionality**:
+  - Automated Data Retrieval: Fetches local environmental proxy data (e.g., stable isotopes, pollen) from PANGAEA and Neotoma databases based on proximity to the archaeological site.
+  - Data Harmonization: Detrends and Z-scores disparate environmental proxies, aligning them temporally with the IntCal20-calibrated demographic SPD.
+  - Anomaly Detection: Identifies periods of extreme environmental stress (anomalies) using customizable thresholds.
+  - Resilience & Resistance Metrics: Calculates the demographic resistance to an environmental event, and fits an exponential recovery curve to quantify subsequent human resilience.
+  - Visualization: Generates a comprehensive, multi-panel dashboard comparing demographic and environmental Z-scores over time.
+
+**Case Study**: Çatalhöyük
+
+<img width="4160" height="5296" alt="image" src="https://github.com/user-attachments/assets/f7d52bca-748f-44ae-aed6-5658d6341c2b" />
+
+These plots show:
+
+1. Environmental Shock (8400 - 8150 Cal BP)
+  - The Environmental Proxy Plot (middle left) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
+  - This aligns perfectly with the 8.2 ky event (abrupt global cooling and aridification)
+
+2. Human - Environment Interaction
+  - The Archaeological Activity Proxy Plot (middle) and the Demographic Proxy plot (middle right) both exhibit a sharp decline in synch with the environmental change.
+  - The Resistance & Resilience Detail Pot (middle right) and the Monte Carlo Significance Test (bottom) confirm that this was not a random fluctuation, meaning the climate event forced a genuine demographic change.
+
+3. Shock Aftermath (~8000 - 7500 Cal BP)
+  - The Overlay Plot (bottom left) shows that as soon as the climate recovers, the population follows almost immediately.
+  - By 8000 Cal BP, the archaeological activity surpasses the previous levels, exhibiting high societal resilience (noted as 0.274/100yr in the detail plot).
+  - This shows that the population at Çatalhöyük adapted, reorganized, and recovered once the climate stabilized. 
+
 
 ## Density Analysis
 
-This analysis shows the geographical distribution of unweighted sites across a region (Plot a) and the weighted C14 dates at those sites (Plot b). This script allows the user to pick a specific temporal range and region (one of the seven continents) or to create a custom region (lat. & long.) to analyze. 
+This analysis shows the geographical distribution of unweighted sites across a region (Plot a) and the weighted C14 dates at those sites (Plot b). This script allows the user to select a specific temporal range and region (one of the seven continents) or create a custom region (via latitude and longitude) for analysis. 
 
 Functionality: Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites vs. dated sites. Provides a visual of spatial sampling biases across the globe. Here is an example for North America:
 
 <img width="550" height="800" alt="image" src="https://github.com/user-attachments/assets/c61ccfc8-758f-4a68-97b3-aac4301966f0" />
 
 
-## Data Merging
-
-Archaeological data is inherently spatial. This module utilizes `geopandas` to merge and filter the p3k14c data against external spatial and environmental datasets. Essentially, this converts the archaeological data into .gpd files, commonly used file formats for storing environmental data. 
-
-TBD
-
-# Example Figures
-
-TBD
 
 
 
