@@ -133,24 +133,23 @@ Cal_Median_Age  169051.0  5043.14  3191.0  48.0  53937.0
 
 ## SPD (Summed Probability Distributions)
 
-SPD's can be used on calibrated radiocarbon data to estimate demographic fluctuations over time as a proxy for human activity. Essentially, SPD stacks calibrated radiocarbon dates and evaluates the general shape they make [Palmisano et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
+SPD's can be used on calibrated radiocarbon data to estimate demographic fluctuations over time as a proxy for human activity. Essentially, the frequency of datable anthropogenic carbon recovered from archaeological contexts serves as a direct proxy for past fluctuations in human population density and associated settlement activity. [Palmisano et al. 2021](https://www.sciencedirect.com/science/article/pii/S0277379120307010).
 
-This script combines several methodologies from paleodemography:
+Functionality: This script combines several methodologies from paleodemography:
 
-1. Chronometric Hygiene & Binning: Filters out problematic materials (old-wood/marine effects), drops large-error dates, and applies spatial-temporal binning to control for oversampling biases from single archaeological phases.
-2. Taphonomic Correction: Applies power-function corrections (e.g., Bluhm & Surovell 2018) to account for the natural decay and loss of organic material over time.
-3. Null Hypothesis Significance Testing (NHST): Uses 5,000-iteration Monte Carlo simulations to test the empirical SPD against exponential and logistic null models, highlighting periods of statistically significant population deviation.
-4. Continuous Piecewise Linear (CPL) Modelling: Uses differential evolution and Bayesian Information Criterion (BIC) to identify optimal "hinge points" that represent major regime shifts in population growth and decline.
+1. Chronometric Hygiene: Filters out problematic materials (old-wood/marine effects), drops large-error dates.
+2. Spatial-Temoral Binning: Controls oversampling biases from single archaeological phases.
+3. Taphonomic Correction: Applies power-function corrections (Surovell et al. 2009 and Bluhm & Surovell 2018) to account for the natural decay and loss of organic material over time.
+4. Null Hypothesis Significance Testing (NHST): Uses 5,000-iteration (adjustable) Monte Carlo simulations to test the empirical SPD against exponential and logistic null models, highlighting periods of statistically significant population deviation.
+5. Continuous Piecewise Linear (CPL) Modelling: Uses differential evolution and Bayesian Information Criterion (BIC) to identify optimal "hinge points" that represent major regime shifts in population growth and decline.
 
-Using the Neolithic Megasite Catalhoyuk as a case study, the script transforms the cleaned, calibrated radiocarbon dataset into SPDs:
+Case Study: Catalhoyuk
 
 <img width="5345" height="3640" alt="image" src="https://github.com/user-attachments/assets/ad37a6ea-1c5a-44ab-b0b4-ed6d5a170a42" />
 
+Because the model prioritizes mathematical precision over roundness, 
 
-
-In summary, the model is prioritizing mathematical precision over archaeological roundness.
-
-By identifying that single most statistically heavy point, archaeologists can confidently say: "If nothing else, this specific century was the indisputable peak of this civilization's footprint on the landscape." The more complex models (like the 3-hinge or 4-hinge) simply add nuance, showing us the "plateaus" and "stutters" that happened on the way up and the way down.
+By identifying hinge points, peaks of a civilization's footprint on the landscape can be elucidated. The more complex models (like the 3-hinge or 4-hinge) simply add nuance, showing us the "plateaus" and "stutters" that happened on the way up and the way down.
 
 Significantly, the moment after this single hinge point marks the beginning of a long, slow trajectory of decline. While the population didn't vanish overnight, the architectural density began to loosen. In the final phases of Çatalhöyük East (leading up to the abandonment of the East mound and the shift to the West mound), the community started leaving more open courtyard spaces, and the sheer volume of radiocarbon-dated activity begins to taper off.
 
