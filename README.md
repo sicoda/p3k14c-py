@@ -4,9 +4,10 @@ Python package for the p3k14c global archaeological radiocarbon database. (Curre
 
 [View the interactive p3k14c database map](./interactive_spatial_map.html)
 
-<img width="730" height="350" alt="image" src="https://github.com/user-attachments/assets/67ce4f41-e512-4b5f-bf08-a05a8657e4f9" />
-
-Map showing all available datapoints in the p3k14c database
+<figure>
+  <img width="830" height="450" alt="image" src="https://github.com/user-attachments/assets/67ce4f41-e512-4b5f-bf08-a05a8657e4f9" />
+  <figcaption align="center"><b>Figure 1:</b> Map showing all available datapoints in the p3k14c database.</figcaption>
+</figure>
 
 # Before Running
 
@@ -83,12 +84,28 @@ Radiocarbon ages (CRA) must be calibrated to account for historical fluctuations
 3. Extracting statistics: calls .quantiles() on each CalAge result, which returns the median (quants[50]) and the 1σ / 2σ confidence intervals (quants[68], quants[95]).
 4. Failure handling: rows with missing Age, Error, or Lat, or any row where IOSACal throws an exception, are written to calibration_failures.csv rather than crashing the whole run.
 
-<img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/cff72b16-2b08-4856-bf5a-1e315571e249" />
+<figure>
+  <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/cff72b16-2b08-4856-bf5a-1e315571e249" />
+  <figcaption align="center"><b>Figure 2:</b> The calibrated (blue) and uncalibrated (red) radiocarbon data in the p3k14c dataset following calibration via IOSACal.</figcaption>
+</figure>
+  
+**Case Study**: Çatalhöyük
+    
+<figure>
+  <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/433fba98-494a-42f7-bd44-19cd2d7f99eb" />
+  <figcaption align="center"><b>Figure 3:</b> The calibrated (blue) and uncalibrated (red) Çatalhöyük radiocarbon data following calibration via IOSACal.</figcaption>
+</figure>
 
+______________________________________________________
+**These Plots Show:**
 
-<img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/433fba98-494a-42f7-bd44-19cd2d7f99eb" />
-
-**I've attached the cleaned and calibrated dataset on this page (see p3k14c_pristine_dates.csv). You can bypass the finicky cleaning and calibrating process entirely.**
+1. Calibration Flattens and Spreads Time
+  - In Figures 2 & 3, the raw 14C ages (red) are naturally clustered and spiky due to plateaus in the calibration curve (where multiple calendar years produce the same radiocarbon age).
+  - Calibration (blue) smooths these spikes out, distributing the radiocarbon data accurately across the timeline. 
+2. The "Hallstatt Plateau" Effect
+  - In Figure 3, note how the blue calibrated radiocarbon data is wider and lower than the red uncalibrated peak. This visually demonstrates why calibration is necessary: a single, precise radiocarbon measurement often corresponds to a broad range of true calendar years.
+    
+> 💡 **Skip the setup!** I've attached the final cleaned and calibrated dataset in this repository (`p3k14c_pristine_dates.csv`). You can bypass the finicky cleaning and calibrating process entirely and jump straight to the data analysis.
 
 ## Summary Statistics
 
@@ -147,9 +164,12 @@ SPD's can be used on calibrated radiocarbon data to estimate demographic fluctua
 
 **Case Study**: Çatalhöyük
 
-<img width="5055" height="3326" alt="image" src="https://github.com/user-attachments/assets/7e202d6b-47aa-4348-8af7-3a2a82ddc828" />
-
-Because the model prioritizes mathematical precision over data roundness, the data is bumpy. However, significant areas of data are marked in green and red in Plots B & C, and as hinge points in Plot D. These plots show:
+<figure>
+  <img width="5055" height="3326" alt="image" src="https://github.com/user-attachments/assets/7e202d6b-47aa-4348-8af7-3a2a82ddc828" />
+  <figcaption align="center"><b>Figure 4:</b> A multi-panel analysis of population trends using Summed Probability Distributions (SPD) of radiocarbon dates (Monte Carlo N=5000). <b>(A)</b> Comparison of the raw empirical SPD (solid blue line) and the taphonomically corrected SPD (dashed red line), which accounts for time-dependent preservation biases in the archaeological record. <b>(B)</b> Null Hypothesis Significance Testing (NHST) comparing the empirical SPD against an Exponential null growth model. The grey shaded area represents the 95% Monte Carlo confidence envelope. Periods where the empirical data significantly exceed the envelope (red) indicate population booms, while periods falling below (green) indicate significant demographic decline. <b>(C)</b> NHST comparing the empirical SPD against a Logistic null growth model; an alternative baseline for population dynamics. <b>(D)</b> A Continuous Piecewise Linear (CPL) model best fit applied to the empirical SPD, identifying  major demographic turning points (hinge points) at 9220, 8477, 8277, and 7921 Cal BP to characterize the primary phases of growth, decline, and recovery at the site.</figcaption>
+  
+______________________________________________________
+**These Plots Show:**
 
 1. Initial Settlement and Growth (9220 - 8477 Cal BP)
   - Plot D shows an initial hinge point at 9220 Cal BP, marking the beginning of an upward demographic trend
@@ -167,7 +187,7 @@ Because the model prioritizes mathematical precision over data roundness, the da
   - This aligns with the occupation of the West mound; there may be sampling bias making this boom seem more prominent.
 
 5. Final Decline (post 7500 Cal BP)
-  - Across all plots, a sharp decline is seen after 7500 Cal BP.
+  - Across all plots, a sharp decline is seen after 7500 Cal BP, marking the site's final abandonment.
 
 ## Data Merging
 By merging the results from the SPD script with paleoclimate data, it can be elucidated whether or not a demographic trend was influenced by an environmental change. By overlaying the demographic proxy with smoothed environmental proxies, the script highlights distinct periods of environmental stress and then evaluates whether corresponding demographic drops (identified via Monte Carlo significance testing) represent true societal collapses or resilient recoveries.
@@ -181,22 +201,27 @@ By merging the results from the SPD script with paleoclimate data, it can be elu
 
 **Case Study**: Çatalhöyük
 
-<img width="4160" height="5296" alt="image" src="https://github.com/user-attachments/assets/f7d52bca-748f-44ae-aed6-5658d6341c2b" />
+<figure>
+  <img width="4160" height="5296" alt="image" src="https://github.com/user-attachments/assets/05f713bc-3d0e-4f38-ae72-7115d6bc4f5f" />
+  <figcaption align="center"><b>Figure 5:</b> A multi-panel analysis assessing the demographic response to climate anomalies (shown in the yellow band). <b>(A)</b> Summed Probability Distribution (SPD) of radiocarbon dates serving as a proxy for archaeological activity. <b>(B)</b> Z-scored environmental proxy highlighting a severe climate anomaly (dropping below the -1.0 threshold) between ~8400 - 8150 Cal BP (yellow band). <b>(C)</b> Z-scored demographic proxy demonstrating a corresponding population decline during the climate event. <b>(D)</b> Overlay of demographic and environmental trends, illustrating the synchronized decline and the subsequent demographic boom. <b>(E)</b> A detailed view of the climate anomaly, quantifying the site's demographic resistance and exponential resilience recovery rates. <b>(F)</b> Monte Carlo significance test comparing the empirical SPD against a 95% simulated null-growth envelope; red shaded regions denote statistically significant demographic troughs, confirming the population crash during the climate event was not a random fluctuation.</figcaption>
+</figure>
 
-These plots show:
+______________________________________________________
+**These Plots Show:**
 
 1. Environmental Shock (8400 - 8150 Cal BP)
-  - The Environmental Proxy Plot (middle left) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
+  - The Environmental Proxy Plot (B) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
   - This aligns perfectly with the 8.2 ky event (abrupt global cooling and aridification)
 
 2. Human - Environment Interaction
-  - The Archaeological Activity Proxy Plot (middle) and the Demographic Proxy plot (middle right) both exhibit a sharp decline in synch with the environmental change.
-  - The Resistance & Resilience Detail Pot (middle right) and the Monte Carlo Significance Test (bottom) confirm that this was not a random fluctuation, meaning the climate event forced a genuine demographic change.
+  - The Archaeological Activity Proxy Plot (A) and the Demographic Proxy Plot (C) both exhibit a sharp decline in synch with the environmental change.
+  - The Resistance & Resilience Detail Pot (E) and the Monte Carlo Significance Test (F) confirm that this was not a random fluctuation, meaning the climate event forced a genuine demographic change.
 
 3. Shock Aftermath (~8000 - 7500 Cal BP)
-  - The Overlay Plot (bottom left) shows that as soon as the climate recovers, the population follows almost immediately.
+  - The Overlay Plot (D) shows that as soon as the climate recovers, the population follows almost immediately.
   - By 8000 Cal BP, the archaeological activity surpasses the previous levels, exhibiting high societal resilience (noted as 0.274/100yr in the detail plot).
-  - This shows that the population at Çatalhöyük adapted, reorganized, and recovered once the climate stabilized. 
+  - This shows that the population at Çatalhöyük adapted, reorganized, and recovered once the climate stabilized.
+  - From the Ice Core data, it is unclear whether the final abandonment of the site was climate-motivated. 
 
 
 ## Density Analysis
