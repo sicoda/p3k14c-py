@@ -230,8 +230,10 @@ This analysis shows the geographical distribution of unweighted sites across a r
 
 Functionality: Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites vs. dated sites. Provides a visual of spatial sampling biases across the globe. Here is an example for North America:
 
-<img width="550" height="800" alt="image" src="https://github.com/user-attachments/assets/c61ccfc8-758f-4a68-97b3-aac4301966f0" />
-
+<figure>
+  <img width="700" height="1000" alt="image" src="https://github.com/user-attachments/assets/6168e0ee-4df1-4b6f-9cd3-79fff1d4bec3" />
+ <figcaption align="center"><b>Figure 5:</b> here.</figcaption>
+</figure>
 
 
 
