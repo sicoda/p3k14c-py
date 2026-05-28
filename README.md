@@ -218,7 +218,7 @@ By merging the results from the SPD script with paleoclimate data, it can be elu
 **Case Study**: Çatalhöyük
 
 <figure>
-  <<img width="4160" height="5296" alt="image" src="https://github.com/user-attachments/assets/2912c8a6-904d-4467-95a2-1c150cec4c75" />
+  <img width="4160" height="5296" alt="image" src="https://github.com/user-attachments/assets/2912c8a6-904d-4467-95a2-1c150cec4c75" />
   <figcaption align="center"><b>Figure 6:</b> A multi-panel analysis assessing the demographic response to climate anomalies (shown in the yellow band). <b>(A)</b> Summed Probability Distribution (SPD) of radiocarbon dates serving as a proxy for archaeological activity. <b>(B)</b> Z-scored environmental proxy highlighting a severe climate anomaly (dropping below the -1.0 threshold) between ~8400 - 8150 Cal BP (yellow band). <b>(C)</b> Z-scored demographic proxy demonstrating a corresponding population decline during the climate event. <b>(D)</b> Overlay of demographic and environmental trends, illustrating the synchronized decline and the subsequent demographic boom. <b>(E)</b> A detailed view of the climate anomaly, quantifying the site's demographic resistance and exponential resilience recovery rates. <b>(F)</b> Monte Carlo significance test comparing the empirical SPD against a 95% simulated null-growth envelope; red shaded regions denote statistically significant demographic troughs, confirming the population crash during the climate event was not a random fluctuation.</figcaption>
 </figure>
 
