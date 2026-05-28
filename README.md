@@ -1,6 +1,6 @@
 # p3k14c-py
 
-Python package for the p3k14c global archaeological radiocarbon database.
+Python package for the p3k14c global archaeological radiocarbon database with comparisons to paleoenvironmental datasets.
 
 [View the interactive p3k14c database map](./interactive_spatial_map.html)
 
@@ -159,7 +159,7 @@ MedianCalBP  169051.0  5043.14  3191.0  48.0  53937.0
 
 <figure> 
   <img width="4169" height="2955" alt="image" src="https://github.com/user-attachments/assets/831ae40f-c071-49af-9b5a-e4f3ba1a4e25" />
-  <figcaption align="center"><b>Figure 2:</b> HERE.</figcaption>
+  <figcaption align="center"><b>Figure 4:</b> The top row illustrates geographic and laboratory distributions throughout the cleaned and calibrated p3k14c dataset, featuring a bar chart of the top 10 countries by sample count and a histogram of radiocarbon error margins. The bottom row contrasts the temporal geometry of the dataset, showing the distribution of raw uncalibrated ages (CRA) versus their median calibrated calendar ages.</figcaption>
 </figure>
 
 ## SPD (Summed Probability Distributions)
@@ -180,7 +180,7 @@ SPD's can be used on calibrated radiocarbon data to estimate demographic fluctua
 
 <figure>
   <img width="5055" height="3326" alt="image" src="https://github.com/user-attachments/assets/7e202d6b-47aa-4348-8af7-3a2a82ddc828" />
-  <figcaption align="center"><b>Figure 4:</b> A multi-panel analysis of population trends using Summed Probability Distributions (SPD) of radiocarbon dates (Monte Carlo N=5000). <b>(A)</b> Comparison of the raw empirical SPD (solid blue line) and the taphonomically corrected SPD (dashed red line), which accounts for time-dependent preservation biases in the archaeological record. <b>(B)</b> Null Hypothesis Significance Testing (NHST) comparing the empirical SPD against an Exponential null growth model. The grey shaded area represents the 95% Monte Carlo confidence envelope. Periods where the empirical data significantly exceed the envelope (red) indicate population booms, while periods falling below (green) indicate significant demographic decline. <b>(C)</b> NHST comparing the empirical SPD against a Logistic null growth model; an alternative baseline for population dynamics. <b>(D)</b> A Continuous Piecewise Linear (CPL) model best fit applied to the empirical SPD, identifying  major demographic turning points (hinge points) at 9220, 8477, 8277, and 7921 Cal BP to characterize the primary phases of growth, decline, and recovery at the site.</figcaption>
+  <figcaption align="center"><b>Figure 5:</b> A multi-panel analysis of population trends using Summed Probability Distributions (SPD) of radiocarbon dates (Monte Carlo N=5000). <b>(A)</b> Comparison of the raw empirical SPD (solid blue line) and the taphonomically corrected SPD (dashed red line), which accounts for time-dependent preservation biases in the archaeological record. <b>(B)</b> Null Hypothesis Significance Testing (NHST) comparing the empirical SPD against an Exponential null growth model. The grey shaded area represents the 95% Monte Carlo confidence envelope. Periods where the empirical data significantly exceed the envelope (red) indicate population booms, while periods falling below (green) indicate significant demographic decline. <b>(C)</b> NHST comparing the empirical SPD against a Logistic null growth model; an alternative baseline for population dynamics. <b>(D)</b> A Continuous Piecewise Linear (CPL) model best fit applied to the empirical SPD, identifying  major demographic turning points (hinge points) at 9220, 8477, 8277, and 7921 Cal BP to characterize the primary phases of growth, decline, and recovery at the site.</figcaption>
   
 ______________________________________________________
 **These Plots Show:**
@@ -219,7 +219,7 @@ By merging the results from the SPD script with paleoclimate data, it can be elu
 
 <figure>
   <<img width="4160" height="5296" alt="image" src="https://github.com/user-attachments/assets/2912c8a6-904d-4467-95a2-1c150cec4c75" />
-  <figcaption align="center"><b>Figure 5:</b> A multi-panel analysis assessing the demographic response to climate anomalies (shown in the yellow band). <b>(A)</b> Summed Probability Distribution (SPD) of radiocarbon dates serving as a proxy for archaeological activity. <b>(B)</b> Z-scored environmental proxy highlighting a severe climate anomaly (dropping below the -1.0 threshold) between ~8400 - 8150 Cal BP (yellow band). <b>(C)</b> Z-scored demographic proxy demonstrating a corresponding population decline during the climate event. <b>(D)</b> Overlay of demographic and environmental trends, illustrating the synchronized decline and the subsequent demographic boom. <b>(E)</b> A detailed view of the climate anomaly, quantifying the site's demographic resistance and exponential resilience recovery rates. <b>(F)</b> Monte Carlo significance test comparing the empirical SPD against a 95% simulated null-growth envelope; red shaded regions denote statistically significant demographic troughs, confirming the population crash during the climate event was not a random fluctuation.</figcaption>
+  <figcaption align="center"><b>Figure 6:</b> A multi-panel analysis assessing the demographic response to climate anomalies (shown in the yellow band). <b>(A)</b> Summed Probability Distribution (SPD) of radiocarbon dates serving as a proxy for archaeological activity. <b>(B)</b> Z-scored environmental proxy highlighting a severe climate anomaly (dropping below the -1.0 threshold) between ~8400 - 8150 Cal BP (yellow band). <b>(C)</b> Z-scored demographic proxy demonstrating a corresponding population decline during the climate event. <b>(D)</b> Overlay of demographic and environmental trends, illustrating the synchronized decline and the subsequent demographic boom. <b>(E)</b> A detailed view of the climate anomaly, quantifying the site's demographic resistance and exponential resilience recovery rates. <b>(F)</b> Monte Carlo significance test comparing the empirical SPD against a 95% simulated null-growth envelope; red shaded regions denote statistically significant demographic troughs, confirming the population crash during the climate event was not a random fluctuation.</figcaption>
 </figure>
 
 ______________________________________________________
@@ -241,16 +241,15 @@ ______________________________________________________
 
 ## Composite Paleoproxies for Human - Environment Interactions
 
-Add a introduction here
-
+To create a more robust understanding of past climate stressors, it is often helpful to synthesize multiple lines of environmental evidence. Relying on a single proxy can introduce regional bias or data gaps. This script uses Principal Component Analysis (PCA) to distill multiple paleoclimate datasets (e.g., ice core temperatures, pollen counts, and stable isotopes) into a single, comprehensive Composite Climate Stress Index (CCSI).
 
 **Tools**: `sklearn.decomposition`(`PCA`), `sklearn.preprocessing`(`StandardScaler`), `scipy`, and `pandas`.
 
 **Functionality**:
 1. Fetches multiple palaeoclimate proxy series for the specified site from:
-  - NOAA GISP2     — Greenland temperature (global signal, always available)
-  - PANGAEA        — any keyword-matched proxies (e.g. speleothem d18O)
-  - Neotoma        — pollen-based proxies (precipitation/vegetation)
+  - NOAA GISP2     —> Greenland temperature (global signal, always available)
+  - PANGAEA        —> any keyword-matched proxies (e.g. speleothem d18O)
+  - Neotoma        —> pollen-based proxies (precipitation/vegetation)
 2. Bins every proxy to the same temporal grid (RESOLUTION yr steps).
 3. Z-scores each proxy individually (so units are commensurable).
 4. Applies PCA across proxies; PC1 is retained as the Composite Climate Stress Index (CCSI).
@@ -265,7 +264,7 @@ Add a introduction here
 
 <figure>
   <img width="4161" height="6571" alt="image" src="https://github.com/user-attachments/assets/fee34b4a-84cd-4ff1-bf9d-aedf1f9fcd54" />
-  <figcaption align="center"><b>Figure 2:</b> HERE.</figcaption>
+  <figcaption align="center"><b>Figure 7:</b> These plots track <b>(A)</b> the archaeological activity proxy (SPD), <b>(B)</b> the aggregated environmental CCSI Z-score, and <b>(C)</b> the demographic Z-score. Panel <b>(D)</b> overlays these trends to visualize synchronized shifts, while <b>(E)</b> isolates the specific climate anomaly to calculate demographic resistance and exponential resilience recovery rates. Panel <b>(F)</b> plots the demographic data against the best-correlated individual proxy (Pollen Algae), and <b>(G)</b> confirms the statistical significance of the population decline using a 95% Monte Carlo null-model envelope.</figcaption>
 </figure>
 
 ## Density Analysis
@@ -284,7 +283,7 @@ This analysis shows the geographical distribution of unweighted sites across a r
 
 <figure>
   <img width="700" height="1000" alt="image" src="https://github.com/user-attachments/assets/6168e0ee-4df1-4b6f-9cd3-79fff1d4bec3" />
- <figcaption align="center"><b>Figure 5:</b> here.</figcaption>
+  <figcaption align="center"><b>Figure 8:</b> Plot <b>(A)</b> displays the unweighted density of 1,577 unique archaeological site locations from 12,000 to 1,000 Cal BP across North America. Plot <b>(B)</b> illustrates the date-weighted density of 41,597 radiocarbon dates in the same location and date range, highlighting regions with intense archaeological sampling and radiocarbon dating activity.</figcaption>
 </figure>
 
 
