@@ -1,46 +1,25 @@
 """
-02_Calibrate_Dates.py
-─────────────────────────────────────────────────────────────────────────────
-Calibrates every conventional radiocarbon age (CRA) in cleaned_p3k14c.csv
-using IOSACal and the appropriate calibration curve:
+02_Calibrate_Dates.py : Calibrates every conventional radiocarbon age (CRA) in cleaned_p3k14c.csv using IOSACal and the appropriate calibration curve:
  
-    • Lat >= 0  (Northern Hemisphere)  →  IntCal20
-    • Lat <  0  (Southern Hemisphere)  →  SHCal20
+ - Lat >= 0  (Northern Hemisphere)  →  IntCal20
+ - Lat <  0  (Southern Hemisphere)  →  SHCal20
+
+Input  : cleaned_p3k14c.csv (output of 01_Data_Cleaning_and_Prep)
+Output : p3k14c_pristine_dates.csv, calibration_failures.csv
  
-For each date the script extracts:
-    - median calibrated age (Cal BP)
-    - 68.2% (1σ) confidence interval lower and upper bounds
-    - 95.4% (2σ) confidence interval lower and upper bounds
- 
-Results are appended as new columns and written to:
-    p3k14c_pristine_dates.csv
- 
-Rows that cannot be calibrated (missing Age / Error / Lat, or an IOSACal
-error) are written separately to:
-    calibration_failures.csv
- 
-Usage:
-    python 02_Calibrate_Dates.py [input_csv] [output_csv]
- 
-    Defaults:
-        input_csv   cleaned_p3k14c.csv
-        output_csv  p3k14c_pristine_dates.csv
- 
-Dependencies:
-    pip install iosacal pandas tqdm
- 
-Python: 3.12+
-IOSACal: 0.7+ / 0.8+
+DEPENDENCIES : pip install iosacal pandas tqdm
+PYTHON       : 3.12+
+IOSACal      : 0.7+ / 0.8+
 """
  
 import sys
 import warnings
 from pathlib import Path
-import os 
+import os
 import pandas as pd
 
-os.chdir("/Users/daniellesicotte/p3k14c_py")
- 
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 try:
     from tqdm import tqdm
     HAS_TQDM = True
@@ -57,13 +36,13 @@ except ImportError:
         "Install it with:  pip install iosacal"
 
  
-# ─────────────────────────────────────────────────────────────────────────────
+# -----------------------------------------------------------------------------
 # Configuration
-# ─────────────────────────────────────────────────────────────────────────────
+# -----------------------------------------------------------------------------
  
-INPUT_CSV  = sys.argv[1] if len(sys.argv) > 1 else "cleaned_p3k14c.csv"
-OUTPUT_CSV = sys.argv[2] if len(sys.argv) > 2 else "p3k14c_pristine_dates.csv"
-FAIL_CSV   = "calibration_failures.csv"
+INPUT_CSV  = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_SCRIPT_DIR, "cleaned_p3k14c.csv")
+OUTPUT_CSV = sys.argv[2] if len(sys.argv) > 2 else os.path.join(_SCRIPT_DIR, "p3k14c_pristine_dates.csv")
+FAIL_CSV   = os.path.join(_SCRIPT_DIR, "calibration_failures.csv")
  
 CURVE_NORTH = "intcal20"   # Northern Hemisphere  (Lat >= 0)
 CURVE_SOUTH = "shcal20"    # Southern Hemisphere  (Lat <  0)
@@ -77,12 +56,12 @@ NEW_COLS = [
     "CI95_Upper",   # 95.4% (2σ) upper bound  (Cal BP)
 ]
  
-# ─────────────────────────────────────────────────────────────────────────────
+# -----------------------------------------------------------------------------
 # Helpers
-# ─────────────────────────────────────────────────────────────────────────────
+# -----------------------------------------------------------------------------
  
 def choose_curve(lat: float) -> str:
-    """Return IntCal20 for Northern Hemisphere, SHCal20 for Southern."""
+    """Return IntCal20 for Northern Hemisphere, SHCal20 for Southern"""
     return CURVE_SOUTH if lat < 0 else CURVE_NORTH
  
  
@@ -93,7 +72,7 @@ def calibrate_row(lab_id: str, age: int, error: int, lat: float) -> dict | None:
     Uses R(age, error, id).calibrate(curve) then CalAge.quantiles() to
     extract the median and 68 / 95% confidence intervals.
  
-    Returns a dict of new-column values, or None if calibration fails.
+    Returns a dict of new-column values, None if calibration fails.
     """
     curve = choose_curve(lat)
     try:
@@ -125,13 +104,13 @@ def calibrate_row(lab_id: str, age: int, error: int, lat: float) -> dict | None:
         return None
  
  
-# ─────────────────────────────────────────────────────────────────────────────
+# -----------------------------------------------------------------------------
 # Main
-# ─────────────────────────────────────────────────────────────────────────────
+# -----------------------------------------------------------------------------
  
 def main() -> None:
  
-    # ── Load ──────────────────────────────────────────────────────────────────
+    # -- Load -------------------------------------------------------------------
     if not Path(INPUT_CSV).is_file():
         sys.exit(f"ERROR: Input file not found: {INPUT_CSV}")
  
@@ -139,7 +118,7 @@ def main() -> None:
     df = pd.read_csv(INPUT_CSV, low_memory=False, index_col=0)
     print(f"[calibrate] Loaded    : {len(df):,} records")
  
-    # ── Validate required columns ─────────────────────────────────────────────
+    # -- Validate required columns ----------------------------------------------
     required = {"Age", "Error", "Lat"}
     missing  = required - set(df.columns)
     if missing:
@@ -149,7 +128,7 @@ def main() -> None:
     df["Error"] = pd.to_numeric(df["Error"], errors="coerce")
     df["Lat"]   = pd.to_numeric(df["Lat"],   errors="coerce")
  
-    # ── Separate rows that can't be calibrated ─────────────────────────────────
+    # -- Separate rows that can't be calibrated ---------------------------------
     invalid_mask = df[["Age", "Error", "Lat"]].isna().any(axis=1)
     invalid_df   = df[invalid_mask].copy()
     valid_df     = df[~invalid_mask].copy()
@@ -160,7 +139,7 @@ def main() -> None:
  
     print(f"[calibrate] Calibrating {len(valid_df):,} dates ...")
  
-    # ── Calibrate row by row ───────────────────────────────────────────────────
+    # -- Calibrate row by row ---------------------------------------------------
     cal_records = []   # (lab_id, result_dict)  for successes
     fail_ids    = []   # lab_ids for failures
  
@@ -183,7 +162,7 @@ def main() -> None:
         else:
             fail_ids.append(lab_id)
  
-    # ── Build output DataFrame ────────────────────────────────────────────────
+    # -- Build output DataFrame ------------------------------------------------
     if cal_records:
         good_index  = [r[0] for r in cal_records]
         good_values = [r[1] for r in cal_records]
@@ -195,7 +174,7 @@ def main() -> None:
     else:
         out_df = pd.DataFrame(columns=list(df.columns) + NEW_COLS)
  
-    # ── Save failures ─────────────────────────────────────────────────────────
+    # -- Save failures ---------------------------------------------------------
     fail_parts = []
     if fail_ids:
         fail_parts.append(valid_df.loc[fail_ids])
@@ -207,10 +186,10 @@ def main() -> None:
         total_fails = sum(len(p) for p in fail_parts)
         print(f"[calibrate] Failures  : {total_fails:,} rows → {FAIL_CSV}")
  
-    # ── Save output ───────────────────────────────────────────────────────────
+    # -- Save output -----------------------------------------------------------
     out_df.to_csv(OUTPUT_CSV, encoding="utf-8")
  
-    # ── Summary ───────────────────────────────────────────────────────────────
+    # -- Summary ---------------------------------------------------------------
     n_nh = int((out_df["CalCurve"] == CURVE_NORTH).sum()) if not out_df.empty else 0
     n_sh = int((out_df["CalCurve"] == CURVE_SOUTH).sum()) if not out_df.empty else 0
  
