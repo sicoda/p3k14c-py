@@ -1,0 +1,2 @@
+onset_bp,end_bp,duration_yr,ccsi_min,ccsi_min_bp,demo_min_bp,resistance,resilience_per100yr,resilience_SE_per100yr,resilience_method,resilience_uncertain,demo_sig_below_null,baseline_ok
+8060,8280,220,-2.969,8160,8180,-0.9863,1.558096,0.484904,exponential,False,True,True

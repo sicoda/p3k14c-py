@@ -1,0 +1,1124 @@
+,LabID,Age,Error,Material,Taxa,d13C,Method,Long,Lat,LocAccuracy,Period,SiteID,SiteName,Country,Province,Continent,Source,Reference,removal_reason
+0,ANSTOOZC-241,10800,80,,,,,10.35,44.0769,1,,,Riparo di Molino di Piastricoli,Italy,,Europe,Vermeersch2019,Mussi M.  2011. QI 242: 360-370. Skeates Robin,Unknown lab ID
+1,ANUAGIFA-31512,45200,2400,charcoal,,,,19.7949,50.0163,1,,,Piekary II,Poland,,Europe,Vermeersch2019,Valladas H.  Eurasian Prehistory 1: 57-82,Unknown lab ID
+2,AUB-9493A,536,38,SEEDS,nutshell,,AMS,-83.02414741,39.64195296,1,,33PI880,Reinhardt,USA,Ohio,North America,UWyo2021,Nolan 2010 2012,Unknown lab ID
+3,AUB-9494,648,33,SEEDS,nutshell,,AMS,-83.02414741,39.64195296,1,,33PI880,Reinhardt,USA,Ohio,North America,UWyo2021,Nolan 2012,Unknown lab ID
+4,AUB-9496A,554,41,SEEDS,nutshell,,AMS,-83.02414741,39.64195296,1,,33PI880,Reinhardt,USA,Ohio,North America,UWyo2021,Nolan 2012,Unknown lab ID
+5,AUB-9497A,582,36,SEEDS,nutshell,,AMS,-83.02414741,39.64195296,1,,33PI880,Reinhardt,USA,Ohio,North America,UWyo2021,Nolan 2012,Unknown lab ID
+6,BETADICARB-1,1800,150,CHARCOAL,,,RADIOMETRIC,-94.34645755,39.00849178,1,,23JA110,Sohn,USA,Missouri,North America,UWyo2021,,Unknown lab ID
+7,BETADICARB-2,1710,80,CHARCOAL,,,RADIOMETRIC,-94.34645755,39.00849178,1,,23JA110,Sohn,USA,Missouri,North America,UWyo2021,,Unknown lab ID
+8,BETAN-000004,3400,40,Charcoal,,,,-68.0736,-23.8065,2,,,Tulan-94,Chile,,South America,SCAR,Panachuk L. 2011:82 /   Jucilene Amorim Costa 2008 - Diss mestrado,Unknown lab ID
+9,BETANA-1,620,50,restes d'animaux carbonisés; charred animal remains,,-22.1,,-73.26733778,45.38591303,1,,,Pointe-du-Buisson Station 2,Canada,Quebec,North America,CARD,Clermont 1995,Unknown lab ID
+10,BETANA-2,620,60,restes d'animaux carbonisés; charred animal remains,,-24.5,,-73.26733778,45.38591303,1,,,Pointe-du-Buisson Station 2,Canada,Quebec,North America,CARD,Clermont 1995,Unknown lab ID
+11,BETANA-3,630,70,restes d'animaux carbonisés; charred animal remains,,-20.8,,-73.26733778,45.38591303,1,,,Pointe-du-Buisson Station 2,Canada,Quebec,North America,CARD,Clermont 1995,Unknown lab ID
+12,BETANA-4,640,60,restes d'animaux carbonisés; charred animal remains,,-25.1,,-73.26733778,45.38591303,1,,,Pointe-du-Buisson Station 2,Canada,Quebec,North America,CARD,Clermont 1995,Unknown lab ID
+13,BETANA-5,820,60,restes d'animaux carbonisés; charred animal remains,,-24.1,,-73.26733778,45.38591303,1,,,Pointe-du-Buisson Station 2,Canada,Quebec,North America,CARD,Wilson 1990; Cooper and Savage 1994; Spence et al. 1990,Unknown lab ID
+14,BETANA-6,3150,200,charcoal; charbon de bois,,,,-81.20333135,42.95508452,1,,,Boresma,Canada,Ontario,North America,CARD,Forsyth 1991: table 1,Unknown lab ID
+15,BETAQA-361,80,40,WOOD,carbonized bark,-24.9,AMS,-81.69639013,36.23103486,1,,31WT330,Katie Griffith,USA,North Carolina,North America,UWyo2021,Whyte 2003 Prehistoric Sedentary Agriculturalists in the Appalachian Whyte (personal communication 2018),Unknown lab ID
+16,BETAXX-1,5345,70,charcoal,,,,-70.633,-17.1,2,,,Asana,Peru,,South America,Goldberg_2016,Carrion J.S.  2008. QSR 27: 2118-2135.,Unknown lab ID
+17,BIRMXX-1,580,76,,,,,,,0,,,Los Castillos Cave,Peru,,South America,SCAR,Pan.2011,Unknown lab ID
+18,CTUGUV-1,6224,39,,,,,34.1968,38.4043,3,,,Güvercinkayasi,Turkey,,Asia,14SEA,Sevil Gülçür pers. comm. (Dec. 2007)),Unknown lab ID
+19,CTUGUV-2,6012,39,,,,,34.1968,38.4043,3,,,Güvercinkayasi,Turkey,,Asia,14SEA,Sevil Gülçür pers. comm. (Dec. 2007)),Unknown lab ID
+20,DEMND-1,9571,65,.,,,,24.4333,37.45,1,,,Maroulas,Greece,,Europe,Vermeersch2019,J√∏rgensen E. K. 2017. The Palaeodemographic and Environmental Dynamics of Prehistoric Arctic Norway: An Overview of Human-Climate Covariation,Unknown lab ID
+21,DYK-0185,7340,125,Plant ash,,,Conventional,113.668,33.612,2,,,Jiahu,China,Henan,Asia,Wangetal2014,Zhang et al.1999,Unknown lab ID
+22,DYK-0186,6900,120,Plant ash,,,Conventional,113.668,33.612,2,,,Jiahu,China,Henan,Asia,Wangetal2014,Zhang et al.1999,Unknown lab ID
+23,DYK-0188,6810,130,Plant ash,,,Conventional,113.668,33.612,2,,,Jiahu,China,Henan,Asia,Wangetal2014,Zhang et al.1999,Unknown lab ID
+24,DYK-0189,6930,130,Plant ash,,,Conventional,113.668,33.612,2,,,Jiahu,China,Henan,Asia,Wangetal2014,CAA Newsletter 19(1): 28 1999;  Mitchell 1971a 1971b;  Faunmap 4084,Unknown lab ID
+25,ETHX-1,7460,80,,,,,8.53892,47.3686,2,,,Zürich - Mozartstrasse (Off-Site),Switzerland,,Europe,EUROEVOL; RADON,,Unknown lab ID
+26,ETHX-2,7070,80,,,,,8.53892,47.3686,2,,,Zürich - Mozartstrasse (Off-Site),Switzerland,,Europe,EUROEVOL; RADON,,Unknown lab ID
+27,ETHX-3,6570,80,,,,,8.53892,47.3686,2,,,Zürich - Mozartstrasse (Off-Site),Switzerland,,Europe,EUROEVOL; RADON,,Unknown lab ID
+28,ETHX-4,6240,80,,,,,8.53892,47.3686,2,,,Zürich - Mozartstrasse (Off-Site),Switzerland,,Europe,EUROEVOL; RADON,,Unknown lab ID
+29,ETHX-5,5865,80,,,,,8.53892,47.3686,2,,,Zürich - Mozartstrasse (Off-Site),Switzerland,,Europe,EUROEVOL; RADON,,Unknown lab ID
+30,GAKXX-1,2800,120,charcoal,,,,-80.29,-3.37,1,,,Pechiche,Peru,,South America,Goldberg_2016,Ziolkowski et al 1994,Unknown lab ID
+31,GAKXX-2,2600,150,unknown,,,,-72.01,-13.28,2,,,Chanapata,Peru,,South America,Goldberg_2016,Pitulko V.V.  2015. Science 6270: 260-263.,Unknown lab ID
+32,GCW-1,2160,95,Wood,,,Conventional,115.288,38.948,2,,,Mancheng Han tomb,China,Hebei,Asia,Wangetal2014,Institute of Archaeology Chinese Academy of Social Sciences.1991,Unknown lab ID
+33,GCW-8,2120,95,Wood,,,Conventional,113.05,28.217,2,,,Mawangdui,China,Hunan,Asia,Wangetal2014,Institute of Archaeology Chinese Academy of Social Sciences.1991,Unknown lab ID
+34,GCW-9,2200,95,Charcoal,,,Conventional,113.05,28.217,2,,,Mawangdui,China,Hunan,Asia,Wangetal2014,,Unknown lab ID
+35,GIFAII-4,1910,90,charcoal,,,,-2.0967,37.8325,1,,,Cueva Ambrosio II,Spain,,Europe,Vermeersch2019,,Unknown lab ID
+36,GIFAND-1,40500,1600,humic,,,,4.4295,44.4442,1,,,Ranc de l'Arc,France,,Europe,Vermeersch2019,,Unknown lab ID
+37,GIFAND-2,41300,1900,charcoal,,,,4.4295,44.4442,1,,,Ranc de l'Arc,France,,Europe,Vermeersch2019,,Unknown lab ID
+38,GIFAND-3,42200,1600,charcoal,,,,4.4295,44.4442,1,,,Ranc de l'Arc,France,,Europe,Vermeersch2019,,Unknown lab ID
+39,GIFND-1,15160,150,,,,,0.3167,46.1667,1,,,Le Chaumois Boivin,France,,Europe,Vermeersch2019,Corchon S.  Zephyrus 49 1996. 37-60,Unknown lab ID
+40,GIFND-2,15600,30,charcoal,,,,-3.668,40.033,1,,,Okladnikov,Spain,,Europe,Vermeersch2019,,Unknown lab ID
+41,GIFND-3,5440,400,,,,,-4.3333,47.8167,1,,,Torche,France,,Europe,Vermeersch2019,Guadelli J.-L. 2005. BAR Intern S1364: 87-103.,Unknown lab ID
+42,GIFTAN-89229,25750,410,charcoal,,,,-0.466,38.7981,1,,,Cova Beneito,Spain,,Europe,Vermeersch2019,Goring-Morris and Cohern 2005,Unknown lab ID
+43,GIFTAN-90028,34300,1100,charcoal,,,,34.93,32.57,2,,,Kebara,Israel,,Asia,CONTEXT,Goring-Morris and Cohern 2005,Unknown lab ID
+44,GIFTAN-90151,32670,800,charcoal,,,,34.93,32.57,2,,,Kebara,Israel,,Asia,CONTEXT,Goring-Morris and Cohern 2005,Unknown lab ID
+45,GRABETA-149261,5070,40,charcoal,,,,8.8777,40.8317,1,,,Contraguda,Italy,,Europe,Vermeersch2019,,Unknown lab ID
+46,GRANDX-1,9650,50,bone,,,,5.803,51.2356,1,,,Tureau des Gardes,Netherlands,,Europe,Vermeersch2019,,Unknown lab ID
+47,GRANDX-2,11600,80,,,,,6.7657,47.3777,1,,,Rochedane,France,,Europe,Vermeersch2019,Kulakovska L.  2015. QI 359-360: 347-361.,Unknown lab ID
+48,GRANDX-3,20740,80,charcoal,,,,25.8697,48.5939,1,,,Doroshivtsi III Dorotchivtsy III Dorochivtsy III,Ukraine,,Europe,Vermeersch2019,Kulakovska L.  2015. QI 359-360: 347-361.,Unknown lab ID
+49,GRANDX-4,22330,100,charcoal,,,,25.8697,48.5939,1,,,Douattes,Ukraine,,Europe,Vermeersch2019,UW/OWSATCDATES,Unknown lab ID
+50,GRNND-1,40800,900,,,,,,,0,,,Cualventi,Montenegro,,Europe,Vermeersch2019,Bernaldo de Quiros pers. comm.,Unknown lab ID
+51,GRNND-2,33870,1700,,,,,-3.776,43.481,1,,,Arenillas,Spain,,Europe,Vermeersch2019,Bernaldo de Quiros pers. comm.,Unknown lab ID
+52,GRNND-3,34660,1600,,,,,-3.776,43.481,1,,,Ariaga,Spain,,Europe,Vermeersch2019,Banadora.,Unknown lab ID
+53,GRNND-4,27910,510,charcoal,,,,15.5993,48.4149,1,,,Krems-Wachtberg,Austria,,Europe,Vermeersch2019,,Unknown lab ID
+54,GRNND-5,10760,140,charcoal,,,,-4.85,43.3167,1,,,Los Canes,Spain,,Europe,Vermeersch2019,Djindjian F. J. Kozlowski & M. Otte 1999. Le Paleolithique superieur en Europe. Armand Colin Paris. Richards M.P.  2015. JAS 61:204-212.,Unknown lab ID
+55,GRNND-6,25340,170,bone,,,,13.8967,44.8825,1,,,Sandalja II,Croatia,,Europe,Vermeersch2019,,Unknown lab ID
+56,GRNND-7,26450,170,,,,,15.5586,44.0364,1,,,Velika Pecina 3,Croatia,,Europe,Vermeersch2019,Djindjian F. J. Kozlowski & M. Otte 1999. Le Paleolithique superieur en Europe. Armand Colin Paris.,Unknown lab ID
+57,GRNND-8,27950,270,,,,,18.066,48.306,1,,,Nitra I-Cerman,Slovakia,,Europe,Vermeersch2019,,Unknown lab ID
+58,GXNA-1,215,125,inconnu; unknown,,,,-73.01090351,55.96277766,1,,,Lac Washadimi station H,Canada,Quebec,North America,CARD,Taillon et Barrà 1987,Unknown lab ID
+59,GXNA-2,565,120,inconnu; unknown,,,,-73.01090351,55.96277766,1,,,Lac Washadimi station H,Canada,Quebec,North America,CARD,Taillon et Barrà 1987,Unknown lab ID
+60,GXNA-3,1350,105,inconnu; unknown,,,,-73.01090351,55.96277766,1,,,Lac Washadimi station H,Canada,Quebec,North America,CARD,Taillon et Barrà 1987,Unknown lab ID
+61,GXNA-4,430,150,charbon de bois; charcoal,,,,-73.01090351,55.96277766,1,,,Lac Washadimi station F,Canada,Quebec,North America,CARD,Kush 12 1964 485,Unknown lab ID
+62,HDH-112791075,6550,110,charcoal,,,,13.43333,52.23333,2,,,Dabendorf,Germany,,Europe,RADON,Gramsch,Unknown lab ID
+63,ICAC-428,8350,40,CHARCOAL,,-25,AMS,-103.2519169,29.81210441,1,,41BS2615,Genevieve Lykes Duncan,USA,Texas,North America,UWyo2021,Cloud et al 2018-Late Paleoindian occupations at the Genevieve…,Unknown lab ID
+64,ICAICACOC-0401,1970,40,CHARCOAL,,-25,AMS,-107.9042841,39.5993629,1,,5GF1185,Riley Gulch Rockshelter,USA,Colorado,North America,UWyo2021,Conner 2014,Unknown lab ID
+65,ICAICACOC-0402,1560,40,CHARCOAL,,-25.7,AMS,-107.9042841,39.5993629,1,,5GF1185,Riley Gulch Rockshelter,USA,Colorado,North America,UWyo2021,Conner 2014,Unknown lab ID
+66,ICAICACOC-0403,1900,40,CHARCOAL,,-25,AMS,-107.9042841,39.5993629,1,,5GF1185,Riley Gulch Rockshelter,USA,Colorado,North America,UWyo2021,Conner 2014,Unknown lab ID
+67,ICAICACOC-0404,2300,40,CHARCOAL,,-25,AMS,-107.9042841,39.5993629,1,,5GF1185,Riley Gulch Rockshelter,USA,Colorado,North America,UWyo2021,Conner 2014,Unknown lab ID
+68,ICAICACOC-0405,2530,40,CHARCOAL,,-23,AMS,-107.9042841,39.5993629,1,,5GF1185,Riley Gulch Rockshelter,USA,Colorado,North America,UWyo2021,Conner 2014,Unknown lab ID
+69,IGSC-14131,5345,100,wood,,,,-3.8664,52.5653,2,,,Garthgwinion,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+70,IGSC-1430,4305,100,wood,,,,-2.6879,51.4946,2,,,Avonmouth Bridge,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+71,IGSC-1431,4105,100,wood,,,,-2.6879,51.4946,2,,,Avonmouth Bridge,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+72,IGSC-1460,3180,100,wood,,,,-2.4323,52.6369,2,,,Harcourt,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+73,IGSC-1462,1400,100,plant matter,,,,-2.4323,52.6369,2,,,Harcourt,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+74,IGSC-1486,3685,100,wood,,,,-2.447,52.6416,2,,,Telford,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+75,INA-1,2630,90,charcoal; charbon de bois,,,,-97.15164035,55.85319846,1,,,Thyazzi,Canada,Manitoba,North America,CARD,Williamson 1990; Cooper and Savage 1994; Reid 1975,Unknown lab ID
+76,INA-2,725,95,charcoal; charbon de bois,,,,-79.37210034,43.93885285,1,,,Boys,Canada,Ontario,North America,CARD,Carrasco and Perez 1996,Unknown lab ID
+77,ISGSA-0246,9913,59,charcoal,,-27.4,,35.5342,31.2539,3,,,Bab edh-Dhra,Jordan,,Asia,CALPAL,Kuijt and Finlayson 2001 14,Unknown lab ID
+78,ISGSA-0248,9835,65,charcoal,,-25.6,,35.5342,31.2539,3,,,Bab edh-Dhra,Jordan,,Asia,CALPAL,Kuijt and Finlayson 2001 14,Unknown lab ID
+79,ISGSA-0275,491,45,CHARCOAL,,-23.1,AMS,-103.4516936,43.67769708,1,,39CU1682,,USA,South Dakota,North America,UWyo2021,,Unknown lab ID
+80,ISGSA-0276,142,41,CHARCOAL,,-26.3,AMS,-103.4516936,43.67769708,1,,39CU1682,,USA,South Dakota,North America,UWyo2021,,Unknown lab ID
+81,ISGSA-0277,1442,44,CHARCOAL,,-22.8,AMS,-103.4516936,43.67769708,1,,39CU1696,,USA,South Dakota,North America,UWyo2021,,Unknown lab ID
+82,ISGSA-0287,1996,39,CHARCOAL,,-22.7,AMS,-103.4516936,43.67769708,1,,39CU588,,USA,South Dakota,North America,UWyo2021,,Unknown lab ID
+83,ISGSA-0600,1125,30,CHARCOAL,,-26.3,AMS,-96.79164089,43.67426965,1,,39MH34,Burkman,USA,South Dakota,North America,UWyo2021,Key 1983,Unknown lab ID
+84,ISGSA-1042,1855,45,BONE,Dog bone collagen,,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. 2011,Unknown lab ID
+85,ISGSA-1056,1050,20,CHARCOAL,,,AMS,-91.47944869,40.64206032,1,,13LE648,Osage Orange,USA,Iowa,North America,UWyo2021,Benn and Thompson 2014-What four late late Woodland Sites…,Unknown lab ID
+86,ISGSA-1070,700,20,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE904,Crescent Bay Hunt Club,USA,Wisconsin,North America,UWyo2021,Schneider 2015-Oneota Ceramic Production and Exchange….,Unknown lab ID
+87,ISGSA-1074,880,20,POTTERYRESIDUE,,-26.3,AMS,-88.48839522,43.75359574,1,,47FD10,Pipe,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+88,ISGSA-1075,830,20,POTTERYRESIDUE,,-25.3,AMS,-88.48839522,43.75359574,1,,47FD10,Pipe,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+89,ISGSA-1078,790,20,POTTERYRESIDUE,,-24.2,AMS,-88.48839522,43.75359574,1,,47FD10,Pipe,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+90,ISGSA-1080,880,20,POTTERYRESIDUE,,,AMS,-88.42869267,41.93914122,1,,11K52,Washington Irving,USA,Illinois,North America,UWyo2021,Richards and Jeske 2015; Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+91,ISGSA-1081,1005,20,POTTERYRESIDUE,,,AMS,-88.42869267,41.93914122,1,,11K52,Washington Irving,USA,Illinois,North America,UWyo2021,Richards and Jeske 2015; Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+92,ISGSA-1082,675,20,POTTERYRESIDUE,,-25.5,AMS,-87.97864703,41.44520887,1,,11WI5,Fisher,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+93,ISGSA-1085,230,20,POTTERYRESIDUE,,-25.3,AMS,-88.88596091,41.34404799,1,,11LSà,Zimmerman,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+94,ISGSA-1087,2170,20,SEEDS,Hickory nutshell,-25,AMS,-91.16482133,40.40367312,1,,11HA693,Hickman #1,USA,Illinois,North America,UWyo2021,Nolan Mallo and Boyd 2016; Illinois Archaeology vol. 28 pp. 257-290,Unknown lab ID
+95,ISGSA-1088,345,20,SEEDS,Cucurbita spp. Seed coats,-27,AMS,-87.64615466,41.89556793,1,,11CK4,Hoxie Farm site,USA,Illinois,North America,UWyo2021,Simon 2011-Evidence for variability….,Unknown lab ID
+96,ISGSA-1089,900,20,POTTERYRESIDUE,,-25,AMS,-89.73464987,45.33748532,1,,47LI103,,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+97,ISGSA-1090,2195,25,BONE,Canid (rib),-23.8,AMS,-87.02886857,45.03266068,1,,47DR80,Richter,USA,Wisconsin,North America,UWyo2021,Epstein 2010:125,Unknown lab ID
+98,ISGSA-1094,1895,20,POTTERYRESIDUE,,-25.8,AMS,,,0,,,Sloan,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+99,ISGSA-1095,550,15,POTTERYRESIDUE,,,AMS,-88.70752454,43.41631105,1,,47DO27,Nitschke Mound Group,USA,Wisconsin,North America,UWyo2021,Clauter 2011:14,Unknown lab ID
+100,ISGSA-1097,1710,20,POTTERYRESIDUE,,-25.8,AMS,,,0,,,Sloan,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+101,ISGSA-1098,1990,20,POTTERYRESIDUE,,-27.2,AMS,,,0,,,Sloan,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+102,ISGSA-1099,1890,20,POTTERYRESIDUE,,-24.5,AMS,,,0,,,Sloan,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+103,ISGSA-1100,1360,20,POTTERYRESIDUE,,-24.5,AMS,-88.08568861,41.8521767,1,,11DU1,Kautz,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+104,ISGSA-1102,380,25,POTTERYRESIDUE,,-25.6,AMS,,,0,,,Horton,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+105,ISGSA-1104,1025,20,POTTERYRESIDUE,,-25.4,AMS,-88.48839522,43.75359574,1,,47FD10,Pipe,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+106,ISGSA-1105,980,20,POTTERYRESIDUE,,-19.5,AMS,-88.77588131,43.02091354,1,,47JE1,Aztalan,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+107,ISGSA-1106,1120,20,POTTERYRESIDUE,,-20.1,AMS,-88.77588131,43.02091354,1,,47JE1,Aztalan,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+108,ISGSA-1107,2365,40,POTTERYRESIDUE,Kegonsa stamped  Vessel,,AMS,-88.77588131,43.02091354,1,,47JE93,Crabapple Point locality,USA,Wisconsin,North America,UWyo2021,Richards and Jeske 2015,Unknown lab ID
+109,ISGSA-115,613,34,CHARCOAL,,,AMS,-93.24046742,42.38395436,1,,13HA385,Allen Fan,USA,Iowa,North America,UWyo2021,Fishel et al. 2003,Unknown lab ID
+110,ISGSA-1159,955,15,OTHER,Unidentified grass- like stems and leaves,-14,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Schilling 2010,Unknown lab ID
+111,ISGSA-1160,1030,15,OTHER,Unidentified grass- like stems and leaves,-22.2,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Schilling 2010,Unknown lab ID
+112,ISGSA-1182,1130,20,TEETH,Tooth Collagen,,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. 2011,Unknown lab ID
+113,ISGSA-1187,330,25,POTTERYRESIDUE,,-24.1,AMS,-87.97864703,41.44520887,1,,11WI213,New Lenox,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+114,ISGSA-1189,365,20,POTTERYRESIDUE,,-20.8,AMS,-87.97864703,41.44520887,1,,11WI213,New Lenox,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+115,ISGSA-1192,415,20,POTTERYRESIDUE,,-23.8,AMS,-87.97864703,41.44520887,1,,11WI213,New Lenox,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+116,ISGSA-1200,1275,20,POTTERYRESIDUE,,-25.4,AMS,-88.77588131,43.02091354,1,,47JE379,Koshkonong Creek  Village,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+117,ISGSA-1201,655,25,SEEDS,Zea mays,,AMS,-88.42869267,41.93914122,1,,11K52,Washington Irving,USA,Illinois,North America,UWyo2021,Richards and Jeske 2015; Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+118,ISGSA-1202,800,20,SEEDS,nutshell,,AMS,-88.42869267,41.93914122,1,,11K52,Washington Irving,USA,Illinois,North America,UWyo2021,Richards and Jeske 2015; Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+119,ISGSA-1204,810,25,SEEDS,nutshell,,AMS,-88.42869267,41.93914122,1,,11K52,Washington Irving,USA,Illinois,North America,UWyo2021,Richards and Jeske 2015; Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+120,ISGSA-1205,650,20,SEEDS,Zea mays,,AMS,-88.42869267,41.93914122,1,,11K52,Washington Irving,USA,Illinois,North America,UWyo2021,Richards and Jeske 2015; Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+121,ISGSA-1206,670,25,SEEDS,nutshell,,AMS,-88.42869267,41.93914122,1,,11K52,Washington Irving,USA,Illinois,North America,UWyo2021,Richards and Jeske 2015; Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+122,ISGSA-1208,285,20,POTTERYRESIDUE,,-24.1,AMS,-87.97864703,41.44520887,1,,11WIà,Joliet Arsenal,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+123,ISGSA-1209,2255,20,POTTERYRESIDUE,,-29.6,AMS,-89.16075551,42.33642751,1,,11WOà,Macktown,USA,Illinois,North America,UWyo2021,Hart et al 2012 The Potential of Bulk…,Unknown lab ID
+124,ISGSA-1211,785,20,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE833,Schmeling,USA,Wisconsin,North America,UWyo2021,Schneider 2015-Oneota Ceramic Production and Exchange….,Unknown lab ID
+125,ISGSA-1219,1640,20,BONE,collagen,,AMS,-87.02886857,45.03266068,1,,47DR80,Richter,USA,Wisconsin,North America,UWyo2021,Birnbaum 2017-The Richter Site…,Unknown lab ID
+126,ISGSA-1220,1745,25,BONE,collagen,,AMS,-87.02886857,45.03266068,1,,47DR80,Richter,USA,Wisconsin,North America,UWyo2021,Birnbaum 2017-The Richter Site…,Unknown lab ID
+127,ISGSA-1221,1985,20,BONE,collagen,,AMS,-87.02886857,45.03266068,1,,47DR80,Richter,USA,Wisconsin,North America,UWyo2021,Birnbaum 2017-The Richter Site…,Unknown lab ID
+128,ISGSA-1222,1645,20,BONE,collagen,,AMS,-87.02886857,45.03266068,1,,47DR80,Richter,USA,Wisconsin,North America,UWyo2021,Birnbaum 2017-The Richter Site…,Unknown lab ID
+129,ISGSA-1237,1920,40,POTTERYRESIDUE,Shorewood cord roughened  Vessel,,AMS,-89.41802878,43.06738536,1,,47DA3,Outlet,USA,Wisconsin,North America,UWyo2021,Bender et al 1982,Unknown lab ID
+130,ISGSA-1238,785,15,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE904,Crescent Bay Hunt Club,USA,Wisconsin,North America,UWyo2021,Schneider 2015-Oneota Ceramic Production and Exchange….,Unknown lab ID
+131,ISGSA-1242,690,15,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE904,Crescent Bay Hunt Club,USA,Wisconsin,North America,UWyo2021,Schneider 2015-Oneota Ceramic Production and Exchange….,Unknown lab ID
+132,ISGSA-1243,745,20,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE904,Crescent Bay Hunt Club,USA,Wisconsin,North America,UWyo2021,Schneider 2015-Oneota Ceramic Production and Exchange….,Unknown lab ID
+133,ISGSA-1244,765,15,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE833,Schmeling,USA,Wisconsin,North America,UWyo2021,Schneider 2015-Oneota Ceramic Production and Exchange….,Unknown lab ID
+134,ISGSA-1246,990,20,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE904,Crescent Bay Hunt Club,USA,Wisconsin,North America,UWyo2021,Schneider 2015-Oneota Ceramic Production and Exchange….,Unknown lab ID
+135,ISGSA-1251,1230,20,POTTERYRESIDUE,,-23.5,AMS,-88.77588131,43.02091354,1,,47JE1,Aztalan,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+136,ISGSA-1258,160,20,CHARCOAL,,,AMS,-84.21715437,38.20670885,1,,15BB1,LeBus Circle,USA,Kentucky,North America,UWyo2021,Henry 2009-Geophysical Prospection and Excavation at….,Unknown lab ID
+137,ISGSA-1262,365,25,CHARCOAL,,,AMS,-84.21715437,38.20670885,1,,15BB1,LeBus Circle,USA,Kentucky,North America,UWyo2021,Henry 2009-Geophysical Prospection and Excavation at….,Unknown lab ID
+138,ISGSA-1263,905,20,SEEDS,Zea mays,-8,AMS,-89.90517719,38.82984438,1,,11MS1124,D. Hitchens,USA,Illinois,North America,UWyo2021,Yancey and Koldehoff 2010; Illinois Archaeology vol. 22 (2) :491-501,Unknown lab ID
+139,ISGSA-1264,100,20,SEEDS,Zea mays Kernel,-10.4,AMS,-91.16482133,40.40367312,1,,11HA360,Sartorious,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+140,ISGSA-1265,130,20,SEEDS,Zea mays Kernel,-10.5,AMS,-91.16482133,40.40367312,1,,11HA360,Sartorious,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+141,ISGSA-1317,8860,30,CHARCOAL,,-24,AMS,,,0,,,,USA,Missouri,North America,UWyo2021,Rocheford 2009,Unknown lab ID
+142,ISGSA-1318,9610,30,CHARCOAL,,-26.8,AMS,,,0,,,,USA,Missouri,North America,UWyo2021,Rocheford 2009,Unknown lab ID
+143,ISGSA-1319,9550,30,CHARCOAL,,-26.3,AMS,,,0,,,,USA,Missouri,North America,UWyo2021,Rocheford 2009,Unknown lab ID
+144,ISGSA-1337,795,20,SEEDS,Zea mays,-8.1,AMS,-79.46682604,40.31064472,1,,36WM100,Consol Site,USA,Pennsylvania,North America,UWyo2021,Auffart and Oshnock 2011; Oshnock personal communication 2019,Unknown lab ID
+145,ISGSA-1338,680,20,SEEDS,Zea mays,-9.6,AMS,-79.46682604,40.31064472,1,,36WM100,Consol Site,USA,Pennsylvania,North America,UWyo2021,Auffart and Oshnock 2011; Oshnock personal communication 2019,Unknown lab ID
+146,ISGSA-1343,1075,15,SEEDS,zea mays 'caps',,AMS,-91.47944869,40.64206032,1,,13LE648,Osage Orange,USA,Iowa,North America,UWyo2021,Benn and Thompson 2014-What four late late Woodland Sites…,Unknown lab ID
+147,ISGSA-136,4215,40,CHARCOAL,Quercus,,AMS,-93.24046742,42.38395436,1,,13HA385,Allen Fan,USA,Iowa,North America,UWyo2021,Fishel et al. 2003,Unknown lab ID
+148,ISGSA-137,245,32,CHARCOAL,,,AMS,-97.09708336,38.35888712,1,,14MN515,Great Bend Site,USA,Kansas,North America,UWyo2021,Hoard 2012,Unknown lab ID
+149,ISGSA-1375,2435,20,POTTERYRESIDUE,,,AMS,-77.29979852,42.85292601,1,,NYSM-936,Vine Valley,USA,New York,North America,UWyo2021,Taché and Hart (2013),Unknown lab ID
+150,ISGSA-1379,2415,20,POTTERYRESIDUE,,-27.5,AMS,-77.29979852,42.85292601,1,,NYSM-936,Vine Valley,USA,New York,North America,UWyo2021,Taché and Hart (2013),Unknown lab ID
+151,ISGSA-1409,545,15,SEEDS,Carya sp.,,AMS,-80.2478972,40.18929963,1,,36WH678,Hatfield,USA,Pennsylvania,North America,UWyo2021,Bercel and Espino 2010; Espino et al 2011,Unknown lab ID
+152,ISGSA-1429,5135,20,CHARCOAL,,-26,AMS,-96.34267354,39.37895457,1,,14PO1,Coffey,USA,Kansas,North America,UWyo2021,McLean 2010-A Reassessment of the significance of the Coffey site…,Unknown lab ID
+153,ISGSA-1430,5050,20,CHARCOAL,,-25.8,AMS,-96.34267354,39.37895457,1,,14PO1,Coffey,USA,Kansas,North America,UWyo2021,McLean 2010-A Reassessment of the significance of the Coffey site…,Unknown lab ID
+154,ISGSA-1443,8555,25,CHARCOAL,,,AMS,-91.40070487,37.15749423,1,,23SH83/159,Alley Mill,USA,Missouri,North America,UWyo2021,Thulman 2019 The age of the Dalton culture: a Bayesian analysis of the radiocarbon data,Unknown lab ID
+155,ISGSA-1447,870,15,BONE,Deer humerus,,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Kelly and Brown 2010:Table 1; Schilling 2010,Unknown lab ID
+156,ISGSA-1448,640,15,BONE,Deer rib,,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Kelly and Brown 2010:Table 1; Schilling 2010,Unknown lab ID
+157,ISGSA-1449,630,20,BONE,Deer sternum fragment,,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Kelly and Brown 2010:Table 1; Schilling 2010,Unknown lab ID
+158,ISGSA-1450,645,15,BONE,Deer innominate (pubis),,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Kelly and Brown 2010:Table 1; Schilling 2010,Unknown lab ID
+159,ISGSA-1455,800,15,SEEDS,bean charred. (Phaseolus vulgaris),-24.3,AMS,-94.42114863,39.31061774,1,,23CL115,,USA,Missouri,North America,UWyo2021,Roper and Adair 2010,Unknown lab ID
+160,ISGSA-1456,760,15,SEEDS,Phaseolus vulgaris charred,-25.5,AMS,-94.42114863,39.31061774,1,,23CL109,Richardson Hulse,USA,Missouri,North America,UWyo2021,Roper and Adair 2010,Unknown lab ID
+161,ISGSA-1457,705,15,SEEDS,Zea mays charred,-7.9,AMS,-95.1471641,39.78820437,1,,14DP13,Squaw Creek,USA,Kansas,North America,UWyo2021,Roper and Adair 2011; Tiffany and Lensink 2014,Unknown lab ID
+162,ISGSA-1458,685,15,SEEDS,bean charred,-24.8,AMS,-95.1471641,39.78820437,1,,14DP13,Squaw Creek,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+163,ISGSA-1459,835,15,SEEDS,Zea mays charred,-10,AMS,-94.42114863,39.31061774,1,,23CL109,Richardson Hulse,USA,Missouri,North America,UWyo2021,Roper and Adair 2010,Unknown lab ID
+164,ISGSA-1460,905,15,POTTERYRESIDUE,,-20.8,AMS,-94.8062064,39.66000342,1,,23BN2,Cloverdale,USA,Missouri,North America,UWyo2021,Roper and Adair 2010,Unknown lab ID
+165,ISGSA-1461,860,15,SEEDS,Zea mays charred,-8.4,AMS,-96.75278773,39.00233137,1,,14GE600,Witt,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+166,ISGSA-1462,675,15,SEEDS,Zea mays charred,-9.8,AMS,-97.16542581,39.34974355,1,,14CY17,Moore,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+167,ISGSA-1477,735,20,POTTERYRESIDUE,,-23.1,AMS,,,0,,,Sclage,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+168,ISGSA-1486,1525,20,BONE,collagen from calcined bone,,AMS,-88.45243387,42.32452446,1,,11MH495,Bottlemy,USA,Illinois,North America,UWyo2021,Porubcan et al 2010 The Bottlemy Site ...,Unknown lab ID
+169,ISGSA-1487,1780,20,WOOD,locust,,AMS,-83.05669514,39.33761435,1,,33RO27,Hopewell Mound Group,USA,Ohio,North America,UWyo2021,Beehr 2011-Investigation of Middle Woodland population…,Unknown lab ID
+170,ISGSA-1488,1725,20,WOOD,Red oak,,AMS,-83.05669514,39.33761435,1,,33RO27,Hopewell Mound Group,USA,Ohio,North America,UWyo2021,Beehr 2011-Investigation of Middle Woodland population…,Unknown lab ID
+171,ISGSA-1489,1810,25,WOOD,mapel,,AMS,,,0,,,Albany,USA,Illinois,North America,UWyo2021,Beehr 2011-Investigation of Middle Woodland population…,Unknown lab ID
+172,ISGSA-1496,1080,15,CHARCOAL,,,AMS,-88.45243387,42.32452446,1,,11MH495,Bottlemy,USA,Illinois,North America,UWyo2021,Porubcan et al 2010 The Bottlemy Site ...,Unknown lab ID
+173,ISGSA-1506,450,15,SEEDS,,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+174,ISGSA-1507,410,15,SEEDS,,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+175,ISGSA-1508,565,15,SEEDS,Zea mays,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+176,ISGSA-1509,420,15,SEEDS,Zea mays,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+177,ISGSA-1510,420,15,SEEDS,Nutshell,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+178,ISGSA-1514,220,15,WOOD,,,AMS,,,0,,,Albany,USA,Illinois,North America,UWyo2021,Beehr 2011-Investigation of Middle Woodland population…,Unknown lab ID
+179,ISGSA-1547,1070,15,CHARCOAL,residue,-19.4,AMS,-97.65062409,39.13254706,1,,14OT5,Minneapolis,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+180,ISGSA-1548,705,15,CHARCOAL,residue,-20.1,AMS,-97.16542581,39.34974355,1,,14CY102,Moll Creek,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+181,ISGSA-1549,705,15,CHARCOAL,residue,-19.6,AMS,-97.16542581,39.34974355,1,,14CY102,Moll Creek,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+182,ISGSA-1550,725,20,CHARCOAL,residue,-15.3,AMS,-97.16542581,39.34974355,1,,14CY2,Perreault,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+183,ISGSA-1551,990,15,CHARCOAL,residue,-17.2,AMS,-98.20791064,39.04529988,1,,14LC301,Root,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+184,ISGSA-1552,675,15,CHARCOAL,residue,-14.4,AMS,-97.65062409,39.13254706,1,,14OT5,Minneapolis,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+185,ISGSA-1553,715,15,CHARCOAL,residue,-21.4,AMS,-97.65062409,39.13254706,1,,14OT308,Markley,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+186,ISGSA-1554,935,15,CHARCOAL,residue,-20.9,AMS,-98.20791064,39.04529988,1,,14LC301,Root,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+187,ISGSA-1556,665,15,CHARCOAL,residue,-20.7,AMS,-96.73559025,39.29659444,1,,14RY10,,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+188,ISGSA-1558,755,15,CHARCOAL,residue,-15.3,AMS,-97.65030326,38.78379193,1,,14SA403,Winslow,USA,Kansas,North America,UWyo2021,Roper and Adair 2011,Unknown lab ID
+189,ISGSA-1653,795,15,POTTERYRESIDUE,,-21.8,AMS,-88.77588131,43.02091354,1,,47JE904,Crescent Bay Hunt Club,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+190,ISGSA-1654,765,15,POTTERYRESIDUE,,-19.8,AMS,-88.77588131,43.02091354,1,,47JE904,Crescent Bay Hunt Club,USA,Wisconsin,North America,UWyo2021,Hart et a 2012 The Potential of Bulk…,Unknown lab ID
+191,ISGSA-1695,9150,25,CHARCOAL,,,AMS,-103.527713,43.23952533,1,,39FA65,Ray Long,USA,South Dakota,North America,UWyo2021,Buhta et al. 2012 The Archeology History and Geomorphology of the Ray Long Site (39FA65)…,Unknown lab ID
+192,ISGSA-1713,325,15,SEEDS,Zea mays kernel,-8.6,AMS,-74.43954655,42.9023664,1,,,Palatine Bridge,USA,New York,North America,UWyo2021,Hart and Manning 2019-Radiocarbon Baysian chronological modeling and….,Unknown lab ID
+193,ISGSA-1722,955,15,SEEDS,Zea mays Kernel,-9.2,AMS,-89.90517719,38.82984438,1,,11MS517,Sponemann,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+194,ISGSA-1724,1110,25,CHARCOAL,residue,-23.4,AMS,-96.20518377,38.95328546,1,,14WB322,Claussen,USA,Kansas,North America,UWyo2021,Roper and Adair 2012,Unknown lab ID
+195,ISGSA-1725,790,20,POTTERYRESIDUE,,-23.6,AMS,-94.77375646,39.38060595,1,,23PL4,W.W.Young,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+196,ISGSA-1726,860,20,POTTERYRESIDUE,,-26.2,AMS,-94.8062064,39.66000342,1,,23BN2,Cloverdale,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+197,ISGSA-1727,850,20,POTTERYRESIDUE,,-23.7,AMS,-94.8062064,39.66000342,1,,23BN2,Cloverdale,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+198,ISGSA-1728,900,20,POTTERYRESIDUE,,-23.1,AMS,-94.77375646,39.38060595,1,,23PL13,Steed-Kisker,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+199,ISGSA-1729,885,20,POTTERYRESIDUE,,,AMS,-94.77375646,39.38060595,1,,23PL13,Steed-Kisker,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+200,ISGSA-1730,660,20,SEEDS,Phaseolus vulgaris charred,-27.6,AMS,-94.77375646,39.38060595,1,,23PL16,Coons,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+201,ISGSA-1731,685,20,SEEDS,Phaseolus vulgaris charred,-26.9,AMS,-94.77375646,39.38060595,1,,23PL4,W.W.Young,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+202,ISGSA-1732,685,20,SEEDS,Phaseolus vulgaris charred,-25.4,AMS,-94.77375646,39.38060595,1,,23PL4,W.W.Young,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+203,ISGSA-1733,720,20,SEEDS,Zea mays charred,-9.7,AMS,-94.77375646,39.38060595,1,,23PL80,White,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+204,ISGSA-1734,805,20,SEEDS,Zea mays charred,-10.2,AMS,-94.77375646,39.38060595,1,,23PL80,White,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+205,ISGSA-1735,790,20,SEEDS,Zea mays charred,-9.7,AMS,-94.77375646,39.38060595,1,,23PL80,White,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+206,ISGSA-1736,610,20,SEEDS,Zea mays,-8.4,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Mitchell 2011-Understanding the Occupational History of…,Unknown lab ID
+207,ISGSA-1737,400,20,SEEDS,Zea mays,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+208,ISGSA-174,650,43,SEEDS,Bean,-27.1,AMS,-90.20743186,40.47273335,1,,11F1109,Larson,USA,Illinois,North America,UWyo2021,Hart et al. 2002,Unknown lab ID
+209,ISGSA-175,652,42,SEEDS,Phaseolus Vulgaris,-26.5,AMS,-84.29057137,39.75467246,1,,33MY57,Incinerator/Sunwatch,USA,Ohio,North America,UWyo2021,Hart et al. 2002; Brady-Rawlins 2007; Nolan 2012,Unknown lab ID
+210,ISGSA-1759,915,20,CHARCOAL,Zea mays cupule,-25.9,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Mitchell 2011-Understanding the Occupational History of…,Unknown lab ID
+211,ISGSA-176,757,44,SEEDS,Bean,-25.4,AMS,-90.20743186,40.47273335,1,,11F1109,Larson,USA,Illinois,North America,UWyo2021,Hart et al. 2002,Unknown lab ID
+212,ISGSA-1760,895,20,SEEDS,Zea mays,-8.5,AMS,-95.72704421,38.65240546,1,,14OS314,Harsch,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+213,ISGSA-1761,820,20,SEEDS,Zea mays,,AMS,-95.29269544,38.88459666,1,,14DO19,Hatcher,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+214,ISGSA-1768,970,20,SEEDS,Zea mays Kernel,-9.2,AMS,-89.90517719,38.82984438,1,,11MS517,Sponemann,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+215,ISGSA-177,655,43,SEEDS,Bean,-27,AMS,-90.20743186,40.47273335,1,,11F1284,Orendorf,USA,Illinois,North America,UWyo2021,Hart et al. 2002,Unknown lab ID
+216,ISGSA-1770,870,20,SEEDS,Zea mays cupule,-10,AMS,-89.90517719,38.82984438,1,,11MS517,Sponemann,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+217,ISGSA-1775,910,15,POTTERYRESIDUE,cordmarked calcite-tempered sherd,-20,AMS,-95.72704421,38.65240546,1,,14OS312,Wiley,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+218,ISGSA-1776,835,15,POTTERYRESIDUE,cordmarked calcite-tempered sherd,-20.1,AMS,-95.72704421,38.65240546,1,,14OS312,Wiley,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+219,ISGSA-1777,1225,20,POTTERYRESIDUE,,-25,AMS,-95.29269544,38.88459666,1,,14DO32,Anderson,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+220,ISGSA-1778,1610,15,POTTERYRESIDUE,,-25.4,AMS,-94.8381675,38.56362978,1,,14MM26,,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+221,ISGSA-1779,1515,15,POTTERYRESIDUE,,-25.7,AMS,-94.8381675,38.56362978,1,,14MM26,,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+222,ISGSA-1780,1585,20,POTTERYRESIDUE,,-25.3,AMS,-94.8381675,38.56362978,1,,14MM26,,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+223,ISGSA-1781,670,15,SEEDS,Phaseolus vulgaris charred,-25.4,AMS,-94.42114863,39.31061774,1,,23CL115,,USA,Missouri,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+224,ISGSA-1782,890,20,SEEDS,Zea mays,,AMS,-95.29269544,38.88459666,1,,14DO19,Hatcher,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+225,ISGSA-1783,890,15,POTTERYRESIDUE,,,AMS,-95.29269544,38.88459666,1,,14DO19,Hatcher,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+226,ISGSA-1784,850,20,SEEDS,Zea mays,-8.3,AMS,-95.72704421,38.65240546,1,,14OS314,Harsch,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+227,ISGSA-1785,970,15,SEEDS,Zea mays,,AMS,-96.20518377,38.95328546,1,,14WB504,Stiles,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+228,ISGSA-1786,950,15,SEEDS,nutshell,,AMS,-96.20518377,38.95328546,1,,14WB504,Stiles,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+229,ISGSA-1787,970,15,SEEDS,nutshell,,AMS,-96.20518377,38.95328546,1,,14WB504,Stiles,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+230,ISGSA-1789,1100,20,SEEDS,Walnut shell,-25.1,AMS,-94.84937404,37.85535702,1,,14BO20,,USA,Kansas,North America,UWyo2021,Adair 2012 Refining Plains Woodland Chronology,Unknown lab ID
+231,ISGSA-1790,1015,20,POTTERYRESIDUE,residue,-17.4,AMS,-98.95288116,40.17640738,1,,25FR6,Holdredge 3,USA,Nebraska,North America,UWyo2021,Roper and Adair 2012,Unknown lab ID
+232,ISGSA-1791,910,15,POTTERYRESIDUE,residue,-17.1,AMS,-98.95288116,40.17640738,1,,25FR6,Holdredge 3,USA,Nebraska,North America,UWyo2021,Roper and Adair 2012,Unknown lab ID
+233,ISGSA-1796,850,20,SEEDS,Zea mays cupule,-9.9,AMS,-89.90517719,38.82984438,1,,11MS517,Sponemann,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+234,ISGSA-1809,2560,20,SEEDS,nutshell carbonized,,AMS,-86.09199506,35.15518425,1,,40FR267,Uzzelles Shelter,USA,Tennessee,North America,UWyo2021,Carmody 2014-From Foraging to Food Production on the Souther Cumberland Plateau….,Unknown lab ID
+235,ISGSA-1811,7725,40,SEEDS,nutshell carbonized,,AMS,-86.09199506,35.15518425,1,,40FR267,Uzzelles Shelter,USA,Tennessee,North America,UWyo2021,Carmody 2014-From Foraging to Food Production on the Souther Cumberland Plateau….,Unknown lab ID
+236,ISGSA-1831,2195,15,POTTERYRESIDUE,Pipe residue,,AMS,-80.66317894,39.86065894,1,,46MR7,Cresap Mound,USA,West Virginia,North America,UWyo2021,Tippins et al. 2016:7,Unknown lab ID
+237,ISGSA-1832,2380,15,WOOD,,,AMS,-80.66317894,39.86065894,1,,46MR7,Cresap Mound,USA,West Virginia,North America,UWyo2021,Tippins et al. 2016:7,Unknown lab ID
+238,ISGSA-1849,2190,20,BONE,deer,,AMS,-80.2478972,40.18929963,1,,36WH29,Mathies Mine Mound,USA,Pennsylvania,North America,UWyo2021,Tanner et al 2012,Unknown lab ID
+239,ISGSA-190,1425,45,POTTERYRESIDUE,,-28.1,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart et al (2003),Unknown lab ID
+240,ISGSA-191,1228,42,POTTERYRESIDUE,,-25.8,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+241,ISGSA-1917,5945,15,WOOD,Gymnocladus dioicus,-23.9,AMS,-93.57373777,41.68569055,1,,13PK966,The Palace Site,USA,Iowa,North America,UWyo2021,Whittaker 2016,Unknown lab ID
+242,ISGSA-1918,6055,15,WOOD,,-24.7,AMS,-93.57373777,41.68569055,1,,13PK966,The Palace Site,USA,Iowa,North America,UWyo2021,Whittaker 2016,Unknown lab ID
+243,ISGSA-1919,6150,15,WOOD,Ulmus rubra,-24.7,AMS,-93.57373777,41.68569055,1,,13PK966,The Palace Site,USA,Iowa,North America,UWyo2021,Whittaker 2016,Unknown lab ID
+244,ISGSA-192,1231,44,POTTERYRESIDUE,,-26.7,AMS,-77.04815909,43.32533601,1,,11711.000016/NYSM-1538,Hunter’s Home,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+245,ISGSA-1921,5885,15,WOOD,Ulmus rubra,-24,AMS,-93.57373777,41.68569055,1,,13PK966,The Palace Site,USA,Iowa,North America,UWyo2021,Whittaker 2016,Unknown lab ID
+246,ISGSA-1922,6080,15,WOOD,Ulmus rubra,-24.9,AMS,-93.57373777,41.68569055,1,,13PK966,The Palace Site,USA,Iowa,North America,UWyo2021,Whittaker 2016,Unknown lab ID
+247,ISGSA-1923,6030,15,WOOD,Ulmus americana,-25.3,AMS,-93.57373777,41.68569055,1,,13PK966,The Palace Site,USA,Iowa,North America,UWyo2021,Whittaker 2016,Unknown lab ID
+248,ISGSA-193,1286,40,POTTERYRESIDUE,,-27.2,AMS,-77.04815909,43.32533601,1,,11711.000016/NYSM-1538,Hunter’s Home,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+249,ISGSA-194,1648,47,POTTERYRESIDUE,,-29,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+250,ISGSA-195,1450,43,POTTERYRESIDUE,,-29.7,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+251,ISGSA-196,1138,40,POTTERYRESIDUE,,-24.9,AMS,-77.04815909,43.32533601,1,,11711.000016/NYSM-1538,Hunter’s Home,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+252,ISGSA-1966,1835,20,WOOD,,,AMS,-98.03124914,30.05821493,1,,41HY165,,USA,Texas,North America,UWyo2021,Leezer 2013 Prehistoric Life along the banks of Spring Lake …Archaeological Studies Report 13 Texas State University - San Marcos,Unknown lab ID
+253,ISGSA-1969,380,15,SEEDS,Bean,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+254,ISGSA-197,1247,48,POTTERYRESIDUE,,-27.5,AMS,-77.04815909,43.32533601,1,,11711.000016/NYSM-1538,Hunter’s Home,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+255,ISGSA-1970,420,15,SEEDS,Bean,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+256,ISGSA-1976,1370,15,SEEDS,nutshell carbonized,,AMS,-86.09199506,35.15518425,1,,40FR276,Michaels Shelter,USA,Tennessee,North America,UWyo2021,Carmody 2014-From Foraging to Food Production on the Souther Cumberland Plateau….,Unknown lab ID
+257,ISGSA-1977,1670,20,SEEDS,nutshell carbonized,,AMS,-86.09199506,35.15518425,1,,40FR276,Michaels Shelter,USA,Tennessee,North America,UWyo2021,Carmody 2014-From Foraging to Food Production on the Souther Cumberland Plateau….,Unknown lab ID
+258,ISGSA-1978,4050,20,SEEDS,nutshell carbonized,,AMS,-86.09199506,35.15518425,1,,40FR276,Michaels Shelter,USA,Tennessee,North America,UWyo2021,Carmody 2014-From Foraging to Food Production on the Souther Cumberland Plateau….,Unknown lab ID
+259,ISGSA-1979,7670,30,SEEDS,nutshell carbonized,,AMS,-86.09199506,35.15518425,1,,40FR276,Michaels Shelter,USA,Tennessee,North America,UWyo2021,Carmody 2014-From Foraging to Food Production on the Souther Cumberland Plateau….,Unknown lab ID
+260,ISGSA-198,1211,46,POTTERYRESIDUE,,-27.8,AMS,-77.04815909,43.32533601,1,,11711.000016/NYSM-1538,Hunter’s Home,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+261,ISGSA-2007,2760,15,POTTERYRESIDUE,,,AMS,-77.77534695,42.72818426,1,,5106.000005,Scaccia,USA,New York,North America,UWyo2021,Taché and Hart (2013),Unknown lab ID
+262,ISGSA-2009,2445,15,POTTERYRESIDUE,Charred cooking vessel residue,-24.8,AMS,-71.71598365,42.9153287,1,,27HB78,Eddy; NH38-6,USA,New Hampshire,North America,UWyo2021,Taché Karine and John P. Hart. 2013. Chronometric Hygiene of Radiocarbon Databases for Early Durable Cooking Vessel Technologies in Northeastern North America. American Antiquity 78(2): 359–372 with on-line supplement.,Unknown lab ID
+263,ISGSA-2010,2435,20,POTTERYRESIDUE,Vinette I,-26,AMS,-75.03382389,41.33211196,1,,36PI14,Zimmerman,USA,Pennsylvania,North America,UWyo2021,Taché Karine and John P. Hart. 2013; Stewart 2018,Unknown lab ID
+264,ISGSA-2011,2440,20,POTTERYRESIDUE,Vinette I,-25,AMS,-75.03382389,41.33211196,1,,36PI14,Zimmerman,USA,Pennsylvania,North America,UWyo2021,Taché Karine and John P. Hart. 2013; Stewart 2018,Unknown lab ID
+265,ISGSA-2012,2850,20,POTTERYRESIDUE,Vinette I,-24.7,AMS,-75.03382389,41.33211196,1,,36PI14,Zimmerman,USA,Pennsylvania,North America,UWyo2021,Taché Karine and John P. Hart. 2013; Stewart 2018,Unknown lab ID
+266,ISGSA-2049,2245,15,WOOD,bark,,AMS,-80.66317894,39.86065894,1,,46MR7,Cresap Mound,USA,West Virginia,North America,UWyo2021,Tippins et al. 2016:7,Unknown lab ID
+267,ISGSA-2050,2340,15,CHARCOAL,,,AMS,-80.66317894,39.86065894,1,,46MR7,Cresap Mound,USA,West Virginia,North America,UWyo2021,Tippins et al. 2016:7,Unknown lab ID
+268,ISGSA-2107,7080,20,wood,,,,28.95,41.1,3,,,Yenikapı,Turkey,,Asia,Flohretal2016,Whittaker 2016,Unknown lab ID
+269,ISGSA-2115,455,20,WOOD,,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+270,ISGSA-2116,420,20,SEEDS,Zea mays,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Kaufman 2013-Understanding Site Formation Processes…,Unknown lab ID
+271,ISGSA-2177,2255,15,CHARCOAL,,,AMS,-80.66317894,39.86065894,1,,46MR7,Cresap Mound,USA,West Virginia,North America,UWyo2021,Tippins et al. 2016:7,Unknown lab ID
+272,ISGSA-2178,1630,20,CHARCOAL,,,AMS,-80.2478972,40.18929963,1,,36WH29,Mathies Mine Mound,USA,Pennsylvania,North America,UWyo2021,Tanner et al 2012,Unknown lab ID
+273,ISGSA-2233,6165,25,CHARCOAL,,-25.9,AMS,-93.57373777,41.68569055,1,,13PK966,The Palace Site,USA,Iowa,North America,UWyo2021,Whittaker 2016,Unknown lab ID
+274,ISGSA-2234,6175,25,UNKNOWN,,-23.9,AMS,-93.57373777,41.68569055,1,,13PK966,The Palace Site,USA,Iowa,North America,UWyo2021,Whittaker 2016,Unknown lab ID
+275,ISGSA-2237,995,20,SEEDS,Zea mays cupule,-9.9,AMS,-91.18860042,39.98790561,1,,11A162,Kuhlman Habitation,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+276,ISGSA-2238,285,20,SEEDS,Zea mays cupule,-10.5,AMS,-91.18860042,39.98790561,1,,11A1000,Buffalo,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+277,ISGSA-2239,4955,120,SEEDS,Zea mays Kernel,-13.9,AMS,-91.18860042,39.98790561,1,,11A835,Deer Track,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+278,ISGSA-2241,1055,20,SEEDS,Zea mays Kernel,-8.9,AMS,-90.88633619,39.62259435,1,,11PK1255,Tickless,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+279,ISGSA-2242,1315,20,SEEDS,Zea mays Kernel,-10.1,AMS,-91.16482133,40.40367312,1,,11HA756,Edgar Hoener,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+280,ISGSA-225,1470,43,POTTERYRESIDUE,,-26.4,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+281,ISGSA-226,1461,43,POTTERYRESIDUE,,-26.5,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+282,ISGSA-227,1428,41,POTTERYRESIDUE,,-27,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+283,ISGSA-2272,1000,20,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE379,Koshkonong Creek  Village,USA,Wisconsin,North America,UWyo2021,Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+284,ISGSA-2273,1490,20,SEEDS,Zea mays cupule,,AMS,-90.88633619,39.62259435,1,,11PK477,Ellege,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+285,ISGSA-228,1260,39,POTTERYRESIDUE,,-26.1,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. (2003),Unknown lab ID
+286,ISGSA-229,1043,40,POTTERYRESIDUE,,-26.1,AMS,-75.03249938,42.63378083,1,,NYSM-1,Street,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+287,ISGSA-2320,605,20,POTTERYRESIDUE,,,AMS,-88.77588131,43.02091354,1,,47JE379,Koshkonong Creek  Village,USA,Wisconsin,North America,UWyo2021,Wilson 2016-Late Prehistoric Lithic Economies in the Prairie Peninsula,Unknown lab ID
+288,ISGSA-235,781,42,POTTERYRESIDUE,,-18.1,AMS,-76.3061442,42.1705121,1,,10705.00003,Haner,USA,New York,North America,UWyo2021,Hartgen Assoc Pers com 2020,Unknown lab ID
+289,ISGSA-2377,950,15,CHARCOAL,monocot stems,-25.3,AMS,-89.92837404,38.47043082,1,,11S706,East St. Louis Mound Complex,USA,Illinois,North America,UWyo2021,Brennan Boles Hedman Kolb Nash 2016,Unknown lab ID
+290,ISGSA-2378,950,15,CHARCOAL,monocot stems,-10.7,AMS,-89.92837404,38.47043082,1,,11S706,East St. Louis Mound Complex,USA,Illinois,North America,UWyo2021,Brennan Boles Hedman Kolb Nash 2016,Unknown lab ID
+291,ISGSA-2379,965,20,CHARCOAL,monocot stems,-9.6,AMS,-89.92837404,38.47043082,1,,11S706,East St. Louis Mound Complex,USA,Illinois,North America,UWyo2021,Brennan Boles Hedman Kolb Nash 2016,Unknown lab ID
+292,ISGSA-2380,745,15,SEEDS,hickory nutshell burned,-23.6,AMS,-90.47231186,37.81040808,1,,23SG100,Common Field,USA,Missouri,North America,UWyo2021,Buchanan Meghan E. (2015) Warfare and the Materialization of Daily Life at the Mississippian Common Field Site. Unpublished Ph.D. dissertation. Department of Anthropology Indiana University.,Unknown lab ID
+293,ISGSA-2381,705,20,SEEDS,Zea mays charred,-8.1,AMS,-90.47231186,37.81040808,1,,23SG100,Common Field,USA,Missouri,North America,UWyo2021,Buchanan Meghan E. (2015) Warfare and the Materialization of Daily Life at the Mississippian Common Field Site. Unpublished Ph.D. dissertation. Department of Anthropology Indiana University.,Unknown lab ID
+294,ISGSA-2382,675,15,SEEDS,nutshell charred,-25.7,AMS,-90.47231186,37.81040808,1,,23SG100,Common Field,USA,Missouri,North America,UWyo2021,Buchanan Meghan E. (2015) Warfare and the Materialization of Daily Life at the Mississippian Common Field Site. Unpublished Ph.D. dissertation. Department of Anthropology Indiana University.,Unknown lab ID
+295,ISGSA-2387,1030,20,WOOD,burned wood post,-26.1,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Baires 2014-Cahokia's Origins…,Unknown lab ID
+296,ISGSA-2388,1040,20,WOOD,burned wood post,-16.5,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Baires 2014-Cahokia's Origins…,Unknown lab ID
+297,ISGSA-2389,1000,20,WOOD,burned wood post,-25.5,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Baires 2014-Cahokia's Origins…,Unknown lab ID
+298,ISGSA-2390,975,20,WOOD,burned wood post,-15.6,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Baires 2014-Cahokia's Origins…,Unknown lab ID
+299,ISGSA-2391,1280,20,SHELL,marine,0.86,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Baires 2014-Cahokia's Origins…,Unknown lab ID
+300,ISGSA-2403,880,20,CHARCOAL,,-26.5,AMS,-91.35860143,44.3040374,1,,47TR32,Little Bluff,USA,Wisconsin,North America,UWyo2021,Pauketat et al 2015 Trempealeau Entanglements…,Unknown lab ID
+301,ISGSA-2404,910,20,CHARCOAL,Quercus sp,-26.4,AMS,-91.35860143,44.3040374,1,,47TR32,Little Bluff,USA,Wisconsin,North America,UWyo2021,Pauketat et al 2015 Trempealeau Entanglements…,Unknown lab ID
+302,ISGSA-2405,915,20,SEEDS,chenopod charred,-25.6,AMS,-91.35860143,44.3040374,1,,47TR32,Little Bluff,USA,Wisconsin,North America,UWyo2021,Pauketat et al 2015 Trempealeau Entanglements…,Unknown lab ID
+303,ISGSA-2406,940,20,CHARCOAL,,-25.5,AMS,-91.35860143,44.3040374,1,,47TR415,Pelkep,USA,Wisconsin,North America,UWyo2021,Pauketat et al 2015 Trempealeau Entanglements…,Unknown lab ID
+304,ISGSA-2407,925,20,SEEDS,nutshell,-24.8,AMS,-91.35860143,44.3040374,1,,47TR415,Pelkey,USA,Wisconsin,North America,UWyo2021,Pauketat et al 2015 Trempealeau Entanglements…,Unknown lab ID
+305,ISGSA-2408,920,20,CHARCOAL,Quercus sp,-26.9,AMS,-91.35860143,44.3040374,1,,47TR159,Uhl,USA,Wisconsin,North America,UWyo2021,Pauketat et al 2015 Trempealeau Entanglements…,Unknown lab ID
+306,ISGSA-2409,955,20,CHARCOAL,Quercus sp,-26.3,AMS,-91.35860143,44.3040374,1,,47TR156,Squier Garden,USA,Wisconsin,North America,UWyo2021,Pauketat et al 2015 Trempealeau Entanglements…,Unknown lab ID
+307,ISGSA-2410,955,20,CHARCOAL,birch,-25.8,AMS,-90.83448952,43.5939165,1,,47VE825,Fisher Mounds,USA,Wisconsin,North America,UWyo2021,Arzigian 2015,Unknown lab ID
+308,ISGSA-2411,630,20,SEEDS,P. vulgaris,,,,,0,,,GSC#1,USA,Illinois,North America,UWyo2021,Monaghan et al-The age and distribution of domesticated beans in…,Unknown lab ID
+309,ISGSA-2412,620,20,SEEDS,P. vulgaris,,,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Monaghan et al-The age and distribution of domesticated beans in…,Unknown lab ID
+310,ISGSA-2414,5490,20,BONE,,-14.1,AMS,-96.17801601,43.08270338,1,,13SX126,,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2013,Unknown lab ID
+311,ISGSA-2415,3670,20,BONE,,-17.1,AMS,-96.17801601,43.08270338,1,,13SX126,,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2013,Unknown lab ID
+312,ISGSA-2427,900,20,CHARCOAL,,-24.9,AMS,-89.90517719,38.82984438,1,,11MS34,Cahokia Mounds,USA,Illinois,North America,UWyo2021,Baires 2014-Cahokia's Origins…,Unknown lab ID
+313,ISGSA-2515,640,15,POTTERYRESIDUE,,-22.5,AMS,-76.19456258,43.00587369,1,,NYSM-618/Cza002,Cemetery,USA,New York,North America,UWyo2021,not published,Unknown lab ID
+314,ISGSA-2522,570,15,POTTERYRESIDUE,,-28,AMS,-75.66961061,42.91267136,1,,5310.000006,Buyea,USA,New York,North America,UWyo2021,not published,Unknown lab ID
+315,ISGSA-2531,995,20,SEEDS,Charred Zea mays kernel,-9.8,AMS,-89.92837404,38.47043082,1,,11S706,East St. Louis Mound Complex,USA,Illinois,North America,UWyo2021,Brennan Boles Hedman Kolb Nash 2016,Unknown lab ID
+316,ISGSA-2636,930,15,SEEDS,Zea mays kernel,,AMS,-88.77588131,43.02091354,1,,47JE1,Aztalan,USA,Wisconsin,North America,UWyo2021,Picard 2013-Northern Flint Southern Roots….,Unknown lab ID
+317,ISGSA-2695,660,20,POTTERYRESIDUE,,,AMS,-89.04482403,43.8003813,1,,47GL65,Walker-Hooper,USA,Wisconsin,North America,UWyo2021,Schneider 2015-Oneota Ceramic Production and Exchange….,Unknown lab ID
+318,ISGSA-27,10228,70,CHARCOAL,,,AMS,-93.24046742,42.38395436,1,,13HA385,Allen Fan,USA,Iowa,North America,UWyo2021,Fishel et al. 2003,Unknown lab ID
+319,ISGSA-2714,1070,20,SEEDS,Zea mays cupule,-9.3,AMS,-89.90517719,38.82984438,1,,11MS118,Holding,USA,Illinois,North America,UWyo2021,Ancient Maize Database,Unknown lab ID
+320,ISGSA-2715,940,15,SEEDS,Zea mays kernel,-9.1,AMS,-89.90517719,38.82984438,1,,11MS118,Holding,USA,Illinois,North America,UWyo2021,Ancient Maize Database,Unknown lab ID
+321,ISGSA-2716,950,15,SEEDS,Zea mays kernel,-8.9,AMS,-89.90517719,38.82984438,1,,11MS118,Holding,USA,Illinois,North America,UWyo2021,Ancient Maize Database,Unknown lab ID
+322,ISGSA-2776,410,20,SEEDS,Zea mays,,AMS,-79.46682604,40.31064472,1,,36WM35,Squirrel Hill,USA,Pennsylvania,North America,UWyo2021,DeHaven 2014,Unknown lab ID
+323,ISGSA-2777,495,25,SEEDS,acorn,,AMS,-79.46682604,40.31064472,1,,36WM35,Squirrel Hill,USA,Pennsylvania,North America,UWyo2021,DeHaven 2014,Unknown lab ID
+324,ISGSA-28,6959,70,CHARCOAL,,,AMS,-93.24046742,42.38395436,1,,13HA385,Allen Fan,USA,Iowa,North America,UWyo2021,Fishel et al. 2003,Unknown lab ID
+325,ISGSA-2808,3920,30,CHARCOAL,,-23.9,AMS,-95.00486354,45.15237647,1,,21KH93,Levin,USA,Minnesota,North America,UWyo2021,Minnesota state database,Unknown lab ID
+326,ISGSA-2809,3935,30,CHARCOAL,,-22.2,AMS,-95.00486354,45.15237647,1,,21KH93,Levin,USA,Minnesota,North America,UWyo2021,Minnesota state database,Unknown lab ID
+327,ISGSA-2840,490,15,SEEDS,bean,-25.9,AMS,-87.64615466,41.89556793,1,,11CK4,Hoxie Farm site,USA,Illinois,North America,UWyo2021,Jackson 2017-The Hoxie Farm Site Main Occupation Area,Unknown lab ID
+328,ISGSA-286,2286,48,SEEDS,Wild Rice,-29.7,AMS,-74.44204867,42.5883091,1,,9501.000084,Parslow Field,USA,New York,North America,UWyo2021,Hart et al. 2003,Unknown lab ID
+329,ISGSA-2877,395,25,SEEDS,Zea mays,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Carr et al. 2020 Arch of Nat Amer in Penn.,Unknown lab ID
+330,ISGSA-2878,405,25,SEEDS,Zea mays,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Carr et al. 2020 Arch of Nat Amer in Penn.,Unknown lab ID
+331,ISGSA-2879,375,25,UNKNOWN,,,AMS,-79.23584809,41.51325914,1,,36FO65,Indian Camp Run 1,USA,Pennsylvania,North America,UWyo2021,Carr et al. 2020 Arch of Nat Amer in Penn.,Unknown lab ID
+332,ISGSA-29,1055,50,CHARCOAL,,-25.4,AMS,-90.39047351,39.35630879,1,,11GE20,Audrey,USA,Illinois,North America,UWyo2021,Delaney-Rivera 2004,Unknown lab ID
+333,ISGSA-2941,2415,20,SEEDS,nutshell,-24.7,AMS,-90.67801166,40.45619861,1,,11MD1208,Merciless Ridge,USA,Illinois,North America,UWyo2021,Nolan Mallo and Boyd 2016; Illinois Archaeology vol. 28 pp. 257-290,Unknown lab ID
+334,ISGSA-2942,2435,20,SEEDS,nutshell,-23.3,AMS,-90.67801166,40.45619861,1,,11MD1208,Merciless Ridge,USA,Illinois,North America,UWyo2021,Nolan Mallo and Boyd 2016; Illinois Archaeology vol. 28 pp. 257-290,Unknown lab ID
+335,ISGSA-2943,2405,20,SEEDS,Hickory nutshell,-24.5,AMS,-90.67801166,40.45619861,1,,11MD1208,Merciless Ridge,USA,Illinois,North America,UWyo2021,Nolan Mallo and Boyd 2016; Illinois Archaeology vol. 28 pp. 257-290,Unknown lab ID
+336,ISGSA-2944,2900,20,SEEDS,nutshell,-27.9,AMS,-90.67801166,40.45619861,1,,11MD984,John Gage,USA,Illinois,North America,UWyo2021,Nolan Mallo and Boyd 2016; Illinois Archaeology vol. 28 pp. 257-290,Unknown lab ID
+337,ISGSA-3104,9175,30,UNKNOWN,,,AMS,-79.46428687,40.81215693,1,,36AR559,Brick House,USA,Pennsylvania,North America,UWyo2021,Carr et al. 2020 Arch of Nat Amer in Penn.,Unknown lab ID
+338,ISGSA-3105,2465,20,SEEDS,Hickory nutshell,-25.7,AMS,-90.67801166,40.45619861,1,,11MD1208,Merciless Ridge,USA,Illinois,North America,UWyo2021,Nolan Mallo and Boyd 2016; Illinois Archaeology vol. 28 pp. 257-290,Unknown lab ID
+339,ISGSA-3106,2930,20,SEEDS,nutshell,-25,AMS,-90.67801166,40.45619861,1,,11MD984,John Gage,USA,Illinois,North America,UWyo2021,Nolan Mallo and Boyd 2016; Illinois Archaeology vol. 28 pp. 257-290,Unknown lab ID
+340,ISGSA-3132,760,20,WOOD,Juglandaceae,-25.1,AMS,-95.62138127,41.0334743,1,,13ML176,Wall Ridge,USA,Iowa,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+341,ISGSA-3133,645,15,SEEDS,Zea mays,-9.9,AMS,-95.62138127,41.0334743,1,,13ML176,Wall Ridge,USA,Iowa,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+342,ISGSA-3181,720,15,POTTERYRESIDUE,,-22.9,AMS,-95.62138127,41.0334743,1,,13ML176,Wall Ridge,USA,Iowa,North America,UWyo2021,Tiffany and Lensink 2014,Unknown lab ID
+343,ISGSA-3206,2945,20,SEEDS,hickory nutshell,-25,AMS,-90.67801166,40.45619861,1,,11MD1231,Shybull Terrace,USA,Illinois,North America,UWyo2021,Fishel et al. 2018,Unknown lab ID
+344,ISGSA-3207,2990,20,SEEDS,hickory nutshell,-25.9,AMS,-90.67801166,40.45619861,1,,11MD1231,Shybull Terrace,USA,Illinois,North America,UWyo2021,Fishel et al. 2018,Unknown lab ID
+345,ISGSA-3208,2960,20,SEEDS,hickory nutshell,-25.1,AMS,-90.67801166,40.45619861,1,,11MD1231,Shybull Terrace,USA,Illinois,North America,UWyo2021,Fishel et al. 2018,Unknown lab ID
+346,ISGSA-3209,2970,20,SEEDS,hickory nutshell,-24,AMS,-90.67801166,40.45619861,1,,11MD1231,Shybull Terrace,USA,Illinois,North America,UWyo2021,Fishel et al. 2018,Unknown lab ID
+347,ISGSA-3234,5035,25,CHARCOAL,,-24.9,AMS,-107.68301,43.90503946,1,,48WA2408,Al-Blm-S2,USA,Wyoming,North America,UWyo2021,WY SHPO 14C Database,Unknown lab ID
+348,ISGSA-3235,4375,20,CHARCOAL,,-22.8,AMS,-107.68301,43.90503946,1,,48WA2407,,USA,Wyoming,North America,UWyo2021,WY SHPO 14C Database,Unknown lab ID
+349,ISGSA-3236,4450,25,CHARCOAL,,-24.4,AMS,-107.68301,43.90503946,1,,48WA2407,,USA,Wyoming,North America,UWyo2021,WY SHPO 14C Database,Unknown lab ID
+350,ISGSA-3237,5185,25,CHARCOAL,,-24.7,AMS,-107.68301,43.90503946,1,,48WA2408,Al-Blm-S2,USA,Wyoming,North America,UWyo2021,WY SHPO 14C Database,Unknown lab ID
+351,ISGSA-326,317,38,SEEDS,Zea mays,-9,AMS,-74.42223964,43.11395008,1,,03504.000005/NYSM-2233,Klock,USA,New York,North America,UWyo2021,Hart et al. 2003,Unknown lab ID
+352,ISGSA-3269,935,15,SEEDS,Hickory nutshell,-22.3,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+353,ISGSA-327,691,39,SEEDS,Zea mays,-9.4,AMS,-74.43954655,42.9023664,1,,05710.000008/NYSM-1163,Snell,USA,New York,North America,UWyo2021,Hart et al. 2003,Unknown lab ID
+354,ISGSA-3270,750,15,SEEDS,Hickory nutshell,-25.3,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+355,ISGSA-3271,960,15,SEEDS,Hickory nutshell,-24.1,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+356,ISGSA-3272,985,20,CHARCOAL,elm,-23.9,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+357,ISGSA-3273,970,20,SEEDS,Zea mays cupule,-9.2,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+358,ISGSA-3274,960,20,SEEDS,Hickory nutshell,-24.4,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+359,ISGSA-3275,970,15,CHARCOAL,hickory,-24.3,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+360,ISGSA-328,401,38,SEEDS,Zea mays,-9.7,AMS,-74.43954655,42.9023664,1,,05707.000009/NYSM-1118,Briggs Run,USA,New York,North America,UWyo2021,Hart et al. 2003,Unknown lab ID
+361,ISGSA-3314,790,20,CHARCOAL,,-25.4,AMS,-95.62138127,41.0334743,1,,13ML129,Johnson Farm 2,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+362,ISGSA-3315,785,20,CHARCOAL,,-27.5,AMS,-95.62138127,41.0334743,1,,13ML129,Johnson Farm 2,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+363,ISGSA-3353,355,20,SEEDS,Zea mays charred,-10,AMS,-82.02659093,38.76953377,1,,46MS61,Orchard,USA,West Virginia,North America,UWyo2021,Ellis 2015; Spencer 2016,Unknown lab ID
+364,ISGSA-3354,340,15,SEEDS,Zea mays charred,-10,AMS,-82.02659093,38.76953377,1,,46MS61,Orchard,USA,West Virginia,North America,UWyo2021,Ellis 2015; Spencer 2016,Unknown lab ID
+365,ISGSA-3386,640,15,SEEDS,Zea mays,-8.6,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+366,ISGSA-3387,655,15,SEEDS,Zea mays,-10.8,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+367,ISGSA-3388,625,15,SEEDS,Zea mays,-27.8,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+368,ISGSA-3389,700,15,SEEDS,Zea mays,-8.7,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+369,ISGSA-3390,695,20,SEEDS,Zea mays,-9.1,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+370,ISGSA-3391,705,20,SEEDS,Zea mays,-9.2,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+371,ISGSA-3392,825,15,SEEDS,Zea mays,-25.4,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+372,ISGSA-3393,830,15,SEEDS,Zea mays,-9.6,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+373,ISGSA-3394,795,15,SEEDS,Nutshell,-25.9,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+374,ISGSA-3395,790,15,SEEDS,Bean,-27,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+375,ISGSA-3396,805,15,SEEDS,Bean,-26.4,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+376,ISGSA-3397,820,15,SEEDS,Zea mays,-10,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+377,ISGSA-3398,730,15,SEEDS,Zea mays,-9.3,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+378,ISGSA-3399,765,15,SEEDS,Zea mays,-8.6,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+379,ISGSA-3400,770,15,SEEDS,Zea mays,-9,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+380,ISGSA-3401,770,15,SEEDS,sunflower Seed,-9.3,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+381,ISGSA-3402,800,15,SEEDS,Zea mays,-8.6,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+382,ISGSA-3403,780,15,SEEDS,Bean,-26.8,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+383,ISGSA-3404,835,15,SEEDS,Nutshell,-23.8,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+384,ISGSA-3405,810,15,SEEDS,Zea mays,-7.9,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+385,ISGSA-3406,805,15,SEEDS,Bean,-23.6,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+386,ISGSA-3407,820,15,SEEDS,Zea mays,-9.5,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+387,ISGSA-3408,780,15,SEEDS,Zea mays,-10.5,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+388,ISGSA-3409,790,15,SEEDS,Zea mays,-10.3,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+389,ISGSA-3410,870,15,CHARCOAL,,-25.5,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+390,ISGSA-3411,800,15,CHARCOAL,,-27.6,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+391,ISGSA-3412,780,15,SEEDS,Zea mays,-8.3,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+392,ISGSA-3413,710,15,SEEDS,Zea mays,-8.9,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+393,ISGSA-3414,705,15,SEEDS,Zea mays,-9.1,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+394,ISGSA-3415,710,15,SEEDS,Zea mays,-9,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+395,ISGSA-3416,680,15,SEEDS,Zea mays,-25.3,AMS,-95.62138127,41.0334743,1,,13ML12,House III,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+396,ISGSA-3428,680,15,SEEDS,Zea mays,-10,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+397,ISGSA-3434,695,15,SEEDS,Zea mays,-8.5,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+398,ISGSA-3435,665,15,SEEDS,Zea mays,-9,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+399,ISGSA-3436,690,15,CHARCOAL,,-25.6,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+400,ISGSA-3439,3845,15,CHARCOAL,,-25.1,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+401,ISGSA-3440,840,15,CHARCOAL,,-26.9,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+402,ISGSA-3441,800,15,CHARCOAL,,-26.3,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+403,ISGSA-3442,780,15,CHARCOAL,,-27.2,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+404,ISGSA-3443,795,15,CHARCOAL,,,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+405,ISGSA-3444,840,15,CHARCOAL,,-23.3,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+406,ISGSA-3445,800,15,CHARCOAL,,-25.1,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+407,ISGSA-3446,800,15,CHARCOAL,,,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+408,ISGSA-3447,835,15,CHARCOAL,,-24.6,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+409,ISGSA-3448,1370,15,CHARCOAL,,-23.3,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+410,ISGSA-3449,900,15,SEEDS,Zea mays,-29.1,AMS,-95.62138127,41.0334743,1,,13ML126,Kuhl 1,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+411,ISGSA-346,870,30,CHARCOAL,,-24.4,AMS,-99.89808372,38.08756236,1,,14HO308,Horsethief,USA,Kansas,North America,UWyo2021,Lopinot et al. 2010,Unknown lab ID
+412,ISGSA-347,885,25,CHARCOAL,,-26.1,AMS,-99.89808372,38.08756236,1,,14HO308,Horsethief,USA,Kansas,North America,UWyo2021,Lopinot et al. 2010,Unknown lab ID
+413,ISGSA-3526,1015,20,BONE,Canis,-19.3,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+414,ISGSA-3527,1300,20,BONE,Canis,-20.3,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+415,ISGSA-3528,1235,25,BONE,Canis,-20.2,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+416,ISGSA-3529,1280,20,BONE,Canis,-20.6,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+417,ISGSA-3530,1020,25,BONE,Canis,-11.8,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+418,ISGSA-3531,995,25,BONE,Canis,-11.2,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+419,ISGSA-3555,420,15,TEXTILE,Weft element from small basket bowl,,AMS,-80.66317894,39.86065894,1,,46MR7,Cresap Mound,USA,West Virginia,North America,UWyo2021,Tippins et al. 2016:7,Unknown lab ID
+420,ISGSA-3556,2240,15,CHARCOAL,,,AMS,-80.66317894,39.86065894,1,,46MR7,Cresap Mound,USA,West Virginia,North America,UWyo2021,Tippins et al. 2016:7,Unknown lab ID
+421,ISGSA-3557,2240,15,BONE,deer scapula fragment,,AMS,-80.66317894,39.86065894,1,,46MR7,Cresap Mound,USA,West Virginia,North America,UWyo2021,Tippins et al. 2016:7,Unknown lab ID
+422,ISGSA-3571,2575,15,SEEDS,nut shell,,AMS,-85.88480251,37.30014176,1,,15HT4,Salts Cave,USA,Kentucky,North America,UWyo2021,Carlson 2019-Middle to Late Holocene Archaeological Site Formation Processes at Crumps Sink…,Unknown lab ID
+423,ISGSA-3574,1095,15,BONE,Canis,-12.8,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+424,ISGSA-3575,1045,15,BONE,Canis,-16.8,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+425,ISGSA-3616,200,20,WOOD,cedar,-24.4,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+426,ISGSA-3617,105,15,WOOD,cedar,-27.1,AMS,-89.92837404,38.47043082,1,,11S1,Emerald,USA,Illinois,North America,UWyo2021,Skousen 2016 Pilgrimage and the construction of Cahokia...,Unknown lab ID
+427,ISGSA-3618,760,20,SEEDS,Zea mays,-8.8,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+428,ISGSA-3619,785,20,SEEDS,Zea mays,-8.6,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+429,ISGSA-3620,745,20,SEEDS,Zea mays,-8.9,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+430,ISGSA-3621,805,20,SEEDS,Zea mays,-8.6,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+431,ISGSA-3622,810,20,SEEDS,Zea mays,-8.4,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+432,ISGSA-3623,800,20,SEEDS,Zea mays,-7.7,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+433,ISGSA-3624,830,20,SEEDS,Bean,-25.4,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+434,ISGSA-3625,800,20,SEEDS,Zea mays,-8.3,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+435,ISGSA-3626,765,15,SEEDS,S. Seed,-25.6,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+436,ISGSA-3627,645,20,SEEDS,Zea mays,-10.7,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+437,ISGSA-3628,580,20,SEEDS,Bean,-24.2,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+438,ISGSA-3629,570,20,SEEDS,S. Seed,-23.5,AMS,-95.62138127,41.0334743,1,,13ML130,Johnson Farm 3,USA,Iowa,North America,UWyo2021,Hong Wang with ISGS 2015,Unknown lab ID
+439,ISGSA-3676,990,20,BONE,Canis,-15.9,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+440,ISGSA-3677,1080,20,BONE,Canis,-18.2,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+441,ISGSA-3678,975,20,BONE,Canis,-15.7,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+442,ISGSA-3679,1115,20,BONE,Canis,-18.4,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+443,ISGSA-3680,1120,20,BONE,Canis,-19.6,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+444,ISGSA-3681,1055,20,BONE,Canis,-11.7,AMS,-89.92837404,38.47043082,1,,11S1232,Janey B. Goode,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+445,ISGSA-3742,1080,15,SEEDS,Nutshell charred,-25.6,AMS,-89.90517719,38.82984438,1,,11MS662,Lillie,USA,Illinois,North America,UWyo2021,Fortier et al. (2016),Unknown lab ID
+446,ISGSA-3743,1075,15,SEEDS,Nutshell charred,-25.8,AMS,-89.90517719,38.82984438,1,,11MS662,Lillie,USA,Illinois,North America,UWyo2021,Fortier et al. (2016),Unknown lab ID
+447,ISGSA-3744,1080,20,SEEDS,Nutshell charred,-24.2,AMS,-89.90517719,38.82984438,1,,11MS662,Lillie,USA,Illinois,North America,UWyo2021,Fortier et al. (2016),Unknown lab ID
+448,ISGSA-3791,855,20,BONE,collagen,-11.8,AMS,-89.92837404,38.47043082,1,,11S706,East St. Louis Mound Complex,USA,Illinois,North America,UWyo2021,Brennan Boles Hedman Kolb Nash 2016,Unknown lab ID
+449,ISGSA-4,8490,100,UNKNOWN,,,AMS,-91.18860042,39.98790561,1,,11A1252,Dittmer,USA,Illinois,North America,UWyo2021,Nolan 1994 2004; Nolan and Fishel 2009,Unknown lab ID
+450,ISGSA-406,1525,35,POTTERYRESIDUE,,-29,AMS,-75.03249938,42.63378083,1,,7714.000009,Fortin 2,USA,New York,North America,UWyo2021,Thompson et al. (2004),Unknown lab ID
+451,ISGSA-4062,1425,15,BONE,Canis,-21.2173785,AMS,-89.90517719,38.82984438,1,,11MS1353,Cunningham,USA,Illinois,North America,UWyo2021,Emerson et al 2020 Isotopic confirmation of the timing…,Unknown lab ID
+452,ISGSA-407,1505,35,POTTERYRESIDUE,,-29,AMS,-75.03249938,42.63378083,1,,7714.000009,Fortin 2,USA,New York,North America,UWyo2021,Thompson et al. (2004),Unknown lab ID
+453,ISGSA-4070,555,15,SEEDS,Zea mays,-8,AMS,-79.46682604,40.31064472,1,,36WM100,Consol Site,USA,Pennsylvania,North America,UWyo2021,Oshnock personal communication 2019,Unknown lab ID
+454,ISGSA-410,1995,35,POTTERYRESIDUE,,-29,AMS,-75.03249938,42.63378083,1,,7714.000009,Fortin 2,USA,New York,North America,UWyo2021,Thompson et al. (2004),Unknown lab ID
+455,ISGSA-4235,2055,20,SEEDS,Corylus nutshell charred,-27.9,AMS,-91.25982573,41.21856557,1,,13LA12,Gast Farm,USA,Iowa,North America,UWyo2021,Green 2018,Unknown lab ID
+456,ISGSA-4236,2155,15,SEEDS,Juglandaceae nutshell charred,-26.8,AMS,-91.25982573,41.21856557,1,,13LA12,Gast Farm,USA,Iowa,North America,UWyo2021,Green 2018,Unknown lab ID
+457,ISGSA-4237,1765,15,SEEDS,Carya nutshell charred,-26.2,AMS,-91.25982573,41.21856557,1,,13LA12,Gast Farm,USA,Iowa,North America,UWyo2021,Green 2018,Unknown lab ID
+458,ISGSA-452,1940,35,POTTERYRESIDUE,,-29.3,AMS,-76.19456258,43.00587369,1,,7507.000013,Vinette,USA,New York,North America,UWyo2021,Thompson et al. (2004),Unknown lab ID
+459,ISGSA-453,1635,35,POTTERYRESIDUE,,-28,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+460,ISGSA-454,1695,35,POTTERYRESIDUE,,-30.4,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+461,ISGSA-455,1990,40,POTTERYRESIDUE,,-29.8,AMS,-76.19456258,43.00587369,1,,7507.000013,Vinette,USA,New York,North America,UWyo2021,Hart et al. (2007),Unknown lab ID
+462,ISGSA-456,2510,35,POTTERYRESIDUE,,-29.1,AMS,-76.20876883,43.46391903,1,,7507.000013,Vinette,USA,New York,North America,UWyo2021,Thompson et al. 2004,Unknown lab ID
+463,ISGSA-465,910,35,WOOD,,-25.3,AMS,-93.34002134,32.09331622,1,,16RR1,Gahagan,USA,Louisiana,North America,UWyo2021,Emerson Thomas E. and Jeffrey S. Girard2004    Dating Gahagan and it's Implications for Understanding Cahokia-Caddo Interactions.  Southeastern Archaeology 23(1):57 - 64.,Unknown lab ID
+464,ISGSA-466,950,40,LEATHER,,-23.3,AMS,-93.34002134,32.09331622,1,,16RR1,Gahagan,USA,Louisiana,North America,UWyo2021,Emerson Thomas E. and Jeffrey S. Girard2004    Dating Gahagan and it's Implications for Understanding Cahokia-Caddo Interactions.  Southeastern Archaeology 23(1):57 - 64.,Unknown lab ID
+465,ISGSA-479,9225,30,CHARCOAL,,,AMS,-96.20518377,38.95328546,1,,14WB322,Claussen,USA,Kansas,North America,UWyo2021,Mandel Widga et al. 2004,Unknown lab ID
+466,ISGSA-480,9225,35,CHARCOAL,,,AMS,-96.20518377,38.95328546,1,,14WB322,Claussen,USA,Kansas,North America,UWyo2021,Mandel Widga et al. 2004,Unknown lab ID
+467,ISGSA-482,7605,35,UNKNOWN,,,AMS,-91.47944869,40.64206032,1,,13LE597,Fett,USA,Iowa,North America,UWyo2021,Emerson et al. 2009 Archaic Societies: Diversity and Complexity...,Unknown lab ID
+468,ISGSA-497,1575,35,POTTERYRESIDUE,,-27.2,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+469,ISGSA-498,1600,35,POTTERYRESIDUE,,-25.9,AMS,-74.44204867,42.5883091,1,,9512.000038,Westheimer,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+470,ISGSA-499,1430,40,POTTERYRESIDUE,,-27.3,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+471,ISGSA-500,2270,35,POTTERYRESIDUE,,-28.1,AMS,-76.19456258,43.00587369,1,,7507.000013,Vinette,USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+472,ISGSA-501,1390,35,POTTERYRESIDUE,,-29.7,AMS,-76.20876883,43.46391903,1,,NYSM-1507,Simmons,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+473,ISGSA-502,1405,40,POTTERYRESIDUE,,-26.7,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+474,ISGSA-503,1525,40,POTTERYRESIDUE,,-27.9,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+475,ISGSA-504,1520,35,POTTERYRESIDUE,,-27.4,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+476,ISGSA-505,2205,30,POTTERYRESIDUE,,-30,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+477,ISGSA-506,1315,50,POTTERYRESIDUE,,-26.3,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+478,ISGSA-508,5255,40,CHARCOAL,,,AMS,-96.65003273,38.68749423,1,,14MO304,William Young,USA,Kansas,North America,UWyo2021,Banks and Wigand 2005,Unknown lab ID
+479,ISGSA-509,1115,30,POTTERYRESIDUE,,,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart and Lovis 2011,Unknown lab ID
+480,ISGSA-519,1485,40,CHARCOAL,,-25.5,AMS,-75.03249938,42.63378083,1,,7714.000009,Fortin 2,USA,New York,North America,UWyo2021,Hart and Brumbach 2005,Unknown lab ID
+481,ISGSA-520,805,40,CHARCOAL,,-24.4,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart and Brumbach 2005,Unknown lab ID
+482,ISGSA-521,885,40,CHARCOAL,,-24.3,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart and Brumbach 2005,Unknown lab ID
+483,ISGSA-522,425,40,POTTERYRESIDUE,,-20.8,AMS,-74.42223964,43.11395008,1,,03504.000001/NYSM-2332,Garoga,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+484,ISGSA-523,480,40,POTTERYRESIDUE,,-23.6,AMS,-74.42223964,43.11395008,1,,03504.000005/NYSM-2233,Klock,USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+485,ISGSA-524,1625,40,CHARCOAL,,-23.3,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach 2005,Unknown lab ID
+486,ISGSA-525,1220,40,CHARCOAL,,-26,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach 2005,Unknown lab ID
+487,ISGSA-526,225,40,CHARCOAL,,-26.7,AMS,-76.19456258,43.00587369,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart and Brumbach 2005,Unknown lab ID
+488,ISGSA-527,1465,40,CHARCOAL,,-25.6,AMS,-75.03249938,42.63378083,1,,7714.000009,Fortin 2,USA,New York,North America,UWyo2021,Hart and Brumbach 2005,Unknown lab ID
+489,ISGSA-528,445,40,POTTERYRESIDUE,,-20.7,AMS,-74.42223964,43.11395008,1,,03504.000002/NYSM-2334,Smith-Pagerie,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+490,ISGSA-541,2905,35,POTTERYRESIDUE,,-25.8,AMS,-78.19382174,43.00098001,1,,5106.000005,Scaccia,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+491,ISGSA-542,1620,35,POTTERYRESIDUE,,-28.7,AMS,-76.20876883,43.46391903,1,,NYSM-1507,Simmons,USA,New York,North America,UWyo2021,Hart and Brumbach (2005),Unknown lab ID
+492,ISGSA-544,3730,35,SEEDS,Hickory nut,,AMS,-90.13148372,41.35326346,1,,11HY289,Billboard Flats,USA,Illinois,North America,UWyo2021,Fishel and Vanderford 2006; Illinois Archaeology vol. 18: 51-75,Unknown lab ID
+493,ISGSA-562,2755,35,POTTERYRESIDUE,Soot adhering to exterior of the soapstone vessel,-27.5,AMS,-83.92549042,35.68723175,1,,40BT90,Apple Barn/Townsend 1,USA,Tennessee,North America,UWyo2021,Wells et al. 2014 Soapstone Vessel Chronology And Function In The Southern Appalachians Of Eastern Tennessee: The Apple Barn Site (40BT90) Assemblage,Unknown lab ID
+494,ISGSA-563,2760,30,POTTERYRESIDUE,Soot adhering to exterior of the soapstone vessel,-25.2,AMS,-83.92549042,35.68723175,1,,40BT90,Apple Barn/Townsend 1,USA,Tennessee,North America,UWyo2021,Wells et al. 2014 Soapstone Vessel Chronology And Function In The Southern Appalachians Of Eastern Tennessee: The Apple Barn Site (40BT90) Assemblage,Unknown lab ID
+495,ISGSA-564,3350,30,POTTERYRESIDUE,Soot adhering to exterior of the soapstone vessel,-25.9,AMS,-83.92549042,35.68723175,1,,40BT90,Apple Barn/Townsend 1,USA,Tennessee,North America,UWyo2021,Wells et al. 2014 Soapstone Vessel Chronology And Function In The Southern Appalachians Of Eastern Tennessee: The Apple Barn Site (40BT90) Assemblage,Unknown lab ID
+496,ISGSA-565,3115,30,POTTERYRESIDUE,Soot adhering to exterior of the soapstone vessel,-25.2,AMS,-83.92549042,35.68723175,1,,40BT90,Apple Barn/Townsend 1,USA,Tennessee,North America,UWyo2021,Wells et al. 2014 Soapstone Vessel Chronology And Function In The Southern Appalachians Of Eastern Tennessee: The Apple Barn Site (40BT90) Assemblage,Unknown lab ID
+497,ISGSA-566,2960,40,POTTERYRESIDUE,Soot adhering to exterior of the soapstone vessel,-25.5,AMS,-83.92549042,35.68723175,1,,40BT90,Apple Barn/Townsend 1,USA,Tennessee,North America,UWyo2021,Wells et al. 2014 Soapstone Vessel Chronology And Function In The Southern Appalachians Of Eastern Tennessee: The Apple Barn Site (40BT90) Assemblage,Unknown lab ID
+498,ISGSA-567,2825,30,POTTERYRESIDUE,Soot adhering to exterior of the soapstone vessel,-25.1,AMS,-83.92549042,35.68723175,1,,40BT90,Apple Barn/Townsend 1,USA,Tennessee,North America,UWyo2021,Wells et al. 2014 Soapstone Vessel Chronology And Function In The Southern Appalachians Of Eastern Tennessee: The Apple Barn Site (40BT90) Assemblage,Unknown lab ID
+499,ISGSA-568,2995,30,POTTERYRESIDUE,Soot adhering to exterior of the soapstone vessel,-27.8,AMS,-83.92549042,35.68723175,1,,40BT90,Apple Barn/Townsend 1,USA,Tennessee,North America,UWyo2021,Wells et al. 2014 Soapstone Vessel Chronology And Function In The Southern Appalachians Of Eastern Tennessee: The Apple Barn Site (40BT90) Assemblage,Unknown lab ID
+500,ISGSA-569,825,25,SEEDS,bean charred,-8.6,AMS,-97.64831277,38.39175588,1,,14MP407,,USA,Kansas,North America,UWyo2021,Bevitt 2006,Unknown lab ID
+501,ISGSA-570,780,60,SEEDS,Zea mays charred,-9.2,AMS,-97.64831277,38.39175588,1,,14MP407,,USA,Kansas,North America,UWyo2021,Bevitt 2006,Unknown lab ID
+502,ISGSA-571,895,35,CHARCOAL,,-25.9,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart and Lovis 2007,Unknown lab ID
+503,ISGSA-572,1870,25,CHARCOAL,,-25.8,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. 2011,Unknown lab ID
+504,ISGSA-573,2855,35,CHARCOAL,,-24.8,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. 2011,Unknown lab ID
+505,ISGSA-5746,860,70,CHARCOAL,,-25.9,AMS,-97.64831277,38.39175588,1,,14MP407,,USA,Kansas,North America,UWyo2021,Bevitt 2006,Unknown lab ID
+506,ISGSA-576,1030,25,BONE,bison,-8.4,AMS,-99.23695633,38.18143829,1,,14PA303,Forrest site,USA,Kansas,North America,UWyo2021,Hoard and Bozell 2016-The Forrest Site 14PA303: A Keith Phase Component in Pawnee County,Unknown lab ID
+507,ISGSA-577,7360,35,UNKNOWN,,,AMS,-91.18860042,39.98790561,1,,11A1578,Andrew Farm Gully,USA,Illinois,North America,UWyo2021,Nolan 2004; Nolan and Fishel 2009,Unknown lab ID
+508,ISGSA-590,1375,35,CHARCOAL,,-23.5,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. 2011,Unknown lab ID
+509,ISGSA-591,3545,35,CHARCOAL,,-24,AMS,-76.82364771,42.78107594,1,,09908.000003/NYSM-42690,Kipp Island,USA,New York,North America,UWyo2021,Hart et. al. (2011) ADDITIONAL EVIDENCE FOR CAL. SEVENTH­CENTURY A.D.MAIZE CONSUMPTION AT THE KIPP ISLAND SITE NEW YORK,Unknown lab ID
+510,ISGSA-592,8050,35,BONE,collagen,,AMS,-89.82526103,38.05221509,1,,11R687,Kaskaskia Mine,USA,Illinois,North America,UWyo2021,Hargrave Hedman and Wolf 2006; ITARP research reports No. 104,Unknown lab ID
+511,ISGSA-5945,415,25,SEEDS,Zea mays,,AMS,-79.08733516,40.65206169,1,,36IN2,Johnston,USA,Pennsylvania,North America,UWyo2021,Carr et al. 2020 Arch of Nat Amer in Penn.,Unknown lab ID
+512,ISGSA-6,383,52,CHARCOAL,,,AMS,-95.15113734,43.08270176,1,,13CY2,Gillett Grove,USA,Iowa,North America,UWyo2021,Titcomb 2000-The Gillett Grove site,Unknown lab ID
+513,ISGSA-60,543,57,CHARCOAL,,-25.4,AMS,-98.20125322,38.34728357,1,,14RC8,Tobias,USA,Kansas,North America,UWyo2021,Kansas archaeological site file,Unknown lab ID
+514,ISGSA-603,765,30,SEEDS,Zea mays kernel,,AMS,-98.76662283,42.89970796,1,,25BD1,Lynch,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+515,ISGSA-604,625,40,CHARCOAL,,,AMS,-98.76662283,42.89970796,1,,25BD1,Lynch,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+516,ISGSA-605,645,35,CHARCOAL,,,AMS,-98.76662283,42.89970796,1,,25BD1,Lynch,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+517,ISGSA-606,630,23,SEEDS,Phaseolus vulgaris cotyledon fragment,,AMS,-98.76662283,42.89970796,1,,25BD2/201,Anoka,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+518,ISGSA-61,354,52,CHARCOAL,,-24.9,AMS,-98.20125322,38.34728357,1,,14RC8,Tobias,USA,Kansas,North America,UWyo2021,Kansas archaeological site file,Unknown lab ID
+519,ISGSA-618,691,24,SEEDS,Prunus americana seed fragment,,AMS,-98.76662283,42.89970796,1,,25BD2/201,Anoka,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+520,ISGSA-619,685,24,SEEDS,Zea mays kernel,,AMS,-98.76662283,42.89970796,1,,25BD2/201,Anoka,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+521,ISGSA-620,720,35,SEEDS,Zea mays kernel,,AMS,-98.76662283,42.89970796,1,,25BD16,Hostert,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+522,ISGSA-621,690,35,SEEDS,Zea mays kernel,,AMS,-98.76662283,42.89970796,1,,25BD16,Hostert,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+523,ISGSA-622,730,35,SEEDS,Zea mays kernel,,AMS,-98.76662283,42.89970796,1,,25BD16,Hostert,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+524,ISGSA-623,730,35,SEEDS,Zea mays kernel,,AMS,-98.76662283,42.89970796,1,,25BD139,Mohr,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+525,ISGSA-624,700,35,SEEDS,Prunus americana seed fragment,,AMS,-98.76662283,42.89970796,1,,25BD139,Mohr,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+526,ISGSA-625,650,25,SEEDS,Vitis sp. Pip,,AMS,-98.76662283,42.89970796,1,,25BD139,Mohr,USA,Nebraska,North America,UWyo2021,Gover 2019 MA thesis,Unknown lab ID
+527,ISGSA-645,1231,44,POTTERYRESIDUE,,-26.7,AMS,-77.04815909,43.32533601,1,,11711.000016/NYSM-1538,Hunter’s Home,USA,New York,North America,UWyo2021,Hart et al. (2008),Unknown lab ID
+528,ISGSA-646,995,35,POTTERYRESIDUE,,-25.6,AMS,-76.20876883,43.46391903,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart et al. (2012),Unknown lab ID
+529,ISGSA-647,1231,44,POTTERYRESIDUE,,-26.7,AMS,-77.04815909,43.32533601,1,,11711.000016/NYSM-1538,Hunter’s Home,USA,New York,North America,UWyo2021,Hart et al. (2008),Unknown lab ID
+530,ISGSA-648,1555,30,POTTERYRESIDUE,,-26.9,AMS,-76.20876883,43.46391903,1,,6705.000007,Felix,USA,New York,North America,UWyo2021,Hart et al. (2012),Unknown lab ID
+531,ISGSA-650,5410,30,BONE,Collagen,-21.7,AMS,-76.82364771,42.78107594,1,,09908.000003/NYSM-46697,Kipp Island,USA,New York,North America,UWyo2021,Hart et. al. (2011) ADDITIONAL EVIDENCE FOR CAL. SEVENTH­CENTURY A.D.MAIZE CONSUMPTION AT THE KIPP ISLAND SITE NEW YORK,Unknown lab ID
+532,ISGSA-651,4510,35,BONE,Collagen,-19.7,AMS,-76.82364771,42.78107594,1,,09908.000003/NYSM-46697,Kipp Island,USA,New York,North America,UWyo2021,Hart et. al. (2011) ADDITIONAL EVIDENCE FOR CAL. SEVENTH­CENTURY A.D.MAIZE CONSUMPTION AT THE KIPP ISLAND SITE NEW YORK,Unknown lab ID
+533,ISGSA-656,1231,44,POTTERYRESIDUE,,-26.7,AMS,-77.04815909,43.32533601,1,,11711.000016/NYSM-1538,Hunter’s Home,USA,New York,North America,UWyo2021,Hart et al. (2008),Unknown lab ID
+534,ISGSA-657,600,30,SEEDS,Zea mays,-8.9,AMS,-76.19456258,43.00587369,1,,06705.000022/Bwv012,Kelso,USA,New York,North America,UWyo2021,Hart and Lovis 2007,Unknown lab ID
+535,ISGSA-66,404,47,CHARCOAL,,-24.6,AMS,-98.20125322,38.34728357,1,,14RC9,C F Thompson,USA,Kansas,North America,UWyo2021,Kansas archaeological site file,Unknown lab ID
+536,ISGSA-660,560,30,OTHER,Grass blade,-9.8,AMS,-76.19456258,43.00587369,1,,06705.000022/Bwv012,Kelso,USA,New York,North America,UWyo2021,Hart and Lovis 2007,Unknown lab ID
+537,ISGSA-661,560,25,SEEDS,Zea mays,-8.3,AMS,-76.19456258,43.00587369,1,,06705.000022/Bwv012,Kelso,USA,New York,North America,UWyo2021,Hart and Lovis 2007,Unknown lab ID
+538,ISGSA-67,449,52,CHARCOAL,,-25,AMS,-98.20125322,38.34728357,1,,14RC9,C F Thompson,USA,Kansas,North America,UWyo2021,Kansas archaeological site file,Unknown lab ID
+539,ISGSA-742,1175,30,POTTERYRESIDUE,,-25.6,AMS,-76.57426501,43.01046949,1,,01108.000002/NYSM-2092,Levanna,USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+540,ISGSA-743,355,30,POTTERYRESIDUE,,-25.3,AMS,-77.29979852,42.85292601,1,,NYSM1036/Hne005/06912.000024,Richmond Mills,USA,New York,North America,UWyo2021,Hart et al. (2012),Unknown lab ID
+541,ISGSA-744,470,30,POTTERYRESIDUE,,-22.9,AMS,-75.66961061,42.91267136,1,,5310.000008,Goff,USA,New York,North America,UWyo2021,Hart et al (2012),Unknown lab ID
+542,ISGSA-745,1575,30,POTTERYRESIDUE,,-29.1,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+543,ISGSA-746,2455,30,POTTERYRESIDUE,,-27.1,AMS,-77.29979852,42.85292601,1,,NYSM-936,Vine Valley,USA,New York,North America,UWyo2021,Taché and Hart (2013),Unknown lab ID
+544,ISGSA-747,2055,35,POTTERYRESIDUE,,-28.1,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. (2011),Unknown lab ID
+545,ISGSA-748,515,35,POTTERYRESIDUE,,-22.4,AMS,-76.19456258,43.00587369,1,,6714.000081,Pompey,USA,New York,North America,UWyo2021,Hart et al. (2012),Unknown lab ID
+546,ISGSA-749,845,25,POTTERYRESIDUE,,-23,AMS,-76.57426501,43.01046949,1,,1114.000006,Lakeside (Owasco Lake),USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+547,ISGSA-750,735,30,POTTERYRESIDUE,,-23.3,AMS,-76.57426501,43.01046949,1,,1114.000006,Lakeside (Owasco Lake),USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+548,ISGSA-751,1115,30,POTTERYRESIDUE,,-24.1,AMS,-76.20876883,43.46391903,1,,7507.000009,Wickham,USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+549,ISGSA-754,1115,35,POTTERYRESIDUE,,-26.1,AMS,-76.57426501,43.01046949,1,,01108.000002/NYSM-2092,Levanna,USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+550,ISGSA-755,355,30,POTTERYRESIDUE,,-29.1,AMS,-75.66961061,42.91267136,1,,5310.000006,Buyea,USA,New York,North America,UWyo2021,Hart et al. (2012),Unknown lab ID
+551,ISGSA-756,455,30,POTTERYRESIDUE,,-25.2,AMS,-75.66961061,42.91267136,1,,5310.000006,Buyea,USA,New York,North America,UWyo2021,Hart et al. (2012),Unknown lab ID
+552,ISGSA-757,1315,30,POTTERYRESIDUE,,-25.6,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. (2011),Unknown lab ID
+553,ISGSA-758,1910,30,POTTERYRESIDUE,,-24.6,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+554,ISGSA-759,520,30,POTTERYRESIDUE,,-24.3,AMS,-76.19456258,43.00587369,1,,06705.000022/Bwv012,Kelso,USA,New York,North America,UWyo2021,Hart and Lovis (2007),Unknown lab ID
+555,ISGSA-760,1810,30,POTTERYRESIDUE,,-27.5,AMS,-76.3061442,42.1705121,1,,NYSM-167,Cottage,USA,New York,North America,UWyo2021,Hart et al. (2007),Unknown lab ID
+556,ISGSA-761,1545,25,POTTERYRESIDUE,,-25.5,AMS,-76.82364771,42.78107594,1,,9908.000003,Kipp Island,USA,New York,North America,UWyo2021,Hart et al. (2011),Unknown lab ID
+557,ISGSA-762,1805,30,POTTERYRESIDUE,,-25.5,AMS,-76.3061442,42.1705121,1,,NYSM-167,Cottage,USA,New York,North America,UWyo2021,Hart et al. (2007),Unknown lab ID
+558,ISGSA-763,460,30,POTTERYRESIDUE,,-24.1,AMS,-75.66961061,42.91267136,1,,5310.000008,Goff,USA,New York,North America,UWyo2021,Hart et al (2012),Unknown lab ID
+559,ISGSA-766,405,30,SEEDS,Zea mays,,AMS,-79.46682604,40.31064472,1,,36WM100,Consol Site,USA,Pennsylvania,North America,UWyo2021,Auffart and Oshnock 2011; SHPO Files; Oshnock personal communication 2019,Unknown lab ID
+560,ISGSA-767,405,30,SEEDS,cotyledon,,AMS,-79.46682604,40.31064472,1,,36WM100,Consol Site,USA,Pennsylvania,North America,UWyo2021,Auffart and Oshnock 2011; SHPO Files; Oshnock personal communication 2019,Unknown lab ID
+561,ISGSA-801,525,30,SEEDS,bean cultigen,,AMS,-83.00906562,39.96958118,1,,33FR52,O.C. Voss Mound and Village,USA,Ohio,North America,UWyo2021,Brady-Rawlins 2007; Nolan 2012,Unknown lab ID
+562,ISGSA-803,970,15,SEEDS,Zea mays Kernel,-9.1,AMS,-90.20150874,39.71565802,1,,11MG179,Spoontoe,USA,Illinois,North America,UWyo2021,Simon 2014-Reevaluating the Introduction of Maize into the American Bottom,Unknown lab ID
+563,ISGSA-85,260,52,CHARCOAL,,-26.2,AMS,-98.20125322,38.34728357,1,,14RC420,Crandall,USA,Kansas,North America,UWyo2021,Kansas archaeological site file,Unknown lab ID
+564,ISGSA-859,1930,30,CHARCOAL,,-25.9,AMS,-101.0756937,39.78527166,1,,14RW418,Burntwood Creek Rockshelter,USA,Kansas,North America,UWyo2021,Murphy and Mandel 2012- The Burntwood Creek Rockshelter Record…,Unknown lab ID
+565,ISGSA-860,7010,40,CHARCOAL,,-25.4,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+566,ISGSA-861,3000,30,SEEDS,black walnut (Juglans nigra) nutshell carbonized,-27.1,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+567,ISGSA-862,3055,35,SEEDS,black walnut (Juglans nigra) nutshell carbonized,-27,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+568,ISGSA-863,2595,30,SEEDS,hickory (Carya sp.) nutshell carbonized,-26,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+569,ISGSA-864,3105,30,SEEDS,hickory (Carya sp.) nutshell carbonized,-25.3,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+570,ISGSA-867,2230,30,BONE,,-7.8,AMS,-101.0756937,39.78527166,1,,14RW418,Burntwood Creek Rockshelter,USA,Kansas,North America,UWyo2021,Murphy and Mandel 2012- The Burntwood Creek Rockshelter Record…,Unknown lab ID
+571,ISGSA-868,7845,25,CHARCOAL,white oak,-26,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+572,ISGSA-869,7940,30,CHARCOAL,,-24.3,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+573,ISGSA-870,8235,40,CHARCOAL,,-26.7,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+574,ISGSA-871,8355,30,SEEDS,black walnut (Juglans nigra) nutshell carbonized,-24.7,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+575,ISGSA-872,7985,35,SEEDS,butternut (Juglans sp.) nutshell carbonized,-26.3,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+576,ISGSA-873,8020,35,CHARCOAL,,-25.2,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+577,ISGSA-877,2525,30,SEEDS,nutshell,-24.6,AMS,-91.16482133,40.40367312,1,,11HA684,Gregory #2,USA,Illinois,North America,UWyo2021,Nolan Mallo and Boyd 2016; Illinois Archaeology vol. 28 pp. 257-290,Unknown lab ID
+578,ISGSA-879,8025,35,SEEDS,hickory (Carya sp.) nutshell carbonized,-25.5,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+579,ISGSA-880,8165,35,SEEDS,hickory (Carya sp.) nutshell carbonized,-26,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+580,ISGSA-881,7825,40,SEEDS,walnut (Juglans sp.) nutshell carbonized,-27.9,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+581,ISGSA-882,7965,35,SEEDS,hickory (Carya sp.) nutshell carbonized,-27.2,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+582,ISGSA-883,8660,40,CHARCOAL,red oak,-25,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+583,ISGSA-884,2885,30,SEEDS,butternut (Juglans sp.) nutshell carbonized,-28.4,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+584,ISGSA-885,8245,35,SEEDS,walnut family (Juglandaceae) nuthsell carbonized,-24.7,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+585,ISGSA-886,8215,35,CHARCOAL,maple,-24.6,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+586,ISGSA-887,1375,30,SEEDS,walnut (Juglans sp.) nutshell carbonized,-24.6,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+587,ISGSA-888,2855,30,SEEDS,walnut (Juglans sp.) nutshell carbonized,-26.9,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+588,ISGSA-889,7910,35,SEEDS,hickory (Carya sp.) nutshell carbonized,-26,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+589,ISGSA-890,8360,50,SEEDS,grape seed carbonized,-25,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+590,ISGSA-892,3120,30,SEEDS,butternut (Juglans sp.) nutshell carbonized,-26.4,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+591,ISGSA-893,1960,30,SEEDS,walnut (Juglans sp.) nutshell carbonized,-25.6,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+592,ISGSA-894,4315,30,SEEDS,hickory (Carya sp.) nutshell carbonized,-23.7,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+593,ISGSA-895,3305,30,CHARCOAL,,,AMS,-79.9809897,40.46889972,1,,36AL482,Glenshaw Rockshelter,USA,Pennsylvania,North America,UWyo2021,Tippins 2011,Unknown lab ID
+594,ISGSA-896,3150,35,CHARCOAL,,,AMS,-79.9809897,40.46889972,1,,36AL482,Glenshaw Rockshelter,USA,Pennsylvania,North America,UWyo2021,Tippins 2011,Unknown lab ID
+595,ISGSA-897,2235,30,CHARCOAL,,,AMS,-79.9809897,40.46889972,1,,36AL482,Glenshaw Rockshelter,USA,Pennsylvania,North America,UWyo2021,Tippins 2011,Unknown lab ID
+596,ISGSA-898,2205,30,CHARCOAL,,,AMS,-79.9809897,40.46889972,1,,36AL482,Glenshaw Rockshelter,USA,Pennsylvania,North America,UWyo2021,Tippins 2011,Unknown lab ID
+597,ISGSA-899,7760,35,SEEDS,walnut family (Juglandaceae) nuthsell carbonized,-24.3,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+598,ISGSA-900,8005,35,SEEDS,walnut (Juglans sp.) nutshell carbonized,-23.2,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+599,ISGSA-901,3070,35,SEEDS,hickory (Carya sp.) nutshell carbonized,-24.6,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+600,ISGSA-902,8075,35,CHARCOAL,,-27,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+601,ISGSA-903,2225,30,SEEDS,walnut (Juglans sp.) nutshell carbonized,-28.1,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+602,ISGSA-904,7850,35,SEEDS,unidentified nutshell carbonized,-27.3,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+603,ISGSA-905,8265,35,SEEDS,unidentified nutshell carbonized,-23.5,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+604,ISGSA-906,8340,40,CHARCOAL,,-25.1,AMS,-81.51485535,39.21122311,1,,46WD83-A,West Blennerhassett,USA,West Virginia,North America,UWyo2021,Robinson 2009-Holocene landform evolution and natural site formation…,Unknown lab ID
+605,ISGSA-942,4848,125,BONE,collagen,-19.5,AMS,-90.20743186,40.47273335,1,,11F53,Tree Row,USA,Illinois,North America,UWyo2021,McElrath and Evans 2016; Illinois Archaeology vol. 28 pp. 229-256,Unknown lab ID
+606,ISGSA-944,2620,95,BONE,collagen,-19.2,AMS,-90.20743186,40.47273335,1,,11F53,Tree Row,USA,Illinois,North America,UWyo2021,McElrath and Evans 2016; Illinois Archaeology vol. 28 pp. 229-256,Unknown lab ID
+607,ISGSA-946,4050,115,BONE,collagen,-16.4,AMS,-90.20743186,40.47273335,1,,11F53,Tree Row,USA,Illinois,North America,UWyo2021,McElrath and Evans 2016; Illinois Archaeology vol. 28 pp. 229-256,Unknown lab ID
+608,ISGSA-982,510,20,CHARCOAL,,,AMS,-79.64691734,39.91979862,1,,36FA22,Phillips,USA,Pennsylvania,North America,UWyo2021,Means 2010,Unknown lab ID
+609,ISGSA-988,705,15,BONE,collagen mammal bone bead blank,,AMS,-79.64691734,39.91979862,1,,36FA22,Phillips,USA,Pennsylvania,North America,UWyo2021,Means 2010,Unknown lab ID
+610,ISGSI-220,3500,70,charcoal,,,,-80.260125,-0.196863,2,,,Jama Valley,Ecuador,,South America,Goldberg_2016,Denbow J. 2011. Excavations at Divuyu Tsodilo Hills.Botswana Notes and Records43 pp.76-94.,Unknown lab ID
+611,ISGSM-76,6490,150,CHARCOAL,,,RADIOMETRIC,-90.88633619,39.62259435,1,,11PK10,Chrisman,USA,Illinois,North America,UWyo2021,McGregor 1954,Unknown lab ID
+612,ISOTOPESI-16269,1430,60,Charcoal,,,,-89.072021,17.15526,1,,,Buenavista del Cayo,Belize,,Central America,MesoRAD2020,Coupland et al. 2003 Table 6.1;  Patton 2011,Unknown lab ID
+613,KIAND-1,37040,440,bone,,,,7.8798,51.3575,1,,,Volkringhauser Hohle,Germany,,Europe,Vermeersch2019,Tafelmaier Y. 2011. Quartar 58: 153-182.,Unknown lab ID
+614,KIAND-2,39870,780,bone,,,,7.8798,51.3575,1,,,Vonsmose,Germany,,Europe,Vermeersch2019,Neugebauer-Maresch 1999,Unknown lab ID
+615,KII-399901,7300,55,charcoal,,-25.09,,10.5037,54.0292,1,,,Seedorf LA 296,Germany,,Europe,CALPAL,Kiel DB 3114,Unknown lab ID
+616,KII-776,4700,75,wood,,0,,9.7441,54.8016,1,,,Bostholm,Germany,,Europe,CALPAL,Kiel DB 2174,Unknown lab ID
+617,KIND-1,17200,250,,,,,32.0276,49.4646,1,,,Mezhirich,Ukraine,,Europe,Vermeersch2019,Kozlowski J. 2007. Paleo,Unknown lab ID
+618,KIND-2,17560,270,,,,,32.0276,49.4646,1,,,Mezhirich,Ukraine,,Europe,Vermeersch2019,Bradtmöller 2007,Unknown lab ID
+619,KNI-038,3700,120,,,,,28.37327,44.10485,2,,,Hamangia,Romania,,Europe,RADON-B,László 1997 265,Unknown lab ID
+620,KNI-102,6480,75,Charcoal,,,,,,0,,,Copacelu-Valea Raii,Romania,,Europe,14SEA,Breunig 1987: 117 Mantu 1999–2000: 98 Nitu and Tulugea 2011: 46,Unknown lab ID
+621,KNI-142,5560,265,wood,,,,8.33,52.51,2,,,Dümmer,Germany,,Europe,EUROEVOL,,Unknown lab ID
+622,KNI-149,5750,65,Charcoal,,,,,,0,,,Cascioarele-Ostrovel,Romania,,Europe,14SEA,Quitta & Kohl 1969: 238ff Mantu 1995: 227 Reingruber & Rassamakin 2016: Appendix,Unknown lab ID
+623,KNI-153,5720,60,Charcoal,,,,,,0,,,Cascioarele-Ostrovel,Romania,,Europe,14SEA,Quitta & Kohl 1969: 238ff Reingruber & Rassamakin 2016: Appendix,Unknown lab ID
+624,KNI-157,7060,160,,,,,5.314,43.519,2,,,Abri des Boeufs,France,,Europe,EUROEVOL,,Unknown lab ID
+625,KNI-16,5110,40,charcoal,,,,3.98,50.42,2,,,Spiennes Camp-à-Cayaux,Belgium,,Europe,EUROEVOL,,Unknown lab ID
+626,KNI-191B,4980,60,charcoal,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+627,KNI-192,5140,55,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+628,KNI-193A,5250,65,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+629,KNI-193B,5300,40,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+630,KNI-194,5180,50,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+631,KNI-195,5190,40,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+632,KNI-201,2770,50,,,,,-8.922778,38.7075,2,,,Atalaia,Portugal,,Europe,RADON-B,Sanjuán/Pérez 2011 152,Unknown lab ID
+633,KNI-2056,28400,450,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Wendt W.E. 1976. 'Art Mobilier'from the Apollo 11 Cave South West Africa: Africa's Oldest Dated Works of Art.The South African Archaeological Bulletin pp.5-11.,Unknown lab ID
+634,KNI-2057,18660,210,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Gopher 1985 Kuijt and Bar-Yosef 1994,Unknown lab ID
+635,KNI-21,5080,70,wood,,,,8.00669,47.1852,2,,,Egolzwil 4,Switzerland,,Europe,EUROEVOL,,Unknown lab ID
+636,KNI-237,4000,65,charcoal,,,,12.33528,51.095,2,,,Luckaer Forst,Germany,,Europe,RADON-B,Furholt 2003 273,Unknown lab ID
+637,KNI-2C,4880,135,charred plant macrofossils,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+638,KNI-300,5260,40,charcoal,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+639,KNI-303,5170,65,charcoal,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+640,KNI-304B,5190,60,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+641,KNI-305B,5160,40,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+642,KNI-306,5260,40,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+643,KNI-307,5160,50,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+644,KNI-308,5170,40,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+645,KNI-31,5250,65,wood,,,,8.33,52.51,2,,,Dümmer,Germany,,Europe,EUROEVOL,,Unknown lab ID
+646,KNI-311,5210,40,plant macrofossils,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+647,KNI-312,5230,55,wood,,,,9.92306,48.4105,2,,,Blaustein-Ehrenstein,Germany,,Europe,EUROEVOL,,Unknown lab ID
+648,KNI-319,3890,40,charcoal,,,,12.54813,50.98012,2,,,Forst Leina,Germany,,Europe,RADON-B,Furholt 2003 193,Unknown lab ID
+649,KNI-336,9120,85,charcoal,,,,34.98,32.73,2,,,Iraq el-Barud,Israel,,Asia,CONTEXT,Gopher 1985 Kuijt and Bar-Yosef 1994,Unknown lab ID
+650,KNI-364,5540,115,charcoal,,,,6.28712,50.8949,2,,,Aldenhoven,Germany,,Europe,EUROEVOL,,Unknown lab ID
+651,KNI-379,5620,120,charcoal,,,,8.37,52.89,2,,,Holzhausen,Germany,,Europe,EUROEVOL,,Unknown lab ID
+652,KNI-413,5500,60,charcoal,,,,9.2,49.16,2,,,Heilbronn-Neckargartach Hetzenberg,Germany,,Europe,EUROEVOL,,Unknown lab ID
+653,KNI-415,5370,70,charcoal,,,,9.2,49.16,2,,,Heilbronn-Neckargartach Hetzenberg,Germany,,Europe,EUROEVOL,,Unknown lab ID
+654,KNI-418,5270,40,charcoal,,,,9.2,49.16,2,,,Heilbronn-Neckargartach Hetzenberg,Germany,,Europe,EUROEVOL,,Unknown lab ID
+655,KNI-419,5080,50,charcoal,,,,9.2,49.16,2,,,Heilbronn-Neckargartach Hetzenberg,Germany,,Europe,EUROEVOL,,Unknown lab ID
+656,KNI-424A,4290,70,charcoal,,,,11.899,51.49,2,,,Halle Dölauer Heide,Germany,,Europe,EUROEVOL,,Unknown lab ID
+657,KNI-425,3770,80,charcoal,,,,11.05,54.27,2,,,Heringsdorf- Süssau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+658,KNI-44,3900,50,,,,,11.94381,50.97645,2,,,Etzdorf,Germany,,Europe,RADON-B,Furholt 2003 272,Unknown lab ID
+659,KNI-458,4160,45,charcoal,,,,11.05,54.27,2,,,Heringsdorf- Süssau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+660,KNI-460,2940,45,charcoal,,,,15.35,-21.567,2,,,Fackeltrager Shelter Omandumba,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+661,KNI-461,2910,45,charcoal,,,,15.35,-21.567,2,,,Fackeltrager Shelter Omandumba,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+662,KNI-465,1930,50,charcoal,,,,15.65,-21.45,2,,,Etemba Shelter,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+663,KNI-467,420,60,charcoal,,,,15.65,-21.45,2,,,Etemba Shelter,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+664,KNI-469,370,50,charcoal,,,,14.383,-20.583,2,,,Hasenbild Twyfelfontein,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+665,KNI-489,5820,55,charcoal,,,,6.28712,50.8949,2,,,Aldenhoven,Germany,,Europe,EUROEVOL,,Unknown lab ID
+666,KNI-491,3950,40,charcoal,,,,11.05,54.27,2,,,Heringsdorf- Süssau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+667,KNI-494,4410,40,charcoal,,,,11.05,54.27,2,,,Heringsdorf- Süssau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+668,KNI-507,4370,45,charcoal,,,,11.05,54.27,2,,,Heringsdorf- Süssau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+669,KNI-508,4390,40,charcoal,,,,11.05,54.27,2,,,Heringsdorf- Süssau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+670,KNI-512,4400,40,charcoal,,,,11.05,54.27,2,,,Heringsdorf- Süssau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+671,KNI-530,6190,65,charcoal,,,,6.266667,50.88333,2,,,Niedermerz 3,Germany,,Europe,RADON,Jadin 2003,Unknown lab ID
+672,KNI-531,6070,95,charcoal,,,,6.266667,50.88333,2,,,Niedermerz 3,Germany,,Europe,RADON,Jadin 2003,Unknown lab ID
+673,KNI-568,5660,40,charcoal,,,,8.75,50.35,2,,,Schwalheim,Germany,,Europe,EUROEVOL,,Unknown lab ID
+674,KNI-585,5230,90,charcoal,,,,7.97,51.48,2,,,Höingen,Germany,,Europe,EUROEVOL,,Unknown lab ID
+675,KNI-594,6180,50,charcoal,,,,6.33333,50.86667,2,,,Aldenhoven Niedermerz 1,Germany,,Europe,RADON,Jadin 2003,Unknown lab ID
+676,KNI-596,7240,55,Burnt cereals,,,,,,0,,,Porodin,North Macedonia,,Europe,14SEA,Gimbutas 1991: 441 Table 2,Unknown lab ID
+677,KNI-596H1486987,7224,52,Burnt cereals,,,,,,0,,,Porodin,North Macedonia,,Europe,14SEA,,Unknown lab ID
+678,KNI-597,5030,45,wood,,,,8.70445,47.7361,2,,,Thayngen Weier,Switzerland,,Europe,EUROEVOL,,Unknown lab ID
+679,KNI-6,6210,50,charcoal,,,,6.66,50.75,2,,,Müddersheim,Germany,,Europe,EUROEVOL,,Unknown lab ID
+680,KNI-608,490,45,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+681,KNI-609,6200,65,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+682,KNI-610,9430,90,,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+683,KNI-611,10420,80,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+684,KNI-612,13690,120,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Wendt W.E. 1976. 'Art Mobilier'from the Apollo 11 Cave South West Africa: Africa's Oldest Dated Works of Art.The South African Archaeological Bulletin pp.5-11.,Unknown lab ID
+685,KNI-613,14550,60,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Wendt W.E. 1976. 'Art Mobilier'from the Apollo 11 Cave South West Africa: Africa's Oldest Dated Works of Art.The South African Archaeological Bulletin pp.5-11.,Unknown lab ID
+686,KNI-614,13030,100,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Wendt W.E. 1976. 'Art Mobilier'from the Apollo 11 Cave South West Africa: Africa's Oldest Dated Works of Art.The South African Archaeological Bulletin pp.5-11.,Unknown lab ID
+687,KNI-624,6910,45,charcoal,,,,16.517,-27.217,2,,,Pockenbank,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+688,KNI-625,19320,320,charcoal,,,,16.517,-27.217,2,,,Pockenbank,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+689,KNI-627,29900,1600,charcoal,,,,16.517,-27.217,2,,,Pockenbank,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+690,KNI-628,33500,750,charcoal,,,,16.517,-27.217,2,,,Pockenbank,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+691,KNI-629,36000,1150,charcoal,,,,16.517,-27.217,2,,,Pockenbank,Namibia,,Africa,SARD,,Unknown lab ID
+692,KNI-636,860,55,charcoal,,,,14.283,-21.367,2,,,Messum Shelter,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+693,KNI-637,2070,90,charcoal,,,,14.283,-21.367,2,,,Messum Shelter,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+694,KNI-638,2830,55,charcoal,,,,14.283,-21.367,2,,,Messum Shelter,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+695,KNI-639,2090,45,charcoal,,,,14.283,-21.367,2,,,Messum Shelter,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+696,KNI-663,5490,85,charcoal,,,,6.62,50.95,2,,,Bergheim,Germany,,Europe,EUROEVOL,,Unknown lab ID
+697,KNI-664,5540,95,charcoal,,,,6.62,50.95,2,,,Bergheim,Germany,,Europe,EUROEVOL,,Unknown lab ID
+698,KNI-726,5480,65,charcoal,,,,10.126,49.8226,2,,,Schernau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+699,KNI-727,5450,50,charcoal,,,,10.126,49.8226,2,,,Schernau,Germany,,Europe,EUROEVOL,,Unknown lab ID
+700,KNI-729,230,50,charcoal,,,,15.35,-21.567,2,,,Fackeltrager Shelter Omandumba,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+701,KNI-730,2840,55,charcoal,,,,15.35,-21.567,2,,,Fackeltrager Shelter Omandumba,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+702,KNI-731,2150,60,charcoal,,,,15.35,-21.567,2,,,Fackeltrager Shelter Omandumba,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+703,KNI-732,2190,40,charcoal,,,,15.35,-21.567,2,,,Fackeltrager Shelter Omandumba,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+704,KNI-811,13470,125,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Wendt W.E. 1976. 'Art Mobilier'from the Apollo 11 Cave South West Africa: Africa's Oldest Dated Works of Art.The South African Archaeological Bulletin pp.5-11.,Unknown lab ID
+705,KNI-812,19760,175,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Wendt W.E. 1976. 'Art Mobilier'from the Apollo 11 Cave South West Africa: Africa's Oldest Dated Works of Art.The South African Archaeological Bulletin pp.5-11.,Unknown lab ID
+706,KNI-813,26700,650,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,László 1997 265,Unknown lab ID
+707,KNI-846,1460,55,plant remains,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+708,KNI-867,7200,75,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+709,KNI-869,33370,550,charcoal,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+710,KNI-870,1670,55,plant remains,,,,17.1,-27.75,2,,,Apollo 11 Cave,Namibia,,Africa,SARD,,Unknown lab ID
+711,KNI-915,10370,105,charcoal,,,,-0.3011,39.1456,1,,,Mallaetes or Malladetes (à),Spain,,Europe,Vermeersch2019,Journal of World Prehistory 12 1998: 121-198,Unknown lab ID
+712,KNI-918,16300,1500,,,,,-0.3011,39.0122,1,,,Mallaetes or Maladetes (à),Spain,,Europe,Vermeersch2019,Fortea y Jorda 1976. Zephyrus 26-27: 129-166.,Unknown lab ID
+713,KNI-919,20140,460,charcoal,,,,-0.3011,39.0122,1,,,Malta,Spain,,Europe,Vermeersch2019,Allsworth-Jones P. 1986 ('The Szeletian'. Oxford Clarendon Press) Fortea y Jorda 1976. Zephyrus 26-27: 129-166. Renault-Miskovsky J. Leroi-Gourhan Arl. 1981. Bull. AFEQ vol 3-4 : 121-128.,Unknown lab ID
+714,KNI-920,21710,650,charcoal,,,,-0.3011,39.0122,1,,,Mallaetes or Malladetes (à),Spain,,Europe,Vermeersch2019,Fortea y Jorda 1976. Zephyrus 26-27: 129-166. Renault-Miskovsky J. Leroi-Gourhan Arl. 1981. Bull. AFEQ vol 3-4 : 121-128.,Unknown lab ID
+715,KNI-926,29690,560,charcoal,,,,-0.3011,39.0122,1,,,Mallaetes or Malladetes (à),Spain,,Europe,Vermeersch2019,Freundlich JC Schwabedissen H and Wendt WE. 1980. Köln radiocarbon measurements II.Radiocarbon22(01) pp.68-81.,Unknown lab ID
+716,KNL-918,16300,150,charcoal,,,,-0.3011,39.0122,1,,,Mallaetes or Malladetes (à),Spain,,Europe,Vermeersch2019,,Unknown lab ID
+717,KNL-926,29690,560,charcoal,,,,-0.3011,39.0122,1,,,Mallaetes or Malladetes (à),Spain,,Europe,Vermeersch2019,Schwabedissen 1978 112 (1430+-60) (Ke 2243 (1190+-40); Zimmermann 1988 284,Unknown lab ID
+718,LJGAP-68,2200,300,Charcoal,,,,-88.157867,21.59782,1,,,Isla Cancún,Mexico,,Central America,MesoRAD2020,NSM 2006,Unknown lab ID
+719,LYC-577,11109,480,,,,,-3.9656,43.2924,1,,,El Castillo,Spain,,Europe,Vermeersch2019,Petillon JM.  Gallia PrÔøΩhistoire 57   2017 65-126.,Unknown lab ID
+720,LYND-1,23150,170,bone,,,,1.6789,44.5199,1,,,Peyrugues,France,,Europe,Vermeersch2019,Banadora,Unknown lab ID
+721,LYND-2,13350,350,bone Coelodonta antiquitatis Linty,,,,4.7204,46.2978,1,,,Solutre Terre Seve Sondage B,France,,Europe,Vermeersch2019,,Unknown lab ID
+722,LYND-3,7650,160,,,,,5.5,46.75,1,,,De Nadale Cave,France,,Europe,Vermeersch2019,Evin J.  1994  Radiocarbon Volume 36 3: 345 ff. http://bocquet.club.fr/page 5a.htm,Unknown lab ID
+723,LYND-4,14700,300,charcoal,,,,5.3667,46.0833,1,,,La Colombiere,France,,Europe,Vermeersch2019,Evin J.  1994  Radiocarbon Volume 36 3: 345 ff. http://bocquet.club.fr/page 5a.htm,Unknown lab ID
+724,LYND-5,15500,700,charcoal,,,,5.3667,46.0833,1,,,La Colombiere,France,,Europe,Vermeersch2019,Klaric L. 2007. Antiquity 81: 176-190. Bertran P. 2005. Quaternaire:. 25-44. Collins PhD,Unknown lab ID
+725,LYND-6,18910,110,.,,,,1.6789,44.5199,1,,,Peyrugues,France,,Europe,Vermeersch2019,,Unknown lab ID
+726,LYSACA-28802,10440,50,tooth,,,,0.8253,44.3909,1,,,Portel,France,,Europe,Vermeersch2019,.Langlais M.   2012. LES GROUPES CULTURELS   DE LA TRANSITION   PLÔøΩISTOCÔøΩNE-HOLOCÔøΩNE  ENTRE ATLANTIQUE ET ADRIATIQUE,Unknown lab ID
+727,LYSACA-28804,10350,50,tooth,,,,0.5,44.6,1,,,La Cala,France,,Europe,Vermeersch2019,RÔøΩÔøΩvaluation des gisements de La Borie del Rey et de Port-de-Penne,Unknown lab ID
+728,LYSACA-288303,10340,50,bone,,,,0.5,44.6,1,,,La Borie del Rey,France,,Europe,Vermeersch2019,Leschtakov 2018,Unknown lab ID
+729,MCND-1,7360,100,,,,,5.1667,43.3833,1,,,Font des Pigeons,France,,Europe,Vermeersch2019,,Unknown lab ID
+730,MCND-2,7525,100,,,,,5.1667,43.3833,1,,,Font Voltada,France,,Europe,Vermeersch2019,Özbakan 1988,Unknown lab ID
+731,MI-84,625,50,Charcoal,,,,-4.333333,14.5,2,,,Ngomi,Mali,,Africa,Kay_WestAfrica,Calvocoressi D. and David N. (1979). A New Survey of Radiocarbon and Thermoluminescence Dates for west Africa. The Journal of African History 20 pp 1-29. doi:10.1017/S0021853700016698.,Unknown lab ID
+732,MI-87,645,70,Charcoal,,,,-4.333333,14.5,2,,,Ngomi,Mali,,Africa,Kay_WestAfrica,Calvocoressi D. and David N. (1979). A New Survey of Radiocarbon and Thermoluminescence Dates for west Africa. The Journal of African History 20 pp 1-29. doi:10.1017/S0021853700016698.,Unknown lab ID
+733,MURRMPS-072,1458,62,Charcoal,,,,-89.554307,20.364382,1,,,Chac II,Mexico,,Central America,MesoRAD2020,Smyth 1998:147 Table 4,Unknown lab ID
+734,MURRMPS-073,1283,59,Charcoal,,,,-89.554307,20.364382,1,,,Chac II,Mexico,,Central America,MesoRAD2020,MoralesMulazzani.2015Bask,Unknown lab ID
+735,OBDYC-187131,1100,520,,,,,14.043182,10.069357,2,,,Groumoui,Cameroon,,Africa,Kay_WestAfrica,DELNEUF Michèle ESSOMBA Joseph-Marie FROMENT Alain (éds). Paléo-anthropologie en Afrique centrale : un bilan de l'archéologie au Cameroun. Paris France : L'Harmattan 1998 368p. (Etudes Africaines) ISBN : 2-7384-7405-5,Unknown lab ID
+736,OBDYC-187231,1190,300,,,,,14.043182,10.069357,2,,,Groumoui,Cameroon,,Africa,Kay_WestAfrica,DELNEUF Michèle ESSOMBA Joseph-Marie FROMENT Alain (éds). Paléo-anthropologie en Afrique centrale : un bilan de l'archéologie au Cameroun. Paris France : L'Harmattan 1998 368p. (Etudes Africaines) ISBN : 2-7384-7405-5,Unknown lab ID
+737,OBDYC-2872321,1520,940,,,,,14.043182,10.069357,2,,,Groumoui,Cameroon,,Africa,Kay_WestAfrica,DELNEUF Michèle ESSOMBA Joseph-Marie FROMENT Alain (éds). Paléo-anthropologie en Afrique centrale : un bilan de l'archéologie au Cameroun. Paris France : L'Harmattan 1998 368p. (Etudes Africaines) ISBN : 2-7384-7405-5,Unknown lab ID
+738,OBDYC-85130,940,280,,,,,14.043182,10.069357,2,,,Groumoui,Cameroon,,Africa,Kay_WestAfrica,DELNEUF Michèle ESSOMBA Joseph-Marie FROMENT Alain (éds). Paléo-anthropologie en Afrique centrale : un bilan de l'archéologie au Cameroun. Paris France : L'Harmattan 1998 368p. (Etudes Africaines) ISBN : 2-7384-7405-5,Unknown lab ID
+739,OBDYXX-1,2220,170,wood,,,,-80.155924,-5.093173,2,,,Nananique,Peru,,South America,Goldberg_2016,Ricklis et al 2012; Archaeology and Bioarchaeology of the Buckeye Knoll Site (41VT98) Victoria County Texas,Unknown lab ID
+740,OXADUPL-21072,19235,75,Cyclope neritea,,,,17.9609,40.1558,1,,,Cavallo,Italy,,Europe,Vermeersch2019,Kuzmin Y.V  2004. Nucl. Instr.and Meth. In Phys. Res. B 223-224: 731-734. Marom  2012. PNAS 109: 6879. Kuzmin Y.V. 2014 Radiocarbon 56:454.,Unknown lab ID
+741,OXAND-1,17720,90,objet arciforme (BadegoulienÃƒÆ’Ã‚Â),,,,1.6467,44.5013,1,,,Petit Cloup Barrat,France,,Europe,Vermeersch2019,Sampson A. Eura sian Pre his tory 6 (1ÔøΩ2): 199ÔøΩ231,Unknown lab ID
+742,OXAND-2,12345,70,charcoal,,,,23.2046,38.4526,1,,,Sarakenos,Greece,,Europe,Vermeersch2019,Karamitrou-Mentessidi 2014: 245,Unknown lab ID
+743,OXAT-10,7400,35,Human bone,,,,21.7,40.4,1,,,Mavropigi,Greece,,Europe,14SEA,Karamitrou-Mentessidi 2014: 245,Unknown lab ID
+744,OXAT-3,7463,36,Human bone,,,,21.7,40.4,1,,,Mavropigi,Greece,,Europe,14SEA,Karamitrou-Mentessidi 2014: 245,Unknown lab ID
+745,OXAT-7,7073,35,Human bone,,,,21.7,40.4,1,,,Mavropigi,Greece,,Europe,14SEA,Karamitrou-Mentessidi 2014: 245,Unknown lab ID
+746,OXAT-9,7168,35,Human bone,,,,21.7,40.4,1,,,Mavropigi,Greece,,Europe,14SEA,Karamitrou-Mentessidi 2014: 245,Unknown lab ID
+747,OXAV-205640,2295,28,bone,Homo sapiens,,AMS,18.441,-33.732,2,,,Melkbosstrand burials,South Africa,Western Cape,Africa,SARD,Sealy J. Ludwig B. and Henderson Z. 2006. New radiocarbon dates for Matjes River rock shelter.The South African Archaeological Bulletin pp.98-101.,Unknown lab ID
+748,OXAV-206452,7295,32,,,,,23.417,-34.017,2,,,Matjies River,South Africa,,Africa,SARD,Ribot I. Morris A.G. Sealy J. and Maggs T. 2010. Population history and economic change in the last 2000 years in KwaZulu-Natal RSA.Southern African Humanities22(1) pp.89-112.,Unknown lab ID
+749,OXAV-206455,2532,26,bone,,,,32.065,-28.82,2,,,Richards Bay,South Africa,,Africa,SARD,Sealy J. Ludwig B. and Henderson Z. 2006. New radiocarbon dates for Matjes River rock shelter.The South African Archaeological Bulletin pp.98-101.,Unknown lab ID
+750,OXAV-206456,9688,36,,,,,23.417,-34.017,2,,,Matjies River,South Africa,,Africa,SARD,,Unknown lab ID
+751,OXAV-212451,2175,32,bone,,,,-0.5573,54.0282,2,,,Wetwang Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+752,OXAV-216439,3846,29,bone,,,,-2.4321,55.9707,2,,,Skateraw,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+753,OXAV-216440,3584,28,bone,,,,-6.235,56.2895,2,,,Ardachy Mull,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+754,OXAV-216633,1544,29,bone,,,,-5.3109,55.5404,2,,,Machrie Moor Arran,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+755,OXAV-216634,3835,33,bone,,,,-2.3682,57.2633,2,,,Broomend of Crichie,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+756,OXAV-216635,3506,32,bone,,,,-2.1314,57.0508,2,,,Longhillock Cottages Clashfarquhar,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+757,OXAV-216636,3683,32,bone,,,,-2.9511,56.5467,2,,,Tealing Hill,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+758,OXAV-216637,454,26,bone,,,,-3.5244,55.99,2,,,Near House of Binns,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+759,OXAV-216638,3733,33,bone,,,,-2.9684,55.9437,2,,,Birsley Quarry,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+760,OXAV-216639,3461,32,bone,,,,-1.7328,51.1293,2,,,Porton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+761,OXAV-216640,3513,32,bone,,,,-1.7328,51.1293,2,,,Porton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+762,OXAV-216641,3743,33,bone,,,,-4.2409,57.443,2,,,Inverness Holm Mains Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+763,OXAV-216642,3755,32,bone,,,,-4.2409,57.443,2,,,Inverness Holm Mains Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+764,OXAV-216643,3632,37,bone,,,,-3.9187,57.5753,2,,,Delnies Carnach House,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+765,OXAV-216644,3770,31,bone,,,,-2.5025,57.5212,2,,,Upper Mains Catterline,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+766,OXAV-216645,3697,33,charcoal/bone,,,,-4.228,57.4476,2,,,Culduthel,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+767,OXAV-216646,3741,32,bone,,,,-2.2683,56.9324,2,,,Nether Criggie,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+768,OXAV-216742,3826,39,bone,,,,-2.6157,55.9598,2,,,Stenton Ruchlaw Mains,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+769,OXAV-216743,3605,60,bone,,,,-2.3462,55.629,2,,,Redden Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+770,OXAV-216743A,3752,31,bone,,,,-2.0265,57.3075,2,,,Foveran Formartine,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+771,OXAV-216743B,3156,31,bone,,,,-4.1923,58.404,2,,,Rough Haugh,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+772,OXAV-216744,3582,32,bone,,,,-3.5178,56.0045,2,,,Blackness Castle,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+773,OXAV-216745,2038,32,bone,,,,-3.0556,55.9395,2,,,Kirk Park Musselburgh,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+774,OXAV-216842,3803,32,bone,,,,-3.6197,55.6213,2,,,Boatbridge Quarry,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+775,OXAV-216843,3645,31,bone,,,,-3.4077,56.1738,2,,,Gairneybank,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+776,OXAV-217212,3562,30,bone,,,,-4.2393,57.689,2,,,Dalmore,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+777,OXAV-217213,3499,32,bone,,,,-4.2393,57.689,2,,,Dalmore,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+778,OXAV-217214,3769,32,bone,,,,-2.3314,57.0636,2,,,Park Quarry,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+779,OXAV-217215,3752,31,bone,,,,-2.0265,57.3075,2,,,Foveran Formartine,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+780,OXAV-217216,2761,31,bone,,,,-3.9725,57.9766,2,,,Golspie,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+781,OXAV-217217,405,27,bone,,,,-2.2797,56.8291,2,,,Gourdon Seaview Terrace,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+782,OXAV-217218,3715,32,bone,,,,-2.0663,57.25,2,,,Keir,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+783,OXAV-217219,3725,33,bone,,,,-2.418,57.271,2,,,Manar House,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+784,OXAV-217220,3677,31,bone,,,,-2.5082,57.3175,2,,,Newlands of Oyne,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+785,OXAV-217221,3652,32,bone,,,,-3.1536,56.1185,2,,,Kirkcaldy Priory Park,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+786,OXAV-217222,3910,33,bone,,,,-2.3327,56.9288,2,,,Pitdrichie Farm 2 Keabog,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+787,OXAV-217223,3845,32,bone,,,,-2.005,57.559,2,,,Sandhole Denhead,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+788,OXAV-217224,3156,31,bone,,,,-4.211,58.5273,2,,,9 Holdings,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+789,OXAV-217225,3686,32,bone,,,,-2.1935,57.1852,2,,,Stoneywood Aberdeen,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+790,OXAV-217226,3745,32,bone,,,,-4.4934,57.6018,2,,,Fodderty Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+791,OXAV-217227,3534,31,bone,,,,-4.3379,57.4093,2,,,Lochend,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+792,OXAV-217231,3803,32,bone,,,,-2.408,57.5799,2,,,Fintry,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+793,OXAV-217232,1299,30,bone,,,,-2.584,55.5735,2,,,Near Littledean Tower Kelso,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+794,OXAV-219750,3774,36,bone,,,,-0.7756,54.045,2,,,Acklam Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+795,OXAV-219751,3699,35,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+796,OXAV-219752,3663,38,bone,,,,-0.7814,54.057,2,,,Aldro,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+797,OXAV-219753,4367,36,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+798,OXAV-219754,3825,36,bone,,,,-0.7673,54.0376,2,,,Hanging Grimston,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+799,OXAV-219755,3613,35,bone,,,,-0.7601,54.0007,2,,,Garrowby Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+800,OXAV-219916,3688,29,bone,,,,-0.7814,54.057,2,,,Aldro,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+801,OXAV-219917,4906,32,bone,,,,-0.7308,53.9922,2,,,Calais Wold Bishop Wilton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+802,OXAV-219918,3749,30,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+803,OXAV-219919,3748,29,bone,,,,-0.7756,54.045,2,,,Acklam Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+804,OXAV-219920,4855,32,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+805,OXAV-219921,4903,31,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+806,OXAV-219922,3610,30,bone,,,,-0.7756,54.045,2,,,Acklam Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+807,OXAV-219923,3698,30,bone,,,,-0.7756,54.045,2,,,Acklam Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+808,OXAV-219924,3389,30,bone,,,,-0.7371,54.0162,2,,,Painsthorpe Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+809,OXAV-219926,3773,31,bone,,,,-2.7449,55.9667,2,,,Haddington Abbey Mains,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+810,OXAV-219927,3774,29,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+811,OXAV-219931,3780,29,bone,,,,-0.7673,54.0376,2,,,Hanging Grimston,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+812,OXAV-219932,4422,30,bone,,,,-0.7814,54.057,2,,,Aldro,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+813,OXAV-219933,3729,29,bone,,,,-0.7601,54.0007,2,,,Garrowby Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+814,OXAV-219934,3719,27,bone,,,,-0.7371,54.0162,2,,,Painsthorpe Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+815,OXAV-219935,3740,30,bone,,,,-0.7814,54.057,2,,,Aldro,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+816,OXAV-219936,5028,30,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+817,OXAV-219937,3764,28,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+818,OXAV-219938,3584,30,bone,,,,-0.7601,54.0007,2,,,Garrowby Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+819,OXAV-219939,3611,30,bone,,,,-0.7601,54.0007,2,,,Garrowby Wold,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+820,OXAV-219940,3627,30,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+821,OXAV-219941,3643,30,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+822,OXAV-219942,3742,31,bone,,,,-0.7814,54.057,2,,,Aldro,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+823,OXAV-219943,3679,32,bone,,,,-0.7814,54.057,2,,,Aldro,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+824,OXAV-219944,3795,32,bone,,,,-0.7814,54.057,2,,,Aldro,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+825,OXAV-219945,2693,31,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+826,OXAV-219946,3793,34,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,Lanting J.N.Van der Plicht J. I996 Palaeohistoria 37/38: 7I-125. Renault-Miskovsky J. Leroi-Gourhan Arl. 1981. Bull. AFEQ vol 3-4 : 121-128,Unknown lab ID
+827,OXAV-221749,1686,29,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+828,OXAV-221750,1731,29,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+829,OXAV-221751,1692,28,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+830,OXAV-221752,1683,28,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+831,OXAV-221753,1708,28,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+832,OXAV-221754,1711,29,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+833,OXAV-221755,1671,28,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+834,OXAV-221756,1703,28,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+835,OXAV-221757,1654,29,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,Lanting J.N.Van der Plicht J. I996 Palaeohistoria 37/38: 7I-125. Renault-Miskovsky J. Leroi-Gourhan Arl. 1981. Bull. AFEQ vol 3-4 : 121-128,Unknown lab ID
+836,OXAV-22186,1676,26,bone,,,,-1.1582,51.6506,2,,,Queenford Farm Dorchester-upon-Thames,United Kingdom,,Europe,Bevan2017,48. Tagung Hugo Obermaier Gesellschaft Cologne 2006.,Unknown lab ID
+837,OXAV-222645,3799,29,bone,,,,-1.8734,51.2028,2,,,Shrewton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+838,OXAV-222839,3815,29,bone,,,,-2.2739,57.2289,2,,,Kinaldie Cottages,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+839,OXAV-222840,3734,30,bone,,,,-1.9736,51.3817,2,,,Roundway,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+840,OXAV-222841,4157,29,bone,,,,-1.8297,51.4535,2,,,Winterbourne Monkton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+841,OXAV-222843,3732,27,bone,,,,-1.7633,51.2447,2,,,Netheravon Flying School Fittleton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+842,OXAV-222844,3763,27,bone,,,,-1.7633,51.2447,2,,,Netheravon Flying School Fittleton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+843,OXAV-222845,3873,28,bone,,,,-1.7789,51.2918,2,,,Upavon flying school,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+844,OXAV-222846,3718,28,bone,,,,-1.8296,51.412,2,,,West Overton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+845,OXAV-222847,3654,28,bone,,,,-1.8734,51.2028,2,,,Shrewton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+846,OXAV-222848,3702,28,bone,,,,-1.8734,51.2028,2,,,Shrewton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+847,OXAV-223234,1181,25,tooth,,,,-1.8262,51.1789,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+848,OXAV-223236,1846,26,bone,,,,-2.0712,50.9744,2,,,Rotherley Down Berwick St John,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+849,OXAV-223237,3871,30,bone,,,,-1.8734,51.2028,2,,,Shrewton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+850,OXAV-223238,3680,29,bone,,,,-2.8806,56.0115,2,,,Kilspindie Aberlady,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+851,OXAV-223241,4023,30,bone,,,,-1.8263,51.1789,2,,,Durrington Walls Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+852,OXAV-223242,4032,30,bone,,,,-1.8263,51.1789,2,,,Durrington Walls Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+853,OXAV-223243,3515,29,bone,,,,-1.8263,51.1789,2,,,Durrington Walls Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+854,OXAV-223244,3474,29,bone,,,,-1.8263,51.1789,2,,,Durrington Walls Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+855,OXAV-223245,2246,28,bone,,,,-1.8263,51.1789,2,,,Durrington Walls Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+856,OXAV-223246,4169,31,bone,,,,-1.8261,51.1794,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,Marshall 2012,Unknown lab ID
+857,OXAV-223247,4127,31,bone,,,,-1.8261,51.1794,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,Marshall 2012,Unknown lab ID
+858,OXAV-223248,1646,27,bone,,,,-1.8261,51.1794,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+859,OXAV-223249,2379,28,bone,,,,-1.8261,51.1794,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+860,OXAV-223250,3436,30,bone,,,,-1.8261,51.1794,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+861,OXAV-223251,3977,31,bone,,,,-1.8261,51.1794,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,Marshall 2012,Unknown lab ID
+862,OXAV-224334,3785,26,bone,,,,-2.801,56.5572,2,,,Fallows Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+863,OXAV-224340,3854,31,bone,,,,-2.8486,57.3317,2,,,Upper Ord,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+864,OXAV-224341,3813,30,bone,,,,-2.2762,57.1959,2,,,Clinterty,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+865,OXAV-224342,3831,28,bone,,,,-2.3327,56.9288,2,,,Pitdrichie Farm 2 Keabog,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+866,OXAV-224343,3816,29,bone,,,,-2.3327,56.9288,2,,,Pitdrichie Farm 2 Keabog,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+867,OXAV-224344,3647,29,bone,,,,-2.1522,57.1807,2,,,Persley Quarry,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+868,OXAV-224345,3768,31,bone,,,,-2.3298,57.0726,2,,,Park Quarry,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+869,OXAV-224346,3757,29,bone,,,,-2.5082,57.3175,2,,,Newlands of Oyne,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+870,OXAV-224347,3795,28,bone,,,,-2.191,57.3289,2,,,Udny Green Home Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+871,OXAV-224348,3515,28,bone,,,,-2.1525,57.6568,2,,,Auchlin,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+872,OXAV-224349,3834,29,bone,,,,-2.2478,57.1635,2,,,Borrowstone Kingswells Aberdeen,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+873,OXAV-224350,3673,29,bone,,,,-2.25,56.965,2,,,Beatties Hill,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+874,OXAV-224351,3809,29,bone,,,,-2.161,57.653,2,,,Upper Boyndlie,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+875,OXAV-224352,3829,29,bone,,,,-2.6586,57.3088,2,,,Mains of Leslie,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+876,OXAV-224353,3675,31,bone,,,,-2.1239,57.6416,2,,,Blackhills Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+877,OXAV-224354,3777,32,bone,,,,-2.1821,57.2229,2,,,Parkhill Sand Pit,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+878,OXAV-224356,3723,28,bone,,,,-2.1821,57.2229,2,,,Parkhill Sand Pit,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+879,OXAV-224357,3819,27,bone,,,,-2.2349,56.9009,2,,,Harveston Cottage Catterline Mearns,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+880,OXAV-224632,3658,26,bone,,,,-2.7399,56.7097,2,,,Netherton Aberlemno,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+881,OXAV-224633,3622,26,bone,,,,-2.8284,56.6489,2,,,Murton Forfar,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+882,OXAV-224634,3785,26,bone,,,,-2.801,56.5572,2,,,Fallows Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+883,OXAV-224635,3582,27,bone,,,,-3.1414,56.6434,2,,,Mains of Airlie,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+884,OXAV-224636,3465,25,bone,,,,-2.8791,56.6403,2,,,Newmonthill,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+885,OXAV-224637,3705,26,bone,,,,-2.6244,56.6367,2,,,Hatton Mill Farm,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+886,OXAV-224638,3591,26,bone,,,,-2.7914,56.5004,2,,,Balhungie,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+887,OXAV-224639,3813,27,bone,,,,-2.1224,57.1975,2,,,Mains of Scotstown,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+888,OXAV-224640,3634,26,bone,,,,-3.4374,57.6874,2,,,Westbank of Roseisle Duffus,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+889,OXAV-224641,3833,28,bone,,,,-2.4407,57.2399,2,,,Paradise Road,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+890,OXAV-224745,3668,30,bone,,,,-3.3585,56.0361,2,,,Carrick Drive Dalgety,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+891,OXAV-224746,3610,30,bone,,,,-3.3585,56.0361,2,,,Carrick Drive Dalgety,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+892,OXAV-224747,3415,29,bone,,,,-3.3585,56.0361,2,,,Carrick Drive Dalgety,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+893,OXAV-224748,3695,31,bone,,,,-4.2404,57.4638,2,,,Bught Park,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+894,OXAV-224749,3634,30,bone,,,,-3.1322,56.6645,2,,,Meikle Kenny,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+895,OXAV-224750,3806,31,bone,,,,-3.1563,57.6693,2,,,Corbiewells,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+896,OXAV-224834,1181,25,tooth,,,,-1.8262,51.1789,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+897,OXAV-224835,1236,25,tooth,,,,-1.8262,51.1789,2,,,Stonehenge Amesbury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+898,OXAV-227121,3640,28,bone,,,,-1.8734,51.2028,2,,,Shrewton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+899,OXAV-227123,3709,29,bone,,,,-1.8734,51.2028,2,,,Shrewton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+900,OXAV-227124,3811,30,bone,,,,-1.8734,51.2028,2,,,Shrewton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+901,OXAV-227128,3156,28,bone,,,,-3.2726,51.4868,2,,,St Fagans,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+902,OXAV-227129,3550,28,bone,,,,-3.6562,51.4809,2,,,Merthyr Mawr,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+903,OXAV-227130,3629,29,bone,,,,-3.6562,51.4809,2,,,Merthyr Mawr,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+904,OXAV-227131,3244,29,bone,,,,-1.9772,50.9434,2,,,Cranborne,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+905,OXAV-227132,3838,28,bone,,,,-2.4038,51.0587,2,,,Windmill Quarry,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+906,OXAV-227133,3921,30,bone,,,,-3.7026,51.218,2,,,Culbone Hill Culbone,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+907,OXAV-227134,3834,29,bone,,,,-1.9029,51.4042,2,,,Hemp Knoll Avebury,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+908,OXAV-227135,3935,32,bone,,,,-1.4337,51.1543,2,,,Chilbolton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+909,OXAV-227136,3791,30,bone,,,,-1.2949,51.0708,2,,,Easton Lane,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+910,OXAV-227137,3664,29,bone,,,,1.3895,51.3745,2,,,Queen Elizabeth the Queen Mother Hospital,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+911,OXAV-227138,3806,29,bone,,,,1.4466,51.3734,2,,,Beauforts Broadstairs,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+912,OXAV-2279,3781,31,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+913,OXAV-227933,3668,32,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+914,OXAV-227934,3781,31,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+915,OXAV-227935,3795,33,bone,,,,-0.5083,54.0057,2,,,Garton Slack,United Kingdom,,Europe,Bevan2017,Maroto J.  2012. QI 247: 15-25.,Unknown lab ID
+916,OXAV-236028,6897,34,bone,,0,,,,0,,,Cingle Mas Nou,Spain,,Europe,CALPAL,Gibaja 2015,Unknown lab ID
+917,OXAV-236029,6925,35,bone,,0,,,,0,,,Cingle Mas Nou,Spain,,Europe,CALPAL,Gibaja 2015,Unknown lab ID
+918,OXAV-239292,7116,32,bone,,,,-0.8657,38.6373,1,,,Casa Corona,Spain,,Europe,Vermeersch2019,,Unknown lab ID
+919,OXAX-102812,4580,65,ceramic residue (charred),,,,-0.6519,51.4878,2,,,Eton Rowing Lake Dorney,United Kingdom,,Europe,Bevan2017,Bronk Ramsey 2009,Unknown lab ID
+920,OXAX-104222,7870,60,Animal bone sheep-sized fragments,,-17.8,,32.8257,37.6664,3,,,Çatalhöyük East,Turkey,,Asia,14SEA,Cessford 2005: 86 Bronk Ramsey et al. 2009: 338 340,Unknown lab ID
+921,OXAX-104513,7850,110,Animal bone sheep- and cattle-sized fragments,,-18.9,,32.8257,37.6664,3,,,Çatalhöyük East,Turkey,,Asia,14SEA,Cessford 2005: 85 Bronk Ramsey et al. 2009: 338 340,Unknown lab ID
+922,OXAX-10459,4610,65,ceramic residue (charred),,,,-0.6519,51.4878,2,,,Eton Rowing Lake Dorney,United Kingdom,,Europe,Bevan2017,Cessford 2005: 85 Bronk Ramsey et al. 2009: 337,Unknown lab ID
+923,OXAX-108407,7190,140,Inhaled particulate carbon,,-23,,32.8257,37.6664,3,,,Çatalhöyük East,Turkey,,Asia,14SEA,Cessford 2005: 85 Bronk Ramsey et al. 2009: 337,Unknown lab ID
+924,OXAX-108408,7330,75,Inhaled particulate carbon,,-24.7,,32.8257,37.6664,3,,,Çatalhöyük East,Turkey,,Asia,14SEA,Cessford 2005: 86 Bronk Ramsey et al. 2009: 337,Unknown lab ID
+925,OXAX-108497,7190,140,carbon,,-23,,32.8257,37.6664,3,,,Catalhöyük East,Turkey,,Asia,CALPAL,Bronk Ramsey 2009,Unknown lab ID
+926,OXAX-203715,3901,31,bone,,,,-1.2949,51.6721,2,,,Spring Road Abingdon,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+927,OXAX-203716,2281,38,bone,,,,-1.2949,51.6721,2,,,Spring Road Abingdon,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+928,OXAX-203717,2357,26,bone,,,,-1.2949,51.6721,2,,,Spring Road Abingdon,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+929,OXAX-203718,2279,28,bone,,,,-1.2949,51.6721,2,,,Spring Road Abingdon,United Kingdom,,Europe,Bevan2017,Whittle 2002,Unknown lab ID
+930,OXAX-204007,6787,37,bone,,-19.6,,20.9472,47.1793,1,,,Ecsegfalva 23,Hungary,,Europe,CALPAL; Vermeersch2019,Whittle 2002,Unknown lab ID
+931,OXAX-204008,6775,37,bone,,-19.7,,20.9472,47.1793,1,,,Ecsegfalva 23,Hungary,,Europe,CALPAL; Vermeersch2019,Whittle 2002,Unknown lab ID
+932,OXAX-204009,6780,39,bone,,-20.6,,20.9472,47.1793,1,,,Ecsegfalva 23,Hungary,,Europe,CALPAL; Vermeersch2019,Whittle 2002,Unknown lab ID
+933,OXAX-20407,6787,37,collagen bone,,-19.6,,20.91667,47.15,2,,,Ecsegfalva,Hungary,,Europe,RADON,Brock et al. 2007,Unknown lab ID
+934,OXAX-20408,6775,35,collagen bone,,-19.7,,20.91667,47.15,2,,,Ecsegfalva,Hungary,,Europe,RADON,Brock et al. 2007,Unknown lab ID
+935,OXAX-20409,6780,39,collagen bone,,-20.6,,20.91667,47.15,2,,,Ecsegfalva,Hungary,,Europe,RADON,Brock et al. 2007,Unknown lab ID
+936,OXAX-205406,7291,38,carbon,,-23.8,,32.8257,37.6664,3,,,Çatalhöyük East,Turkey,,Asia,CALPAL,Bronk Ramsey 2009,Unknown lab ID
+937,OXAX-205811,7160,80,carbon,,-23.8,,32.8257,37.6664,3,,,Çatalhöyük East,Turkey,,Asia,CALPAL,Bronk Ramsey 2009,Unknown lab ID
+938,OXAX-208209,29200,360,AG fraction on Sample 12 Vi-208,,,,16.088,46.305,1,,,Vindija,Croatia,,Europe,Vermeersch2019,Karavanic I. 2005. Journal of Anthropological Research 51 9-35. Ahern J.C.M. et al 2004. JHE 46: 27-67. Wild E.M.  2001. Radiocarbon 43: 1021-1028. Higham C. 2006. PNAS 103: 553-557.,Unknown lab ID
+939,OXAX-213546,4880,65,carbonised residue,,,,-2.46723,50.6949,2,,,Maiden Castle,United Kingdom,,Europe,EUROEVOL,,Unknown lab ID
+940,OXAX-216510,4950,40,miscellaneous,,-27.7,,-3.58342,50.81693,2,,,Raddon Devon,United Kingdom,,Europe,RADON,Whittle et al. 2011 494; Gent/Quinnell 1999,Unknown lab ID
+941,OXAX-217618,7285,45,bone,,-21.5,,21.9982,44.5645,1,,,Lepenski Vir,Serbia,,Europe,CALPAL; Vermeersch2019,Borić  2011,Unknown lab ID
+942,OXAX-217619,7314,40,bone,,-20.7,,21.9982,44.5645,1,,,Lepenski Vir,Serbia,,Europe,CALPAL; Vermeersch2019,Borić  2011,Unknown lab ID
+943,OXAX-2178,2755,55,ceramic residue (charred)/grain (charred),,,,-2.0833,55.5875,2,,,Cheviot Quarry Milfield Basin,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+944,OXAX-2178142,2785,75,ceramic residue (charred),,,,-2.0833,55.5875,2,,,Cheviot Quarry Milfield Basin,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+945,OXAX-2178151,2755,55,grain,,,,-2.0833,55.5875,2,,,Cheviot Quarry Milfield Basin,United Kingdom,,Europe,Bevan2017,Nixon 2009,Unknown lab ID
+946,OXAX-218255,4150,37,bone,,,,-0.2073,52.5731,2,,,Elliott Site Fengate,United Kingdom,,Europe,Bevan2017,Street & Terbergen 2000. Thez German Upper Palaeolithic. In: Hunters of the Golden Age: 281-291. Hasaert P.  Trabalhos de Arqueologia 33: 133.  Nigst PR.  2011 L'A i p. Davies W. 2015. QSR ip,Unknown lab ID
+947,OXAX-220436,372,25,bone,,,,-0.0665,51.5016,2,,,Chambers Wharf London,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+948,OXAX-221031,5048,33,bone,,,,-5.4944,54.3681,2,,,Millin Bay Keentagh,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+949,OXAX-221215,4740,32,bone,,,,-5.4944,54.3681,2,,,Millin Bay Keentagh,United Kingdom,,Europe,Bevan2017,Caron  2011. PLoS ONE e21545. Zilhao  2011. Before Farming 3,Unknown lab ID
+950,OXAX-222617,2329,29,tissue (leather),,,,-3.5667,53.019,2,,,Cerrigydrudion,United Kingdom,,Europe,Bevan2017,Caron  2011. PLoS ONE e21545. Zilhao  2011. Before Farming 3,Unknown lab ID
+951,OXAX-224541,3720,90,,,,,0.296,16.733,2,,,Tin Alhar,Mali,,Africa,ManningTimpson2014,Svoboda J.A.  2008. Petrkovice. On Shouldered Points and Female Figurines. In The Doni Vestonice Studies Brno: 193-223. Bosinski G.. 1995 Quaternary field trips in Ecntral Europe Munchen.,Unknown lab ID
+952,OXAX-225643,5725,45,bone,,,,27.9167,43.2167,1,,,Varna,Bulgaria,,Europe,Vermeersch2019,Courtesy Raiko KrauÔøΩ 2016,Unknown lab ID
+953,OXAX-225644,5610,45,bone,,,,27.9167,43.2167,1,,,Varna,Bulgaria,,Europe,Vermeersch2019,Courtesy Raiko KrauÔøΩ 2016,Unknown lab ID
+954,OXAX-225645,5555,45,bone,,,,27.9167,43.2167,1,,,Varna,Bulgaria,,Europe,Vermeersch2019,Courtesy Raiko KrauÔøΩ 2016,Unknown lab ID
+955,OXAX-225646,5725,40,bone,,,,27.9167,43.2167,1,,,Varna,Bulgaria,,Europe,Vermeersch2019,Courtesy Raiko KrauÔøΩ 2016,Unknown lab ID
+956,OXAX-225647,5860,60,bone,,,,27.9167,43.2167,1,,,Varna,Bulgaria,,Europe,Vermeersch2019,Pollard 2015,Unknown lab ID
+957,OXAX-225654,3148,30,bone,,,,51.55,35.44,1,,,Tepe Pardis,Iran,,Asia,Vermeersch2019,Courtesy Raiko KrauÔøΩ 2016,Unknown lab ID
+958,OXAX-225831,5703,36,bone,,,,27.9167,43.2167,1,,,Varna,Bulgaria,,Europe,Vermeersch2019,Manning K. 2010,Unknown lab ID
+959,OXAX-226414,3687,30,Ceramic temper,,,,-0.143571,17.163702,2,,EB07,Ebelelit,Mali,,Africa,Kay_WestAfrica,Manning K. (2010). A developmental history for early West African agriculture. West African Archaeology : New developments new perspectives. BAR International Series 2164 pp. 43-52. ISBN 978 1 4073 0708 4,Unknown lab ID
+960,OXAX-228411,5637,38,bone Homo sapiens,,-19.1,,23.2,38.6,1,,,Proskynas,Greece,,Europe,14SEA,Higham et al. 2011,Unknown lab ID
+961,OXAX-228725,3687,30,,,,,0.183,16.933,2,,,Ebelelit,Mali,,Africa,ManningTimpson2014,Manning K. 2010,Unknown lab ID
+962,OXAX-232310,3229,36,charcoal,,-22.5,,49.9262,35.7509,1,,,Tepe Sagzabad,Iran,,Asia,CALPAL; Vermeersch2019,Pollard 2011,Unknown lab ID
+963,OXAX-238628,2390,40,ceramic residue (charred),,,,0.1697,52.1782,2,,,East Pit Lime Kiln Road Cherry Hinton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+964,OXAX-238632,2370,40,ceramic residue (charred),,,,0.1697,52.1782,2,,,East Pit Lime Kiln Road Cherry Hinton,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+965,OXAX-238633,2287,22,charcoal (roundwood),,,,-1.6433,55.0312,2,,,West Brunton,United Kingdom,,Europe,Bevan2017,Proslov N.D. Rogachev A.D.(eds.) Palaeolithic at the Koskeni-Borschchevo area on the river Don. 1879) 1979 (results of field investigation). Leningrad 1982 (in russian). Marom   2012. PNAS 109: 6878-6881,Unknown lab ID
+966,OXAX-241539,3858,28,charcoal,,,,0.6749,52.4761,2,,,Grime's Graves,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+967,OXAX-241543,3974,25,charcoal,,,,0.6749,52.4761,2,,,Grime's Graves,United Kingdom,,Europe,Bevan2017,Villa P. Soriano S. Tsanova T. Degano I. Higham T.F. d’Errico F. Backwell L. Lucejko J.J. Colombini M.P. and Beaumont P.B. 2012. Border cave and the beginning of the later stone age in South Africa.Proceedings of the National Academy of Sciences109(33) pp.13208-13213.,Unknown lab ID
+968,OXAX-241847,35750,500,other,,,,31.983,-27.017,2,,,Border Cave,South Africa,,Africa,SARD,Higham et al. 2015,Unknown lab ID
+969,OXAX-244641,4543,31,,,-29.17,,32.7286,25.915,1,,,Naqada,Egypt,,Africa,CALPAL; Vermeersch2019,,Unknown lab ID
+970,OXAX-245552,35410,360,other,,,,31.983,-27.017,2,,,Border Cave,South Africa,,Africa,SARD,Oxford Egypt Database May 2015,Unknown lab ID
+971,OXAX-245747,5293,35,bone,,0,,31.24,26.59,1,,,El-Badari,Egypt,,Africa,CALPAL; Vermeersch2019,,Unknown lab ID
+972,OXAX-245748,5037,38,bone,,0,,31.24,26.59,1,,,El-Badari,Egypt,,Africa,CALPAL; Vermeersch2019,,Unknown lab ID
+973,OXAX-245749,4749,34,other,,-20.12,,32.7286,25.915,1,,,Naqada,Egypt,,Africa,CALPAL,,Unknown lab ID
+974,OXAX-245750,4843,37,other,,-19.48,,32.7286,25.915,1,,,Naqada,Egypt,,Africa,CALPAL; Vermeersch2019,,Unknown lab ID
+975,OXAX-245751,4802,34,other,,-19.21,,32.7286,25.915,1,,,Naqada,Egypt,,Africa,CALPAL,,Unknown lab ID
+976,OXAX-245847,4746,29,other,,-19.29,,32.7286,25.915,1,,,Naqada,Egypt,,Africa,CALPAL; Vermeersch2019,,Unknown lab ID
+977,OXAX-245848,4686,29,other,,-18.53,,32.7286,25.915,1,,,Naqada,Egypt,,Africa,CALPAL,,Unknown lab ID
+978,OXAX-246048,8905,70,charcoal,,,,27.817,-29.317,2,,,Ntloana TEcoana,Lesotho,,Africa,SARD,Roberts P. Lee-Thorp J.A. Mitchell P.J. and Arthur C. 2013. Stable carbon isotopic evidence for climate change across the late Pleistocene to early Holocene from Lesotho southern Africa.Journal of Quaternary Science28(4) pp.360-369.,Unknown lab ID
+979,OXAX-246049,11830,90,charcoal,,,,27.817,-29.317,2,,,Ntloana TEcoana,Lesotho,,Africa,SARD,Birel S.  2015. Environmental Archaeology 20: 30-40. Vukosavljevid N. A C T A A R C H A E O L O G I C A C A R P A T H I C A VOL. LII 2017: 5-21.,Unknown lab ID
+980,OXAX-246222,12510,55,,,,,14.04722,45.39222,2,,,Nugljanska Cave,Croatia,,Europe,Silva_VanderLinden_2017,Birel S.  2015. Environmental Archaeology 20: 30-40. Vukosavljevid N. A C T A A R C H A E O L O G I C A C A R P A T H I C A VOL. LII 2017: 5-21.,Unknown lab ID
+981,OXAX-246226,11160,50,,,,,14.04722,45.39222,2,,,Nugljanska Cave,Croatia,,Europe,Silva_VanderLinden_2017,Nalawade 2014 PLoS ONE 9(1): e76896. doi:10.1371/journal.pone.0076896,Unknown lab ID
+982,OXAX-24656,3740,30,tooth,,,,-6.2772,49.9589,2,,,Par Beach St Martins isles of Scilly,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+983,OXAX-246833,5195,75,charcoal,,,,22.3825,36.6383,1,,,Alepotrypa Diros,Greece,,Europe,Vermeersch2019,Bonneau A. Staff R.A. Higham T. Brock F. Pearce D.G. and Mitchell P.J. 2017. Successfully dating rock art in southern Africa using improved sampling methods and new characterization and pretreatment protocols.Radiocarbon59(3) pp.659-677.,Unknown lab ID
+984,OXAX-247048,390,70,other,,,,27.8,-29.333,2,,,Ha Makotoko,Lesotho,,Africa,SARD,Bonneau A. Staff R.A. Higham T. Brock F. Pearce D.G. and Mitchell P.J. 2017. Successfully dating rock art in southern Africa using improved sampling methods and new characterization and pretreatment protocols.Radiocarbon59(3) pp.659-677.,Unknown lab ID
+985,OXAX-247049,300,65,other,,,,27.8,-29.333,2,,,Ha Makotoko,Lesotho,,Africa,SARD,,Unknown lab ID
+986,OXAX-247357,4582,29,other,,-24.24,,,,0,,,Ballas,Egypt,,Africa,CALPAL,,Unknown lab ID
+987,OXAX-247855,8530,45,bone,,,,22.605,44.627,2,,,Schela Cladovei,Romania,,Europe,Silva_VanderLinden_2017,Nalawade-Chavan et al. 2013,Unknown lab ID
+988,OXAX-247856,8505,25,bone,,,,22.605,44.627,2,,,Schela Cladovei,Romania,,Europe,Silva_VanderLinden_2017,Nalawade-Chavan et al. 2013,Unknown lab ID
+989,OXAX-247857,8395,40,bone,,,,22.605,44.627,2,,,Schela Cladovei,Romania,,Europe,Silva_VanderLinden_2017,Nalawade-Chavan et al. 2013,Unknown lab ID
+990,OXAX-247938,8460,45,bone,,,,22.605,44.627,2,,,Schela Cladovei,Romania,,Europe,Silva_VanderLinden_2017,Langlais M.  2015. BSPF 112: 5-58. Barshay-Szmidt C.  Quaternary International 414 (2016) 62-91.,Unknown lab ID
+991,OXAX-248526,4785,32,tissue,,-22.08,,32.7286,25.915,1,,,Naqada,Egypt,,Africa,CALPAL; Vermeersch2019,,Unknown lab ID
+992,OXAX-248527,1179,25,hair,,-23.56,,32.7286,25.915,1,,,Naqada,Egypt,,Africa,CALPAL,,Unknown lab ID
+993,OXAX-249527,470,90,other,,,,27.8,-29.333,2,,,Ha Makotoko,Lesotho,,Africa,SARD,,Unknown lab ID
+994,OXAX-249755,4377,31,bone,,-18.15,,31.8833,26.1833,1,,,Abydos Umm el-Qa'ab,Egypt,,Africa,CALPAL,,Unknown lab ID
+995,OXAX-25047,6929,39,antler,,,,21.101,43.72,2,,,Blagotin-Poljna,Serbia,,Europe,Silva_VanderLinden_2017,Orton n.d.,Unknown lab ID
+996,OXAX-25048,7045,40,bone,,,,21.101,43.72,2,,,Blagotin-Poljna,Serbia,,Europe,Silva_VanderLinden_2017,Oross et al. 2016,Unknown lab ID
+997,OXAX-250850,5815,35,bone,,,,18.703,46.21,2,,,Alsónyék – Bátaszék,Hungary,,Europe,Silva_VanderLinden_2017,Skerlj B. 1955. Journal of Anthropological Research: 10. Moreau L.  JHE 78: 158-180.,Unknown lab ID
+998,OXAX-255526,575,75,other,,,,27.8,-29.333,2,,,Ha Makotoko,Lesotho,,Africa,SARD,Bonneau A. Staff R.A. Higham T. Brock F. Pearce D.G. and Mitchell P.J. 2017. Successfully dating rock art in southern Africa using improved sampling methods and new characterization and pretreatment protocols.Radiocarbon59(3) pp.659-677.,Unknown lab ID
+999,OXAX-255539,410,130,other,,,,27.8,-29.333,2,,,Ha Makotoko,Lesotho,,Africa,SARD,Bonneau A. Staff R.A. Higham T. Brock F. Pearce D.G. and Mitchell P.J. 2017. Successfully dating rock art in southern Africa using improved sampling methods and new characterization and pretreatment protocols.Radiocarbon59(3) pp.659-677.,Unknown lab ID
+1000,OXAX-255540,760,120,other,,,,27.8,-29.333,2,,,Ha Makotoko,Lesotho,,Africa,SARD,Oross et al. 2016,Unknown lab ID
+1001,OXAX-258319,6906,34,bone,,,,18.703,46.21,2,,,Alsónyék – Bátaszék,Hungary,,Europe,Silva_VanderLinden_2017,Higham et al. 2015,Unknown lab ID
+1002,OXAX-258627,6625,40,bone,,,,18.703,46.21,2,,,Alsónyék – Bátaszék,Hungary,,Europe,Silva_VanderLinden_2017,Oross et al. 2016,Unknown lab ID
+1003,OXAX-258714,6230,35,bone,,,,18.703,46.21,2,,,Alsónyék – Bátaszék,Hungary,,Europe,Silva_VanderLinden_2017,Higham et al. 2015,Unknown lab ID
+1004,OXAX-2621,4557,28,tooth,,,,10.379,45.26,1,,,Remedello,Italy,,Europe,Vermeersch2019,,Unknown lab ID
+1005,OXAX-26219,6765,38,bone,,,,22.4239,37.0552,1,,,Kouphovouno,Greece,,Europe,Vermeersch2019,Petillon J.-M.  2015. QI 364: 126-143. Barshay-Szmidt C.  Quaternary International 414 (2016) 62-91.,Unknown lab ID
+1006,OXAX-271627,2878,34,Charcoal,,,,-67.62941,5.640551,2,,,Picure,Venezuela,,South America,RirisArroyoKalin2019,Pettitt P. 1999. Oxford Journal of Archaeology 18: 217-241. Dinnis R.  Journal of Human Evolution Volume 127  2019 Pages 21-40,Unknown lab ID
+1007,OXAX-273419SR7599,11020,45,BONE,antler rod note: 4 dates on same sample,-19.2,AMS,-110.5268476,45.48834969,1,,24PA506,Anzick,USA,Montana,North America,UWyo2021,Becerra-Valdivia et al. 2018 Reassessing the chronology of the archaeological site of Anzick,Unknown lab ID
+1008,OXAX-273420SR7602,11070,45,BONE,antler rod note: 4 dates on same sample,-18.1,AMS,-110.5268476,45.48834969,1,,24PA506,Anzick,USA,Montana,North America,UWyo2021,Becerra-Valdivia et al. 2018 Reassessing the chronology of the archaeological site of Anzick,Unknown lab ID
+1009,OXAX-273611,11055,50,BONE,Mammoth collagen hydroxyproline,-13.6,AMS,-104.3926119,40.55491028,1,,5WL269,Dent,USA,Colorado,North America,UWyo2021,Deviese et al. 2018-Increasing accuracy for the radiocarbon dating of sites occupied by the first Americans,Unknown lab ID
+1010,OXAX-273612,11155,50,BONE,Mammoth collagen hydroxyproline,-18,AMS,-104.3926119,40.55491028,1,,5WL269,Dent,USA,Colorado,North America,UWyo2021,Deviese et al. 2018-Increasing accuracy for the radiocarbon dating of sites occupied by the first Americans,Unknown lab ID
+1011,OXAX-273614,11035,50,BONE,Hydroxyproline,-22.7,AMS,-105.5071806,42.97242286,1,,48CO1401,La Prele Mammoth,USA,Wyoming,North America,UWyo2021,Mackie et al 2020-Confirmation A Cultural Association At The La Prele…,Unknown lab ID
+1012,OXAX-273955SR7599,10900,50,BONE,antler rod note: 4 dates on same sample,-21.2,AMS,-110.5268476,45.48834969,1,,24PA506,Anzick,USA,Montana,North America,UWyo2021,Becerra-Valdivia et al. 2018 Reassessing the chronology of the archaeological site of Anzick,Unknown lab ID
+1013,OXAX-273956SR7602,11050,55,BONE,antler rod note: 4 dates on same sample,-21.4,AMS,-110.5268476,45.48834969,1,,24PA506,Anzick,USA,Montana,North America,UWyo2021,Becerra-Valdivia et al. 2018 Reassessing the chronology of the archaeological site of Anzick,Unknown lab ID
+1014,OXAX-279241,9110,50,BONE,,-19.5,AMS,-115.4675609,45.84424794,1,,10IH73,Cooper's Ferry,USA,Idaho,North America,UWyo2021,Davis et al. 2019-Late Upper Paleolithic occupation at Cooper's Ferry,Unknown lab ID
+1015,OXAX-279242,13165,70,BONE,,-19.8,AMS,-115.4675609,45.84424794,1,,10IH73,Cooper's Ferry,USA,Idaho,North America,UWyo2021,Davis et al. 2019-Late Upper Paleolithic occupation at Cooper's Ferry,Unknown lab ID
+1016,OXAX-279243,10050,60,BONE,,-20.5,AMS,-115.4675609,45.84424794,1,,10IH73,Cooper's Ferry,USA,Idaho,North America,UWyo2021,Davis et al. 2019-Late Upper Paleolithic occupation at Cooper's Ferry,Unknown lab ID
+1017,OXAX-279245,11630,80,BONE,,-20.4,AMS,-115.4675609,45.84424794,1,,10IH73,Cooper's Ferry,USA,Idaho,North America,UWyo2021,Davis et al. 2019-Late Upper Paleolithic occupation at Cooper's Ferry,Unknown lab ID
+1018,OXAX-279248,12830,65,BONE,,-21,AMS,-115.4675609,45.84424794,1,,10IH73,Cooper's Ferry,USA,Idaho,North America,UWyo2021,Davis et al. 2019-Late Upper Paleolithic occupation at Cooper's Ferry,Unknown lab ID
+1019,OXAX-80610,4280,60,ceramic residue,,,,-2.2159,50.9096,2,,,Hambledon Hill,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+1020,OXAX-80611,4550,90,ceramic residue,,,,-2.2159,50.9096,2,,,Hambledon Hill,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+1021,OXAX-80712,4780,80,ceramic residue,,,,-2.2159,50.9096,2,,,Hambledon Hill,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+1022,OXAX-80713,4840,60,ceramic residue,,,,-2.2159,50.9096,2,,,Hambledon Hill,United Kingdom,,Europe,Bevan2017,Whittle et al. 2002,Unknown lab ID
+1023,OXAX-84910,4540,80,ceramic residue,,,,-2.2159,50.9096,2,,,Hambledon Hill,United Kingdom,,Europe,Bevan2017,,Unknown lab ID
+1024,OXAX-92230,7680,70,bone,,,,20.301,46.283,2,,,Maroslele-Pana,Hungary,,Europe,Silva_VanderLinden_2017,Jacobi R.  2006. JQS 21: 557-573.,Unknown lab ID
+1025,PABO-83,9152,42,charcoal,,,,-73,-16.333333,1,,,Panam Km,Peru,,South America,Goldberg_2016; Pratesetal2020,Gayo E. M. Latorre C. Santoro C. M. (2015). Timing of occupation and regional settlement patterns revealed by time-series analyses of an archaeological radiocarbon database for the South-Central Andes (16-25S). Quaternary International 356 4-14.,Unknown lab ID
+1026,PTAMC-1225,5000,200,,,,,7.78,35.18,2,,,Ain Misteheyia,Algeria,,Africa,Kay_WestAfrica,Manning K Timpson A. (2014). The Demographic response to Holocene climate change in the Sahara. Quaternary Science Revie,Unknown lab ID
+1027,PTAMC-1255,5000,200,human collagen,,-18.7,,7.765,35.1942,3,,,Aïn Misteheyia,Algeria,,Africa,MedAfriCarbon,Ziolkowski M. S. Pazdur M. Krzanowski A. & Michczynski A. (1994). Andes radiocarbon database for Bolivia Ecuador and Peru. Varsovia-Gliwice Andean archaeological mission of the Institute of Archaeology/Warsaw University & Gliwice Radiocarbon Laboratory of the Institute of Physics Silesian Technical University.,Unknown lab ID
+1028,QAM-85B2A,5990,75,charcoal,,,,-8.8,39.01667,2,,,Cabeço da Amoreira,Portugal,,Europe,RADON,,Unknown lab ID
+1029,QAM-85B2B,5990,75,charcoal,,,,-8.8,39.01667,2,,,Cabeço da Amoreira,Portugal,,Europe,RADON,,Unknown lab ID
+1030,QCND-1,6600,370,apatite,,,Radiometric,-63.0667,-20.8667,3,,,Ñuapua Ñuagapua,Bolivia,,South America,Capriles_&_Albarracin-Jordan_2013,MacFadden & Wolff 1981:776,Unknown lab ID
+1031,QCND-2,7200,400,apatite,,,Radiometric,-63.0667,-20.8667,3,,,Ñuapua Ñuagapua,Bolivia,,South America,Capriles_&_Albarracin-Jordan_2013,MacFadden & Wolff 1981:776,Unknown lab ID
+1032,RCB-1525,7380,130,,,0,,3.865,47.617,1,,,Grotte du Renne Arcy-sur-Cure,France,,Europe,CALPAL,,Unknown lab ID
+1033,RIDDLNA-1,3350,130,charcoal; charbon de bois,,,,-116.4812859,52.54241009,1,,,Mountain Creek site (1073R),Canada,Alberta,North America,CARD,Head 1987; Porter et al. 1988; Wilson 1987,Unknown lab ID
+1034,RIDDLNA-2,6620,120,charcoal; charbon de bois,,,,-116.4812859,52.54241009,1,,,Mountain Creek site (1073R),Canada,Alberta,North America,CARD,Spangler 2000,Unknown lab ID
+1035,SANU-30232,1560,77,Bone,,,,-70.334806,-18.754722,2,,,Caleta Vitor 6,Chile,,South America,SCAR,Swift et al. 2015,Unknown lab ID
+1036,SANU-30233,1000,25,Bone,,,,-70.334806,-18.754722,2,,,Caleta Vitor 6,Chile,,South America,SCAR,Swift et al. 2015,Unknown lab ID
+1037,SANU-30739,1848,25,Bone,,,,-70.334806,-18.754722,2,,,Caleta Vitor 6,Chile,,South America,SCAR,Wringler D.  2014. Antiquity 88: 30-46.,Unknown lab ID
+1038,SANU-33420,990,39,Bone,,,,-70.334806,-18.754722,2,,,Caleta Vitor 3,Chile,,South America,SCAR,Wringler D.  2014. Antiquity 88: 30-46.,Unknown lab ID
+1039,SEVA-26506,43369,291,bone,,,,0.9379,44.9518,1,,,Ferrassie,France,,Europe,Vermeersch2019,Guerin G.  2015. JAS ip,Unknown lab ID
+1040,SEVA-26507,42153,652,bone,,,,0.9379,44.9518,1,,,Ferrassie,France,,Europe,Vermeersch2019,Guerin G.  2015. JAS ip,Unknown lab ID
+1041,SEVA-26508,42367,678,bone Coelodonta antiquitatis Linty,,,,0.9379,44.9518,1,,,Ferrassie,France,,Europe,Vermeersch2019,Guerin G.  2015. JAS  ip,Unknown lab ID
+1042,SEVA-26510,37379,382,bone,,,,0.9379,44.9518,1,,,Ferrassie,France,,Europe,Vermeersch2019,Cannon 1991;  Nelson and Hobson 1982;  Rutherford et al. 1984;  Chisholm 1986;  Hobson and Nelson 1984;  Cannon et al. 1999;  Carlson 1991 1996,Unknown lab ID
+1043,SFUNA-1,2000,70,bison bone collagen; collagène osseux de bison,,,,-125.9857776,50.78902966,1,,,Bird's Eye Cove Shelter,Canada,,North America,CARD,Ball 1979 1981;  Wilmeth 1978a;  Mitchell 1971a;  Brolly 1997;  Burley 1980;  Chisholm 1986;  Ham 1981;  Matson and Coupland 1995;  Matson et al. 1980;  Fairhall et al. 1966,Unknown lab ID
+1044,SFUNA-2,1390,25,charcoal; charbon de bois,,,,-122.5945497,49.9873037,1,,,Beach GroveTsawwassen,Canada,,North America,CARD,Hutchinson 1992;  Skinner 1991;  Skinner and Thatcher 1988,Unknown lab ID
+1045,SFUNA-3,900,60,charcoal; charbon de bois,,,,-125.9857776,50.78902966,1,,,False Narrows,Canada,,North America,CARD,Grier et al. 2009,Unknown lab ID
+1046,SFUNA-4,5490,80,charcoal; charbon de bois,,,,-125.9857776,50.78902966,1,,,Valdes Island,Canada,,North America,CARD,CONTEXT after Hole et al. 1969; Marshall 2012,Unknown lab ID
+1047,SNA-2,965,195,bison bone collagen; collagène osseux de bison,,-20,,-107.7394605,50.12014304,1,,,Sheep Creek,Canada,Saskatchewan,North America,CARD,Buvit I.  QI 2011. Kuzmin. 2014.Radiocarbon 56: 717-722. Kuzmin Y.V. 2003. The Review of Archaeology 24: 37-45. Kuzmin YK. Documenta Praehistorica XLII (2015)  H. Sato D. Natsuki / Quaternary International 441 (2017) 12-28,Unknown lab ID
+1048,TUCSONAA-75023,5771,43,charred plant macrofossils,,,,6.645,47.542,2,,,La Baume Gonvillars,France,,Europe,EUROEVOL,,Unknown lab ID
+1049,UAND-1,4865,90,charcoal,,,,,,0,,,Hirumugarrieta 2,Spain,,Europe,Vermeersch2019,Larsson 2019,Unknown lab ID
+1050,UAND-3,4955,85,charcoal,,,,,,0,,,Hirumugarrieta 2,Spain,,Europe,Vermeersch2019,Utrilla P.  2012. QI. Doi: 1016/j.quaint.2012.04.024. https://sites.google.com/ehu.eus/c14peninsulaiberica/dataciones-14,Unknown lab ID
+1051,UAND-4,17025,95,,,,,0.833,42.75,1,,,Legintxiki,Spain,,Europe,Vermeersch2019,Utrilla P.  2012. QI. Doi: 1016/j.quaint.2012.04.024. https://sites.google.com/ehu.eus/c14peninsulaiberica/dataciones-14,Unknown lab ID
+1052,UAND-5,20460,110,,,,,0.833,42.75,1,,,Legunova,Spain,,Europe,Vermeersch2019,Arrizabalaga A. 2007- 2 008. VELEIA 24-25: 425-443,Unknown lab ID
+1053,UAND-6,31000,835,charcoal,,,,-1.8905,43.2706,1,,,Aitzbitarte III,Spain,,Europe,Vermeersch2019,,Unknown lab ID
+1054,UCDC-01,4240,60,wood,,,,-9.86929,54.2435,2,,,Inver,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1055,UCDC-02,4340,60,wood,,,,-8.31795,54.1449,2,,,Aghoo,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1056,UCDC-04,4480,60,wood,,,,-9.53334,54.2974,2,,,Belderg More,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1057,UCDC-05,4250,60,wood,,,,-9.80494,54.2558,2,,,Carnhill,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1058,UCDC-07,3330,50,wood,,,,-9.48625,53.9723,2,,,Belderg Beg,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1059,UCDC-11,4010,60,wood,,,,-9.53334,54.2974,2,,,Belderg More,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1060,UCDC-12,3950,60,wood,,,,-8.31795,54.1449,2,,,Aghoo,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1061,UCDC-13,3990,60,wood,,,,-9.87727,54.2058,2,,,Muings,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1062,UCDC-14,4310,70,wood,,,,-9.53334,54.2974,2,,,Belderg More,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1063,UCDC-16,4490,60,wood,,,,-9.65135,54.2427,2,,,Bunalty,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1064,UCDC-18,4150,60,wood,,,,-9.53334,54.2974,2,,,Belderg More,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1065,UCDC-19,4530,60,wood,,,,-9.8534,54.2386,2,,,Gortmellia (Erris Bay),Ireland,,Europe,Bevan2017; EUROEVOL; RADON,,Unknown lab ID
+1066,UCDC-20,4230,60,wood,,,,-8.57974,54.228,1,,,Carrowmore,Ireland,,Europe,EUROEVOL; RADON,,Unknown lab ID
+1067,UCDC-21,4490,60,wood,,,,-9.42961,54.2805,2,,,Ballyknock,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1068,UCDC-22,4210,60,wood,,,,-8.31795,54.1449,2,,,Aghoo,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1069,UCDC-23,4540,60,wood,,,,-9.42961,54.2805,2,,,Ballyknock,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1070,UCDC-24,4440,60,wood,,,,-6.22778,54.1559,2,,,Annagh Beg,United Kingdom,,Europe,EUROEVOL,,Unknown lab ID
+1071,UCDC-25,4460,60,wood,,,,-9.48625,53.9723,2,,,Glencullin,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1072,UCDC-26,4350,60,wood,,,,-6.22778,54.1559,2,,,Annagh More,United Kingdom,,Europe,EUROEVOL,,Unknown lab ID
+1073,UCDC-27,4170,50,wood,,,,-8.31795,54.1449,2,,,Aghoo,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1074,UCDC-28,4230,60,wood,,,,-9.42961,54.2805,2,,,Ballyknock,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1075,UCDC-29,4510,50,wood,,,,-9.42961,54.2805,2,,,Ballyknock,Ireland,,Europe,RADON,,Unknown lab ID
+1076,UCDC-30,4190,50,wood,,,,-8.31795,54.1449,2,,,Aghoo,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1077,UCDC-31,4510,50,wood,,,,-9.48625,53.9723,2,,,Belderg Beg,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1078,UCDC-33,4100,60,wood,,,,-8.31795,54.1449,2,,,Aghoo,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1079,UCDC-34,3950,60,wood,,,,-9.42961,54.2805,2,,,Ballyknock,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1080,UCDC-35,4440,50,wood,,,,-9.86083,54.2682,2,,,Graghil,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1081,UCDC-36,3090,50,wood,,,,-10.0093,54.2689,2,,,Gortbrack North (Erris Bay),Ireland,,Europe,Bevan2017; EUROEVOL; RADON,,Unknown lab ID
+1082,UCDC-37,4500,50,wood,,,,-9.42961,54.2805,2,,,Ballyknock,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1083,UCDC-38,3820,60,wood,,,,-6.22778,54.1559,2,,,Annagh Beg,United Kingdom,,Europe,EUROEVOL,,Unknown lab ID
+1084,UCDC-41,6720,90,wood,,,,-9.79939,54.2461,2,,,Muingerroon,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1085,UCDC-42,4530,60,wood,,,,-9.4365,54.2997,2,,,Glenurla,Ireland,,Europe,Bevan2017,,Unknown lab ID
+1086,UCDC-43,4080,60,wood,,,,-9.79939,54.2461,2,,,Muingerroon,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1087,UCDC-44,5370,70,wood,,,,-9.458,54.3052,2,,,Glenurla,Ireland,,Europe,Bevan2017; EUROEVOL; RADON,,Unknown lab ID
+1088,UCDC-45,4450,60,wood,,,,-8.41686,54.1314,2,,,Behy,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1089,UCDC-46,5710,90,peat,,,,-9.59,54.3132,2,,,Geevraun,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1090,UCDC-47,4210,60,wood,,,,-9.59,54.3132,2,,,Geevraun,Ireland,,Europe,Bevan2017; EUROEVOL; RADON,,Unknown lab ID
+1091,UCDC-48,7530,100,wood,,,,-9.91745,54.0737,2,,,Tullaghanbaun,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1092,UCDC-49,4580,60,wood,,,,-9.53334,54.2974,2,,,Belderg More,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1093,UCDC-50,4440,60,wood,,,,-6.22778,54.1559,2,,,Annagh More,United Kingdom,,Europe,EUROEVOL,,Unknown lab ID
+1094,UCDC-51,4500,60,wood,,,,-8.41686,54.1314,2,,,Behy,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1095,UCDC-52,4070,60,wood,,,,-9.9152,54.0718,2,,,Tullaghanbaun,Ireland,,Europe,Bevan2017,,Unknown lab ID
+1096,UCDC-54,8660,130,peat,,,,-9.91745,54.0737,2,,,Tullaghanbaun,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1097,UCDC-57,4420,50,wood,,,,-8.41686,54.1314,2,,,Behy,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1098,UCDC-58,3960,60,wood,,,,-9.48625,53.9723,2,,,Belderg Beg,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1099,UCDC-60,3930,50,wood,,,,-9.48625,53.9723,2,,,Belderg Beg,Ireland,,Europe,EUROEVOL,,Unknown lab ID
+1100,UGAMSA-22339,5212,32,CHARCOAL,,,AMS,-80.61715219,27.69243721,1,,8IR9,Vero,USA,Florida,North America,UWyo2021,Adovasio et al. 2019- What we learned at the Old Vero Site,Unknown lab ID
+1101,UGAMSA-25574,1951,23,TEXTILE,basket fragment,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1102,UGAMSA-26672,2103,23,TEXTILE,basket fragment,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1103,UGAMSA-26673,1850,23,TEXTILE,basket fragment,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1104,UGAMSA-26675,2119,23,TEXTILE,basket fragment,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1105,UGAMSA-26677,1816,23,TEXTILE,basket fragment,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1106,UGAMSA-26678,3307,24,TEXTILE,basket fragment,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1107,UGAMSA-26679,1855,23,TEXTILE,basket fragment,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1108,UGAMSA-26680,6160,40,TEXTILE,Plant fiber,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1109,UGAMSA-26681,3269,24,TEXTILE,bead string,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1110,UGAMSA-26683,6190,50,TEXTILE,basket fragment,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1111,UGAMSA-28742,5680,30,TEXTILE,Plant fiber,,AMS,-117.6325835,37.78497618,1,,26EK3682,Bonneville Estates,USA,Nevada,North America,UWyo2021,,Unknown lab ID
+1112,UGAMSR-01597,1299,39,POTTERYRESIDUE,,-26.63,AMS,-90.61786556,43.9457304,1,,47MO667,Dennis,USA,Wisconsin,North America,UWyo2021,Letterly and Dybowski:52,Unknown lab ID
+1113,UGAMSR-01598,1284,42,POTTERYRESIDUE,,-26.48,AMS,-90.61786556,43.9457304,1,,47MO667,Dennis,USA,Wisconsin,North America,UWyo2021,Letterly and Dybowski:52,Unknown lab ID
+1114,USGSCAMS-626,960,50,CHARCOAL,,,AMS,-92.20770171,37.82475193,1,,23PU606,,USA,Missouri,North America,UWyo2021,Ahler and Albertson 1996,Unknown lab ID
+1115,USGSCAMS-627,1080,50,CHARCOAL,,,AMS,-92.20770171,37.82475193,1,,23PU606,,USA,Missouri,North America,UWyo2021,Ahler and Albertson 1996,Unknown lab ID
+1116,UTCND-10,17200,300,,,,,15.6152,41.654,1,,,Paglicci,Italy,,Europe,Vermeersch2019,Djindjian F. J. Kozlowski & M. Otte 1999. Le Paleolithique superieur en Europe. Armand Colin Paris. Boschin F.  Quaternary Research (2018) 90 470-482,Unknown lab ID
+1117,UTCND-11,19600,300,,,,,15.6152,41.654,1,,,Paglicci,Italy,,Europe,Vermeersch2019,Legoupil D. (2003). Cazadores-recolectores de Posonby (Patagonia austral) y su paleoambiente desde VI al III milenio A. C. Magallania 31 tirada especial (Documentos) 463 pp. Punta Arenas.,Unknown lab ID
+1118,WATNA-1,1720,60,charcoal; charbon de bois,,,,-83.22155621,43.09030032,1,,,Blue Water Bridge South,USA,,North America,CARD,Institute of Archaeology Chinese Academy of Social Sciences.1991,Unknown lab ID
+1119,WSUNA-1,1675,80,charcoal; charbon de bois,,,,-125.9857776,50.78902966,1,,,,Canada,,North America,CARD,Keddie 1984,Unknown lab ID
+1120,WSUNA-2,610,440,charcoal; charbon de bois,,,,-125.9857776,50.78902966,1,,,,Canada,,North America,CARD,Hutchinson 1992;  Powell 1979,Unknown lab ID
+1121,WSUNA-3,740,70,charcoal; charbon de bois,,,,-125.9857776,50.78902966,1,,,Fort Rodd Hill,Canada,,North America,CARD,Owens-Baird and Ferguson 1996b,Unknown lab ID
+1122,WSUNA-4,950,60,charcoal; charbon de bois,,,,-125.9857776,50.78902966,1,,,,Canada,,North America,CARD,LeCount et al. 2002: Table 3,Unknown lab ID
