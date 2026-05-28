@@ -227,7 +227,7 @@ ______________________________________________________
 
 1. Environmental Shock (8400 - 8150 Cal BP)
   - The Environmental Proxy Plot (B) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
-  - This aligns perfectly with the 8.2 ky event (abrupt global cooling and aridification)
+  - This aligns well with the 8.2 ky event (abrupt global cooling and aridification)
 
 2. Human - Environment Interaction
   - The Archaeological Activity Proxy Plot (A) and the Demographic Proxy Plot (C) both exhibit a sharp decline in synch with the environmental change.
@@ -267,6 +267,18 @@ To create a more robust understanding of past climate stressors, it is often hel
   <figcaption align="center"><b>Figure 7:</b> These plots track <b>(A)</b> the archaeological activity proxy (SPD), <b>(B)</b> the aggregated environmental CCSI Z-score, and <b>(C)</b> the demographic Z-score. Panel <b>(D)</b> overlays these trends to visualize synchronized shifts, while <b>(E)</b> isolates the specific climate anomaly to calculate demographic resistance and exponential resilience recovery rates. Panel <b>(F)</b> plots the demographic data against the best-correlated individual proxy (Pollen Algae), and <b>(G)</b> confirms the statistical significance of the population decline using a 95% Monte Carlo null-model envelope.</figcaption>
 </figure>
 
+______________________________________________________
+**These Plots Show:**
+
+1. Environmental Shock (8280 - 8000 Cal BP)
+  - The Environmental CCSI Plot (B) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
+  - This aligns perfectly with the 8.2 ky event (abrupt global cooling and aridification)
+
+2. Difference between Fig. 6 & 7
+  - By this model, the anomaly period is slightly later and sharper, spanning ~8280 - 8000 Cal BP, when concerning the pollen data.
+  - The population is shown to have already been crashing when the 8.2-kiloyear climate event hit.
+  - This could be due to ecological lag and/or calibration error.
+
 ## Density Analysis
 
 This analysis shows the geographical distribution of unweighted sites across a region (Plot a) and the weighted C14 dates at those sites (Plot b). This script allows the user to select a specific temporal range and region (one of the seven continents) or create a custom region (via latitude and longitude) for analysis. 
@@ -285,6 +297,10 @@ This analysis shows the geographical distribution of unweighted sites across a r
   <img width="700" height="1000" alt="image" src="https://github.com/user-attachments/assets/6168e0ee-4df1-4b6f-9cd3-79fff1d4bec3" />
   <figcaption align="center"><b>Figure 8:</b> Plot <b>(A)</b> displays the unweighted density of 1,577 unique archaeological site locations from 12,000 to 1,000 Cal BP across North America. Plot <b>(B)</b> illustrates the date-weighted density of 41,597 radiocarbon dates in the same location and date range, highlighting regions with intense archaeological sampling and radiocarbon dating activity.</figcaption>
 </figure>
+
+
+
+
 
 
 
