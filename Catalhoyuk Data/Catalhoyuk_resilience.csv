@@ -1,0 +1,2 @@
+onset_bp,end_bp,duration_yr,env_min,env_min_bp,demo_min_bp,resistance,resilience_per100yr,resilience_method,demo_sig_below_null,baseline_start_bp,baseline_end_bp,baseline_ok
+8150,8400,250,-2.338,8220,8180,-0.9925,0.27428,exponential,True,7750,8150,True
