@@ -58,13 +58,13 @@ pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn io
 5. SiteName / SiteID whitespace stripping
 6. Duplicate removal (LabID-exact; first-occurrence fallback otherwise)
 7. Miscellaneous scrubbing:
-  - null Age / Error
-  - Age and Error must be whole numbers (integers)
-  - Age > 0  (future dates removed)
-  - Error >= 15 BP  (impossibly small errors removed)
-  - Error <= Age
-  - Age <= 55,000 BP
-  - "United States" normalized to "USA"
+    - null Age / Error
+    - Age and Error must be whole numbers (integers)
+    - Age > 0  (future dates removed)
+    - Error >= 15 BP  (impossibly small errors removed)
+    - Error <= Age
+    - Age <= 55,000 BP
+    - "United States" normalized to "USA"
 8. Hardcoded bad-coordinate patches for 6 known problem LabIDs
 9. Encoding repair on text columns (ftfy when installed, stdlib fallback)
 10. Column sanitisation: strips stray quotes, commas, exotic whitespace
@@ -114,10 +114,10 @@ ______________________________________________________
 **These Plots Show:**
 
 1. Calibration Flattens and Spreads Time
-  - In Figures 2 & 3, the raw 14C ages (red) are naturally clustered and spiky due to plateaus in the calibration curve (where multiple calendar years produce the same radiocarbon age).
-  - Calibration (blue) smooths these spikes out, distributing the radiocarbon data accurately across the timeline. 
+    - In Figures 2 & 3, the raw 14C ages (red) are naturally clustered and spiky due to plateaus in the calibration curve (where multiple calendar years produce the same radiocarbon age).
+    - Calibration (blue) smooths these spikes out, distributing the radiocarbon data accurately across the timeline. 
 2. The "Hallstatt Plateau" Effect
-  - In Figure 3, note how the blue calibrated radiocarbon data is wider and lower than the red uncalibrated peak. This visually demonstrates why calibration is necessary: a single, precise radiocarbon measurement often corresponds to a broad range of true calendar years.
+    - In Figure 3, note how the blue calibrated radiocarbon data is wider and lower than the red uncalibrated peak. This visually demonstrates why calibration is necessary: a single, precise radiocarbon measurement often corresponds to a broad range of true calendar years.
     
 > 💡 **Skip the setup!** I've attached the final cleaned and calibrated dataset in this repository (`p3k14c_pristine_dates.csv`). You can bypass the finicky cleaning and calibrating process entirely and jump straight to the data analysis.
 
@@ -201,22 +201,22 @@ ______________________________________________________
 **These Plots Show:**
 
 1. Initial Settlement and Growth (9220 - 8477 Cal BP)
-  - Plot D shows an initial hinge point at 9220 Cal BP, marking the beginning of an upward demographic trend
-  - Plots B & C show this growth tracking relatively closely with expected baselines, staying within the null envelope.
-  - Aligns with the settlement of the East mound.
+    - Plot D shows an initial hinge point at 9220 Cal BP, marking the beginning of an upward demographic trend
+    - Plots B & C show this growth tracking relatively closely with expected baselines, staying within the null envelope.
+    - Aligns with the settlement of the East mound.
 
 2. Sudden Population Decline (8477 - 8277 Cal BP)
-  - Plot D shows a sharp drop at 8277 Cal BP, and Plots B & C show a red "Below Null" zone shortly after this period.
-  - This aligns with the 8.2 ky climate event and the "Late" phase, bringing about social fragmentation.
+    - Plot D shows a sharp drop at 8277 Cal BP, and Plots B & C show a red "Below Null" zone shortly after this period.
+    - This aligns with the 8.2 ky climate event and the "Late" phase, bringing about social fragmentation.
 
 3. Population Boom (~8000 - 7500 Cal BP)
-  - Plot D shows a hinge point at 7921 Cal BP, showing a population recovery.
-  - Plot A spikes around this time.
-  - Plots B & C show massive red areas indicating "Above Null".
-  - This aligns with the occupation of the West mound; there may be sampling bias making this boom seem more prominent.
+    - Plot D shows a hinge point at 7921 Cal BP, showing a population recovery.
+    - Plot A spikes around this time.
+    - Plots B & C show massive red areas indicating "Above Null".
+    - This aligns with the occupation of the West mound; there may be sampling bias making this boom seem more prominent.
 
 4. Final Decline (post 7500 Cal BP)
-  - Across all plots, a sharp decline is seen after 7500 Cal BP, marking the site's final abandonment.
+    - Across all plots, a sharp decline is seen after 7500 Cal BP, marking the site's final abandonment.
 
 ## Human - Environment Interactions
 By merging the results from the SPD script with paleoclimate data, it can be elucidated whether or not a demographic trend was influenced by an environmental change. By overlaying the demographic proxy with smoothed environmental proxies, [05_Human_Climate_Interaction.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/05_Human_Climate_Interaction.py) highlights distinct periods of environmental stress and then evaluates whether corresponding demographic drops (identified via Monte Carlo significance testing) represent true societal collapses and/or recoveries.
@@ -243,18 +243,18 @@ ______________________________________________________
 **These Plots Show:**
 
 1. Environmental Shock (8400 - 8150 Cal BP)
-  - The Environmental Proxy Plot (B) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
-  - This aligns well with the 8.2 ky event (abrupt global cooling and aridification)
+    - The Environmental Proxy Plot (B) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
+    - This aligns well with the 8.2 ky event (abrupt global cooling and aridification)
 
 2. Human - Environment Interaction
-  - The Archaeological Activity Proxy Plot (A) and the Demographic Proxy Plot (C) both exhibit a sharp decline in synch with the environmental change.
-  - The Resistance & Resilience Detail Pot (E) and the Monte Carlo Significance Test (F) confirm that this was not a random fluctuation, meaning the climate event forced a genuine demographic change.
+    - The Archaeological Activity Proxy Plot (A) and the Demographic Proxy Plot (C) both exhibit a sharp decline in synch with the environmental change.
+    - The Resistance & Resilience Detail Pot (E) and the Monte Carlo Significance Test (F) confirm that this was not a random fluctuation, meaning the climate event forced a genuine demographic change.
 
 3. Shock Aftermath (~8000 - 7500 Cal BP)
-  - The Overlay Plot (D) shows that as soon as the climate recovers, the population follows almost immediately.
-  - By 8000 Cal BP, the archaeological activity surpasses the previous levels, exhibiting high societal resilience (noted as 0.274/100yr in the detail plot).
-  - This shows that the population at Çatalhöyük adapted, reorganized, and recovered once the climate stabilized.
-  - From the Ice Core data, it is unclear whether the final abandonment of the site was climate-motivated. 
+    - The Overlay Plot (D) shows that as soon as the climate recovers, the population follows almost immediately.
+    - By 8000 Cal BP, the archaeological activity surpasses the previous levels, exhibiting high societal resilience (noted as 0.274/100yr in the detail plot).
+    - This shows that the population at Çatalhöyük adapted, reorganized, and recovered once the climate stabilized.
+    - From the Ice Core data, it is unclear whether the final abandonment of the site was climate-motivated. 
 
 ## Composite Paleoproxies for Human - Environment Interactions
 
@@ -265,21 +265,21 @@ To create a more robust understanding of past climate stressors, it is often hel
 
 ### **Functionality**:
 1. Fetches multiple palaeoclimate proxy series for the specified site from:
-  - NOAA GISP2     —> Greenland temperature (global signal, always available)
-  - PANGAEA        —> any keyword-matched proxies (e.g. speleothem d18O)
-  - Neotoma        —> pollen-based proxies (precipitation/vegetation)
+    - NOAA GISP2     —> Greenland temperature (global signal, always available)
+    - PANGAEA        —> any keyword-matched proxies (e.g. speleothem d18O)
+    - Neotoma        —> pollen-based proxies (precipitation/vegetation)
 2. Bins every proxy to the same temporal grid (RESOLUTION yr steps).
 3. Z-scores each proxy individually (so units are commensurable).
 4. Applies PCA across proxies; PC1 is retained as the Composite Climate Stress Index (CCSI).
-  - Sign convention: positive CCSI = warm/wet, negative = cold/dry/stressed.
-  - If the leading PC points the "wrong way," it is automatically flipped so that lower values always = more climate stress.
+    - Sign convention: positive CCSI = warm/wet, negative = cold/dry/stressed.
+    - If the leading PC points the "wrong way," it is automatically flipped so that lower values always = more climate stress.
 5. Compares CCSI against the demographic SPD (loaded from 04's output or rebuilt from scratch).
 6. Detects climate stress episodes (CCSI < threshold), calculates resistance and resilience exactly as in 06_Human_Environment.py.
 7. Saves files:
-  - <SITE>_ccsi.csv              — gridded CCSI + each proxy Z-score
-  - <SITE>_ccsi_resilience.csv   — per-episode resistance/resilience table
-  - <SITE>_ccsi.png              — 5-plot figure (see below)
-
+    - <SITE>_ccsi.csv              — gridded CCSI + each proxy Z-score
+    - <SITE>_ccsi_resilience.csv   — per-episode resistance/resilience table
+    - <SITE>_ccsi.png              — 5-plot figure (see below)
+  
 ### **Case Study**: Çatalhöyük
 
 <figure>
@@ -291,13 +291,13 @@ ______________________________________________________
 **These Plots Show:**
 
 1. Environmental Shock (8280 - 8000 Cal BP)
-  - The Environmental CCSI Plot (B) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
-  - This aligns perfectly with the 8.2 ky event (abrupt global cooling and aridification)
+    - The Environmental CCSI Plot (B) shows a sharp decline in the environmental Z-score reaching well below the -1.0 anomaly threshold
+    - This aligns perfectly with the 8.2 ky event (abrupt global cooling and aridification)
 
 2. Difference between Fig. 6 & 7
-  - By this model, the anomaly period is slightly later and sharper, spanning ~8280 - 8000 Cal BP, when concerning the pollen data.
-  - The population is shown to have already been crashing when the 8.2-kiloyear climate event hit.
-  - This could be due to ecological lag and/or calibration error.
+    - By this model, the anomaly period is slightly later and sharper, spanning ~8280 - 8000 Cal BP, when concerning the pollen data.
+    - The population is shown to have already been crashing when the 8.2-kiloyear climate event hit.
+    - This could be due to ecological lag and/or calibration error.
 
 ## Density Analysis
 
@@ -311,8 +311,8 @@ ______________________________________________________
 1. Prompts for a geographic region (preset or custom bounding box)
 2. Prompts for a temporal window (Cal BP)
 3. Computes two KDE surfaces:
-      (A) Unweighted — each unique site location counts equally
-      (B) Date-weighted — sites with more 14C dates contribute more
+    - (A) Unweighted — each unique site location counts equally
+    - (B) Date-weighted — sites with more 14C dates contribute more
 4. Saves a 2-panel map figure (PNG) masked to land
 
 <figure>
