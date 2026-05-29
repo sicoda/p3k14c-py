@@ -197,17 +197,17 @@ ______________________________________________________
   - Plots B & C show this growth tracking relatively closely with expected baselines, staying within the null envelope.
   - Aligns with the settlement of the East mound.
 
-3. Sudden Population Decline (8477 - 8277 Cal BP)
+2. Sudden Population Decline (8477 - 8277 Cal BP)
   - Plot D shows a sharp drop at 8277 Cal BP, and Plots B & C show a red "Below Null" zone shortly after this period.
   - This aligns with the 8.2 ky climate event and the "Late" phase, bringing about social fragmentation.
 
-4. Population Boom (~8000 - 7500 Cal BP)
+3. Population Boom (~8000 - 7500 Cal BP)
   - Plot D shows a hinge point at 7921 Cal BP, showing a population recovery.
   - Plot A spikes around this time.
   - Plots B & C show massive red areas indicating "Above Null".
   - This aligns with the occupation of the West mound; there may be sampling bias making this boom seem more prominent.
 
-5. Final Decline (post 7500 Cal BP)
+4. Final Decline (post 7500 Cal BP)
   - Across all plots, a sharp decline is seen after 7500 Cal BP, marking the site's final abandonment.
 
 ## Human - Environment Interactions
