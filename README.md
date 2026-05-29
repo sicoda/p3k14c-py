@@ -33,15 +33,23 @@ pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn io
 
 # Overview of Scripts
 
+  - [01_Data_Cleaning_and_Prep.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/01_Data_Cleaning_and_Prep.py)
+  - [02_Calibrating.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/02_Calibrating.py)
+  - [03_SummaryStats.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/03_SummaryStats.py)
+  - [04_SPD.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/04_SPD.py)
+  - [05_Human_Climate_Interaction.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/05_Human_Climate_Interaction.py)
+  - [06_Composite_Human_Environment.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/06_Composite_Human_Environment.py)
+  - [07_KDE.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/07_KDE.py)
+
 ## Cleaning
 
-This cleaning script is an essential step for quality control and later computational analyses. This script is adapted from  [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) to work using Python 3.12.10.
+[01_Data_Cleaning_and_Prep.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/01_Data_Cleaning_and_Prep.py) is an essential step for quality control and later computational analyses. This script is adapted from  [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) to work using Python 3.12.10.
 
 ### **Tools**: 
 `pandas` and `numpy` for data manipulation, `re` for regex parsing, `tqdm` for progress tracking, `ftfy` (optional) for repairing broken character encodings.
 
 ### **Functionality**: 
-The cleaning script automatically cleans the dataset via these tasks:
+[01_Data_Cleaning_and_Prep.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/01_Data_Cleaning_and_Prep.py) automatically cleans the dataset via these tasks:
 
 1. Lab-code validation via Labs.csv (typo correction included)
 2. LabID quality checks: must contain a numeral, no '?', no corrupted Unicode
@@ -75,13 +83,13 @@ The cleaning script automatically cleans the dataset via these tasks:
 
 ## Calibration
 
-Radiocarbon ages must be calibrated to account for historical fluctuations in atmospheric Carbon-14 (14C), especially during the Holocene.
+Radiocarbon ages must be calibrated via [02_Calibrating.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/02_Calibrating.py) to account for historical fluctuations in atmospheric Carbon-14 (C14), especially during the Holocene.  
 
 ### **Tools**: 
 `IOSACal` (an [open-source](https://c14.iosa.it/en/latest/) radiocarbon calibration library in Python) for Bayesian calibration, `pandas` for data management, and `tqdm`.
 
 ### **Functionality**: 
-The calibration script automatically maps each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, and formats them neatly into a `pandas` DataFrame for later analysis. This script outputs a `p3k14c_pristine_dates.csv` file, which will be used in the following statistical analyses. 
+[02_Calibrating.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/02_Calibrating.py) automatically maps each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, and formats them neatly into a `pandas` DataFrame for later analysis. This script outputs a `p3k14c_pristine_dates.csv` file, which will be used in the following statistical analyses. 
 
 1. Curve selection: for every row, the script checks the "Lat" column. Any sample at or above the equator gets `intcal20`; anything below gets `shcal20`.
 2. Calibration: calls R(age, error, lab_id).calibrate(curve) from `IOSACal` to get Cal BP data.
@@ -115,13 +123,13 @@ ______________________________________________________
 
 ## Summary Statistics
 
-A great first step to analysing any large dataset. Gives the researcher a general idea of the dataset's geometry and contents before diving into complex modeling.
+[03_SummaryStats.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/03_SummaryStats.py) is a great first step to analyzing the large p3k14c dataset. Gives the researcher a general idea of the dataset's geometry and contents before diving into complex modeling.
 
 ### **Tools**: 
 `matplotlib.pyplot`, `pandas`, and `numpy`.
 
 ### **Functionality**: 
-Generates summaries of continental and regional data, missing values, error margins, and distributions. 
+[03_SummaryStats.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/03_SummaryStats.py) generates summaries of continental and regional data, missing values, error margins, and distributions. 
 
 1. Optional Country / SiteName filter (or press Enter for global view, shown below)
 2. Prints record counts, continental/country breakdowns, missing-value report, and age/error statistics (see below)
@@ -169,13 +177,13 @@ MedianCalBP  169051.0  5043.14  3191.0  48.0  53937.0
 
 ## SPD (Summed Probability Distributions)
 
-SPD's can be used on calibrated radiocarbon data to estimate demographic fluctuations over time as a proxy for human activity. Essentially, the frequency of datable anthropogenic carbon recovered from archaeological contexts serves as a direct proxy for past fluctuations in human population density and associated settlement activity.
+[04_SPD.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/04_SPD.py) can be used on calibrated radiocarbon data to estimate demographic fluctuations over time as a proxy for human activity. Essentially, the frequency of datable anthropogenic carbon recovered from archaeological contexts serves as a direct proxy for past fluctuations in human population density and associated settlement activity.
 
 ### **Tools**: 
 `scipy.optimize`(`differential_evolution`, `curve_fit`) and `scipy.stats`(`lineregress`) for statistical modeling, `radiocabon` for age calibration, `matplotlib`, `numpy`, and `pandas`
 
 ### **Functionality**: 
-This script combines several methodologies from paleodemography:
+[04_SPD.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/04_SPD.py) combines several methodologies from paleodemography:
 
 1. Chronometric Hygiene: Filters out problematic materials (old-wood/marine effects), drops large-error dates ([Reimer et al. 2020](https://www.cambridge.org/core/journals/radiocarbon/article/intcal20-northern-hemisphere-radiocarbon-age-calibration-curve-055-cal-kbp/83257B63DC3AF9CFA6243F59D7503EFF)).
 2. Spatial-Temoral Binning: Controls oversampling biases from single archaeological phases ([Timpson et al. 2014](https://www.researchgate.net/publication/265421202_Reconstructing_regional_population_fluctuations_in_the_European_Neolithic_using_radiocarbon_dates_A_new_case-study_using_an_improved_method)).
@@ -211,17 +219,18 @@ ______________________________________________________
   - Across all plots, a sharp decline is seen after 7500 Cal BP, marking the site's final abandonment.
 
 ## Human - Environment Interactions
-By merging the results from the SPD script with paleoclimate data, it can be elucidated whether or not a demographic trend was influenced by an environmental change. By overlaying the demographic proxy with smoothed environmental proxies, the script highlights distinct periods of environmental stress and then evaluates whether corresponding demographic drops (identified via Monte Carlo significance testing) represent true societal collapses and/or recoveries.
+By merging the results from the SPD script with paleoclimate data, it can be elucidated whether or not a demographic trend was influenced by an environmental change. By overlaying the demographic proxy with smoothed environmental proxies, [05_Human_Climate_Interaction.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/05_Human_Climate_Interaction.py) highlights distinct periods of environmental stress and then evaluates whether corresponding demographic drops (identified via Monte Carlo significance testing) represent true societal collapses and/or recoveries.
 
 ### **Tools**: 
 `requests` for querying web APIs, `scipy.interpolate`(`interp1d`) for time-series alignment, `scipy.signal`(`savgol_filter`, `detrend`) for smoothing, and `matplotlib`/`seaborn`.
 
 ### **Functionality**:
-  - Automated Data Retrieval: Fetches local environmental proxy data (e.g., stable isotopes, pollen) from PANGAEA and Neotoma databases based on proximity to the archaeological site.
-  - Data Harmonization: Detrends and Z-scores disparate environmental proxies, aligning them temporally with the IntCal20-calibrated demographic SPD.
-  - Anomaly Detection: Identifies periods of extreme environmental stress (anomalies) using customizable thresholds.
-  - Resilience & Resistance Metrics: Calculates the demographic resistance to an environmental event, and fits an exponential recovery curve to quantify subsequent human resilience.
-  - Visualization: Generates a comprehensive, multi-panel dashboard comparing demographic and environmental Z-scores over time.
+
+1. Automated Data Retrieval: Fetches local environmental proxy data (e.g., stable isotopes, pollen) from PANGAEA and Neotoma databases based on proximity to the archaeological site.
+2. Data Harmonization: Detrends and Z-scores disparate environmental proxies, aligning them temporally with the IntCal20-calibrated demographic SPD.
+3. Anomaly Detection: Identifies periods of extreme environmental stress (anomalies) using customizable thresholds.
+4. Resilience & Resistance Metrics: Calculates the demographic resistance to an environmental event, and fits an exponential recovery curve to quantify subsequent human resilience.
+5. Visualization: Generates a comprehensive, multi-panel dashboard comparing demographic and environmental Z-scores over time.
 
 ### **Case Study**: Çatalhöyük
 
@@ -249,7 +258,7 @@ ______________________________________________________
 
 ## Composite Paleoproxies for Human - Environment Interactions
 
-To create a more robust understanding of past climate stressors, it is often helpful to synthesize multiple lines of environmental evidence. Relying on a single proxy can introduce regional bias or data gaps. This script uses Principal Component Analysis (PCA) to distill multiple paleoclimate datasets (e.g., ice core temperatures, pollen counts, and stable isotopes) into a single, comprehensive Composite Climate Stress Index (CCSI).
+To create a more robust understanding of past climate stressors, it is often helpful to synthesize multiple lines of environmental evidence. Relying on a single proxy can introduce regional bias or data gaps. [06_Composite_Human_Environment.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/06_Composite_Human_Environment.py) uses Principal Component Analysis (PCA) to distill multiple paleoclimate datasets (e.g., ice core temperatures, pollen counts, and stable isotopes) into a single, comprehensive Composite Climate Stress Index (CCSI).
 
 ### **Tools**: 
 `sklearn.decomposition`(`PCA`), `sklearn.preprocessing`(`StandardScaler`), `scipy`, and `pandas`.
@@ -292,19 +301,19 @@ ______________________________________________________
 
 ## Density Analysis
 
-This analysis shows the geographical distribution of unweighted sites across a region (Plot a) and the weighted C14 dates at those sites (Plot b). This script allows the user to select a specific temporal range and region (one of the seven continents) or create a custom region (via latitude and longitude) for analysis. 
+[07_KDE.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/07_KDE.py) shows the geographical distribution of unweighted sites across a region (A) and the weighted C14 dates at those sites (B). This script allows the user to select a specific temporal range and region (one of the seven continents) or create a custom region (via latitude and longitude) for analysis. 
 
 ### **Tools**: 
 `cartopy`(`ccrs`, `cfeature`) for map projections and geography, `scipy.stats`(`gaussian_kde`) for density estimation, and `matplotlib`.
 
 ### **Functionality**: 
-Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites vs. dated sites. Provides a visual of spatial sampling biases across the globe. Here is an example for North America:
-  - Prompts for a geographic region (preset or custom bounding box)
-  - Prompts for a temporal window (Cal BP)
-  - Computes two KDE surfaces:
+[07_KDE.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/07_KDE.py) uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites vs. dated sites as follows:
+1. Prompts for a geographic region (preset or custom bounding box)
+2. Prompts for a temporal window (Cal BP)
+3. Computes two KDE surfaces:
       (A) Unweighted — each unique site location counts equally
-      (B) Date-weighted — sites with more ¹⁴C dates contribute more
-   - Saves a 2-panel map figure (PNG) masked to land
+      (B) Date-weighted — sites with more 14C dates contribute more
+4. Saves a 2-panel map figure (PNG) masked to land
 
 <figure>
   <img width="700" height="1000" alt="image" src="https://github.com/user-attachments/assets/6168e0ee-4df1-4b6f-9cd3-79fff1d4bec3" />
