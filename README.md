@@ -37,9 +37,11 @@ pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn io
 
 This cleaning script is an essential step for quality control and later computational analyses. This script is adapted from  [p3k14c-data-scrubbing](https://github.com/people3k/p3k14c-data-scrubbing) to work using Python 3.12.10.
 
-**Tools**: `pandas` and `numpy` for data manipulation, `re` for regex parsing, `tqdm` for progress tracking, `ftfy` (optional) for repairing broken character encodings.
+### **Tools**: 
+`pandas` and `numpy` for data manipulation, `re` for regex parsing, `tqdm` for progress tracking, `ftfy` (optional) for repairing broken character encodings.
 
-**Functionality**: The cleaning script automatically cleans the dataset via these tasks:
+### **Functionality**: 
+The cleaning script automatically cleans the dataset via these tasks:
 
 1. Lab-code validation via Labs.csv (typo correction included)
 2. LabID quality checks: must contain a numeral, no '?', no corrupted Unicode
@@ -75,9 +77,11 @@ This cleaning script is an essential step for quality control and later computat
 
 Radiocarbon ages must be calibrated to account for historical fluctuations in atmospheric Carbon-14 (14C), especially during the Holocene.
 
-**Tools**: `IOSACal` (an [open-source](https://c14.iosa.it/en/latest/) radiocarbon calibration library in Python) for Bayesian calibration, `pandas` for data management, and `tqdm`.
+### **Tools**: 
+`IOSACal` (an [open-source](https://c14.iosa.it/en/latest/) radiocarbon calibration library in Python) for Bayesian calibration, `pandas` for data management, and `tqdm`.
 
-**Functionality**: The calibration script automatically maps each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, and formats them neatly into a `pandas` DataFrame for later analysis. This script outputs a `p3k14c_pristine_dates.csv` file, which will be used in the following statistical analyses. 
+### **Functionality**: 
+The calibration script automatically maps each date to the correct calibration curve (`IntCal20` for the Northern Hemisphere, `SHCal20` for the Southern Hemisphere) based on the sample's latitude. It extracts key numerical boundaries, such as the median calendar age and 95% confidence intervals, and formats them neatly into a `pandas` DataFrame for later analysis. This script outputs a `p3k14c_pristine_dates.csv` file, which will be used in the following statistical analyses. 
 
 1. Curve selection: for every row, the script checks the "Lat" column. Any sample at or above the equator gets `intcal20`; anything below gets `shcal20`.
 2. Calibration: calls R(age, error, lab_id).calibrate(curve) from `IOSACal` to get Cal BP data.
@@ -86,12 +90,12 @@ Radiocarbon ages must be calibrated to account for historical fluctuations in at
     - 95.4% (2σ) confidence interval lower and upper bounds
 5. Failure handling: rows with missing Age, Error, or Lat, or any row where `IOSACal` throws an exception, are written to `calibration_failures.csv`.
 
-<figure>
+<figure style="margin:1">
   <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/cff72b16-2b08-4856-bf5a-1e315571e249" />
   <figcaption align="center"><b>Figure 2:</b> The calibrated (blue) and uncalibrated (red) radiocarbon data in the p3k14c dataset following calibration via IOSACal.</figcaption>
 </figure>
-  
-**Case Study**: Çatalhöyük
+ 
+### **Case Study**: Çatalhöyük
     
 <figure>
   <img width="4753" height="1752" alt="image" src="https://github.com/user-attachments/assets/433fba98-494a-42f7-bd44-19cd2d7f99eb" />
@@ -113,9 +117,11 @@ ______________________________________________________
 
 A great first step to analysing any large dataset. Gives the researcher a general idea of the dataset's geometry and contents before diving into complex modeling.
 
-**Tools**: `matplotlib.pyplot`, `pandas`, and `numpy`.
+### **Tools**: 
+`matplotlib.pyplot`, `pandas`, and `numpy`.
 
-**Functionality**: Generates summaries of continental and regional data, missing values, error margins, and distributions. 
+### **Functionality**: 
+Generates summaries of continental and regional data, missing values, error margins, and distributions. 
 
 1. Optional Country / SiteName filter (or press Enter for global view, shown below)
 2. Prints record counts, continental/country breakdowns, missing-value report, and age/error statistics (see below)
@@ -154,6 +160,7 @@ Age          169051.0  4540.92  3010.0  30.0  54940.0
 Error        169051.0    89.86    55.0  15.0   9300.0
 MedianCalBP  169051.0  5043.14  3191.0  48.0  53937.0
 ```
+###### &nbsp;
 
 <figure> 
   <img width="4169" height="2955" alt="image" src="https://github.com/user-attachments/assets/831ae40f-c071-49af-9b5a-e4f3ba1a4e25" />
@@ -164,9 +171,11 @@ MedianCalBP  169051.0  5043.14  3191.0  48.0  53937.0
 
 SPD's can be used on calibrated radiocarbon data to estimate demographic fluctuations over time as a proxy for human activity. Essentially, the frequency of datable anthropogenic carbon recovered from archaeological contexts serves as a direct proxy for past fluctuations in human population density and associated settlement activity.
 
-**Tools**: `scipy.optimize`(`differential_evolution`, `curve_fit`) and `scipy.stats`(`lineregress`) for statistical modeling, `radiocabon` for age calibration, `matplotlib`, `numpy`, and `pandas`
+### **Tools**: 
+`scipy.optimize`(`differential_evolution`, `curve_fit`) and `scipy.stats`(`lineregress`) for statistical modeling, `radiocabon` for age calibration, `matplotlib`, `numpy`, and `pandas`
 
-**Functionality**: This script combines several methodologies from paleodemography:
+### **Functionality**: 
+This script combines several methodologies from paleodemography:
 
 1. Chronometric Hygiene: Filters out problematic materials (old-wood/marine effects), drops large-error dates ([Reimer et al. 2020](https://www.cambridge.org/core/journals/radiocarbon/article/intcal20-northern-hemisphere-radiocarbon-age-calibration-curve-055-cal-kbp/83257B63DC3AF9CFA6243F59D7503EFF)).
 2. Spatial-Temoral Binning: Controls oversampling biases from single archaeological phases ([Timpson et al. 2014](https://www.researchgate.net/publication/265421202_Reconstructing_regional_population_fluctuations_in_the_European_Neolithic_using_radiocarbon_dates_A_new_case-study_using_an_improved_method)).
@@ -174,7 +183,7 @@ SPD's can be used on calibrated radiocarbon data to estimate demographic fluctua
 4. Null Hypothesis Significance Testing (NHST): Uses 5,000-iteration (adjustable) Monte Carlo simulations to test the empirical SPD against exponential and logistic null models, highlighting periods of statistically significant population deviation ([Timpson et al. 2014](https://www.researchgate.net/publication/265421202_Reconstructing_regional_population_fluctuations_in_the_European_Neolithic_using_radiocarbon_dates_A_new_case-study_using_an_improved_method); [Crema et al. 2017](https://www.sciencedirect.com/science/article/pii/S0305440317301310); [Weninger et al. 2015](https://www.tandfonline.com/doi/full/10.1080/00438243.2015.1064022); [Bettinger et al. 2016](https://www.pnas.org/doi/full/10.1073/pnas.1523806113); [Shennan et al. 2013](https://www.nature.com/articles/ncomms3486)).
 5. Continuous Piecewise Linear (CPL) Modelling: Uses differential evolution and Bayesian Information Criterion (BIC) to identify optimal "hinge points" that represent major regime shifts in population growth and decline ([McLaughlin 2019](https://link.springer.com/article/10.1007/s10816-018-9381-3); [Edinborough et al. 2017](https://www.pnas.org/doi/full/10.1073/pnas.1713012114)).
 
-**Case Study**: Çatalhöyük
+### **Case Study**: Çatalhöyük
 
 <figure>
   <img width="5055" height="3326" alt="image" src="https://github.com/user-attachments/assets/7e202d6b-47aa-4348-8af7-3a2a82ddc828" />
@@ -204,16 +213,17 @@ ______________________________________________________
 ## Human - Environment Interactions
 By merging the results from the SPD script with paleoclimate data, it can be elucidated whether or not a demographic trend was influenced by an environmental change. By overlaying the demographic proxy with smoothed environmental proxies, the script highlights distinct periods of environmental stress and then evaluates whether corresponding demographic drops (identified via Monte Carlo significance testing) represent true societal collapses and/or recoveries.
 
-**Tools**: `requests` for querying web APIs, `scipy.interpolate`(`interp1d`) for time-series alignment, `scipy.signal`(`savgol_filter`, `detrend`) for smoothing, and `matplotlib`/`seaborn`.
+### **Tools**: 
+`requests` for querying web APIs, `scipy.interpolate`(`interp1d`) for time-series alignment, `scipy.signal`(`savgol_filter`, `detrend`) for smoothing, and `matplotlib`/`seaborn`.
 
-**Functionality**:
+### **Functionality**:
   - Automated Data Retrieval: Fetches local environmental proxy data (e.g., stable isotopes, pollen) from PANGAEA and Neotoma databases based on proximity to the archaeological site.
   - Data Harmonization: Detrends and Z-scores disparate environmental proxies, aligning them temporally with the IntCal20-calibrated demographic SPD.
   - Anomaly Detection: Identifies periods of extreme environmental stress (anomalies) using customizable thresholds.
   - Resilience & Resistance Metrics: Calculates the demographic resistance to an environmental event, and fits an exponential recovery curve to quantify subsequent human resilience.
   - Visualization: Generates a comprehensive, multi-panel dashboard comparing demographic and environmental Z-scores over time.
 
-**Case Study**: Çatalhöyük
+### **Case Study**: Çatalhöyük
 
 <figure>
   <img width="4160" height="5296" alt="image" src="https://github.com/user-attachments/assets/2912c8a6-904d-4467-95a2-1c150cec4c75" />
@@ -241,9 +251,10 @@ ______________________________________________________
 
 To create a more robust understanding of past climate stressors, it is often helpful to synthesize multiple lines of environmental evidence. Relying on a single proxy can introduce regional bias or data gaps. This script uses Principal Component Analysis (PCA) to distill multiple paleoclimate datasets (e.g., ice core temperatures, pollen counts, and stable isotopes) into a single, comprehensive Composite Climate Stress Index (CCSI).
 
-**Tools**: `sklearn.decomposition`(`PCA`), `sklearn.preprocessing`(`StandardScaler`), `scipy`, and `pandas`.
+### **Tools**: 
+`sklearn.decomposition`(`PCA`), `sklearn.preprocessing`(`StandardScaler`), `scipy`, and `pandas`.
 
-**Functionality**:
+### **Functionality**:
 1. Fetches multiple palaeoclimate proxy series for the specified site from:
   - NOAA GISP2     —> Greenland temperature (global signal, always available)
   - PANGAEA        —> any keyword-matched proxies (e.g. speleothem d18O)
@@ -259,6 +270,8 @@ To create a more robust understanding of past climate stressors, it is often hel
   - <SITE>_ccsi.csv              — gridded CCSI + each proxy Z-score
   - <SITE>_ccsi_resilience.csv   — per-episode resistance/resilience table
   - <SITE>_ccsi.png              — 5-plot figure (see below)
+
+### **Case Study**: Çatalhöyük
 
 <figure>
   <img width="4161" height="6571" alt="image" src="https://github.com/user-attachments/assets/fee34b4a-84cd-4ff1-bf9d-aedf1f9fcd54" />
@@ -281,9 +294,11 @@ ______________________________________________________
 
 This analysis shows the geographical distribution of unweighted sites across a region (Plot a) and the weighted C14 dates at those sites (Plot b). This script allows the user to select a specific temporal range and region (one of the seven continents) or create a custom region (via latitude and longitude) for analysis. 
 
-**Tools**: `cartopy`(`ccrs`, `cfeature`) for map projections and geography, `scipy.stats`(`gaussian_kde`) for density estimation, and `matplotlib`.
+### **Tools**: 
+`cartopy`(`ccrs`, `cfeature`) for map projections and geography, `scipy.stats`(`gaussian_kde`) for density estimation, and `matplotlib`.
 
-**Functionality**: Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites vs. dated sites. Provides a visual of spatial sampling biases across the globe. Here is an example for North America:
+### **Functionality**: 
+Uses `scipy.stats.gaussian_kde` to create continuous Kernel Density Estimation (KDE) surfaces for recorded sites vs. dated sites. Provides a visual of spatial sampling biases across the globe. Here is an example for North America:
   - Prompts for a geographic region (preset or custom bounding box)
   - Prompts for a temporal window (Cal BP)
   - Computes two KDE surfaces:
