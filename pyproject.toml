@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paleopy"
+version = "0.1.0"
+description = "Radiocarbon-dating and paleodemography analysis pipeline (p3k14c)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "requests",
+]
+
+[project.optional-dependencies]
+calibration = ["iosacal", "radiocarbon"]
+stats = ["scikit-learn", "seaborn"]
+mapping = ["cartopy"]
+text = ["ftfy"]
+progress = ["tqdm"]
+all = ["paleopy[calibration,stats,mapping,text,progress]"]
+dev = ["pytest", "pytest-mock"]
+
+[project.scripts]
+paleopy-clean = "paleopy.cli.clean:main"
+paleopy-calibrate = "paleopy.cli.calibrate:main"
+paleopy-summary = "paleopy.cli.summary:main"
+paleopy-spd = "paleopy.cli.spd:main"
+paleopy-climate = "paleopy.cli.climate:main"
+paleopy-ccsi = "paleopy.cli.ccsi:main"
+paleopy-kde = "paleopy.cli.kde:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/paleopy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "golden: slow tests comparing package output against original scripts on real data",
+    "network: tests that intentionally exercise mocked/recorded network fixtures",
+]
