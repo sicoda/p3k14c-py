@@ -34,8 +34,9 @@ except ImportError:
     sys.exit(
         "ERROR: IOSACal is not installed.\n"
         "Install it with:  pip install iosacal"
+    )
 
- 
+
 # -----------------------------------------------------------------------------
 # Configuration
 # -----------------------------------------------------------------------------
