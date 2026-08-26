@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # cartopy/shapely/pyproj occasionally need these on Linux even when
+      # wheels are available for the rest of the stack.
+      - name: Install system dependencies (cartopy/geos/proj)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgeos-dev libproj-dev proj-bin
+
+      - name: Install paleopy with all extras + dev dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .[all,dev]
+
+      - name: Run test suite
+        run: pytest tests/ -v
