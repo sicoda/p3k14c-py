@@ -8,7 +8,7 @@ DEPENDENCIES :  pip install argparse math re sys time warnings os dataclasses pa
 PYTHON       :  3.12+
 """
  
- import argparse
+import argparse
 import math
 import re
 import sys

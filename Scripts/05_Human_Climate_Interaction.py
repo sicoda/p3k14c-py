@@ -735,7 +735,7 @@ def fetch_neotoma(dtypes):
         return None
 
     for dtype in dtypes:
-        ids_str = ",".join(str(i) for i in nearby_ids)
+        ids_str = ",".join(str(i) for i in nearby_siteids)
         ds_url  = (f"{NEOTOMA_API}/data/datasets"
                    f"?siteid={ids_str}"
                    f"&datasettype={dtype.replace(' ', '%20')}&limit=200")
