@@ -25,13 +25,47 @@ This repository bridges that gap. `p3k14c-py` provides detailed Python scripts f
 
 # Installation and Requirements
 
-To run the scripts in this repository, you will need `Python 3.12.10` and the following core libraries. You can install them via pip:
+The recommended way to use this repository is now the `paleopy` Python package (see below), which supersedes the standalone scripts in `Scripts/`. To install it:
 
 ```Bash
-pip install pandas plotly shapely scipy numpy matplotlib seaborn scikit-learn iosacal tqdm os
+pip install -e .[all]
 ```
 
+This installs the core dependencies (numpy, pandas, scipy, matplotlib, requests) plus every optional extra: `calibration` (iosacal, radiocarbon), `stats` (scikit-learn, seaborn), `mapping` (cartopy), `text` (ftfy), `progress` (tqdm). Install a subset instead if you only need part of the pipeline, e.g. `pip install -e .[calibration]`.
+
+If you'd rather run the original standalone scripts directly (see `Scripts/`, kept for reference — see the note below), install the same libraries manually:
+
+```Bash
+pip install pandas scipy numpy matplotlib seaborn scikit-learn iosacal radiocarbon cartopy tqdm ftfy requests
+```
+
+# The `paleopy` Package
+
+The functionality of all seven scripts below has been ported into an installable Python package, `paleopy` (see `src/paleopy/`), with one console script per original script:
+
+| Console script | Replaces | Purpose |
+|---|---|---|
+| `paleopy-clean` | `01_Data_Cleaning_and_Prep.py` | Clean/scrub the raw p3k14c dataset |
+| `paleopy-calibrate` | `02_Calibrating.py` | IOSACal radiocarbon calibration |
+| `paleopy-summary` | `03_SummaryStats.py` | Summary statistics + dashboard |
+| `paleopy-spd` | `04_SPD.py` | SPD paleodemography pipeline |
+| `paleopy-climate` | `05_Human_Climate_Interaction.py` | Human-climate comparison |
+| `paleopy-ccsi` | `06_Composite_Human_Environment.py` | Composite Climate Stress Index (PCA) |
+| `paleopy-kde` | `07_KDE.py` | Spatial KDE visualizer |
+
+Each console script accepts `--input`/`--outdir` plus named flags for the settings that used to be hardcoded module-level constants in the scripts (e.g. `--site-name`, `--site-lat`, `--site-lon`, `--time-min`, `--time-max`). Run any of them with `--help` for the full option list. For example, to reproduce the Çatalhöyük SPD case study below:
+
+```Bash
+paleopy-spd --input p3k14c_pristine_dates.csv --outdir Figures --confirm
+```
+
+Shared logic (calibration methods, chronometric hygiene, binning, taphonomic correction, proxy fetchers, resistance/resilience analysis, plotting helpers) lives in importable `paleopy` modules rather than being duplicated across scripts — see `src/paleopy/` for the module layout. A `pytest` suite in `tests/` covers the package, including direct numerical parity checks against the original scripts' outputs.
+
+**Note on `Scripts/`:** the original standalone scripts are kept in this repository for reference and historical/reproducibility purposes, but are no longer the primary way to run this pipeline — use the `paleopy` package instead.
+
 # Overview of Scripts
+
+The narrative below documents the methodology of each pipeline stage using the original scripts as reference; the same functionality is available via the `paleopy` console scripts listed above.
 
   - [01_Data_Cleaning_and_Prep.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/01_Data_Cleaning_and_Prep.py)
   - [02_Calibrating.py](https://github.com/sicoda/p3k14c-py/blob/main/Scripts/02_Calibrating.py)
