@@ -1,6 +1,5 @@
 import importlib.util
 import socket
-import sys
 
 import numpy as np
 import pytest
@@ -30,11 +29,9 @@ def test_load_intcal20_uses_existing_cache():
     assert np.all(np.diff(cal_bp) >= 0)  # sorted ascending
 
 
-def test_calibrate_gaussian_intcal_parity():
-    spec = importlib.util.spec_from_file_location("orig05_calib_test", "Scripts/05_Human_Climate_Interaction.py")
-    orig = importlib.util.module_from_spec(spec)
-    sys.modules["orig05_calib_test"] = orig
-    spec.loader.exec_module(orig)  # triggers orig's own load_intcal20() at import (uses cache)
+def test_calibrate_gaussian_intcal_parity(legacy_script):
+    # triggers orig's own load_intcal20() at import (uses cache)
+    orig = legacy_script("05_Human_Climate_Interaction.py", "orig05_calib_test")
 
     years = np.arange(7300, 9500, 10, dtype=float)
     for age, err in [(8500, 40), (8000, 100)]:

@@ -1,6 +1,3 @@
-import importlib.util
-import sys
-
 import numpy as np
 import pytest
 
@@ -8,12 +5,8 @@ from paleopy.resilience import align, detect_anomalies, fit_resilience, sg_smoot
 
 
 @pytest.fixture(scope="module")
-def orig05():
-    spec = importlib.util.spec_from_file_location("orig05_resilience_test", "Scripts/05_Human_Climate_Interaction.py")
-    mod = importlib.util.module_from_spec(spec)
-    sys.modules["orig05_resilience_test"] = mod
-    spec.loader.exec_module(mod)
-    return mod
+def orig05(legacy_script):
+    return legacy_script("05_Human_Climate_Interaction.py", "orig05_resilience_test")
 
 
 def test_sg_smooth_parity(orig05):

@@ -6,6 +6,7 @@ build-backend = "hatchling.build"
 name = "paleopy"
 version = "0.1.0"
 description = "Radiocarbon-dating and paleodemography analysis pipeline (p3k14c)"
+readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "numpy",
@@ -13,6 +14,11 @@ dependencies = [
     "scipy",
     "matplotlib",
     "requests",
+]
+license = "MIT"
+authors = [
+  {name="Danielle Sicotte"},
+  {name="Alex Moorhouse"},
 ]
 
 [project.optional-dependencies]
@@ -35,6 +41,17 @@ paleopy-kde = "paleopy.cli.kde:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/paleopy"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/paleopy",
+    "tests",
+    "examples",
+    "intcal20.npz",
+    "README.md",
+    "LICENSE.md",
+    "pyproject.toml",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

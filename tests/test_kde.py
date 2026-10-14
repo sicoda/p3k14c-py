@@ -10,12 +10,8 @@ from paleopy.kde import build_grid, filter_region_and_time, kde_unweighted_sites
 
 
 @pytest.fixture(scope="module")
-def orig07():
-    spec = importlib.util.spec_from_file_location("orig07_kde_test", "Scripts/07_KDE.py")
-    mod = importlib.util.module_from_spec(spec)
-    sys.modules["orig07_kde_test"] = mod
-    spec.loader.exec_module(mod)
-    return mod
+def orig07(legacy_script):
+    return legacy_script("07_KDE.py", "orig07_kde_test")
 
 
 @pytest.fixture
