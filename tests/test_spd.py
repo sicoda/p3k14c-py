@@ -1,6 +1,3 @@
-import importlib.util
-import sys
-
 import matplotlib
 matplotlib.use("Agg")
 
@@ -25,13 +22,9 @@ from paleopy.spd import (
 
 
 @pytest.fixture(scope="module")
-def orig04():
-    spec = importlib.util.spec_from_file_location("orig04_spd_test", "Scripts/04_SPD.py")
-    mod = importlib.util.module_from_spec(spec)
-    sys.argv = ["x"]  # avoid parse_args() side effects; not invoked at import time
-    sys.modules["orig04_spd_test"] = mod
-    spec.loader.exec_module(mod)
-    return mod
+def orig04(legacy_script):
+    # argv reset avoids parse_args() side effects; not invoked at import time
+    return legacy_script("04_SPD.py", "orig04_spd_test", argv=["x"])
 
 
 def test_taphonomic_weight_parity(orig04):
