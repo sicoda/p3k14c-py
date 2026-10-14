@@ -2,6 +2,8 @@
 
 Python package for the p3k14c global archaeological radiocarbon database with comparisons to paleoenvironmental datasets.
 
+Datasets were sourced from the PAGES People3000 Archaeological Radiocarbon, NOAA GISP2, PANGAEA, and Neotoma databases, which are all in the public domain. 
+
 <figure>
   <img width="830" height="450" alt="image" src="https://github.com/user-attachments/assets/67ce4f41-e512-4b5f-bf08-a05a8657e4f9" />
   <figcaption align="center"><b>Figure 1:</b> Map showing all available datapoints in the p3k14c database.</figcaption>
