@@ -5,7 +5,7 @@ from paleopy.resilience import align, detect_anomalies, fit_resilience, sg_smoot
 
 
 @pytest.fixture(scope="module")
-def orig05(legacy_script):
+def orig05(legacy_script, intcal20_cache):
     return legacy_script("05_Human_Climate_Interaction.py", "orig05_resilience_test")
 
 
