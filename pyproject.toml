@@ -47,7 +47,6 @@ include = [
     "src/paleopy",
     "tests",
     "examples",
-    "intcal20.npz",
     "README.md",
     "LICENSE.md",
     "pyproject.toml",

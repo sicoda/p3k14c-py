@@ -21,7 +21,7 @@ def test_load_intcal20_import_has_no_network_side_effect(monkeypatch):
     spec.loader.exec_module(mod)  # should not raise
 
 
-def test_load_intcal20_uses_existing_cache():
+def test_load_intcal20_uses_existing_cache(intcal20_cache):
     # intcal20.npz is expected to already be cached in the repo root from
     # earlier stages of this migration (or downloaded once here).
     cal_bp, c14_age, c14_error = load_intcal20()
@@ -29,7 +29,7 @@ def test_load_intcal20_uses_existing_cache():
     assert np.all(np.diff(cal_bp) >= 0)  # sorted ascending
 
 
-def test_calibrate_gaussian_intcal_parity(legacy_script):
+def test_calibrate_gaussian_intcal_parity(legacy_script, intcal20_cache):
     # triggers orig's own load_intcal20() at import (uses cache)
     orig = legacy_script("05_Human_Climate_Interaction.py", "orig05_calib_test")
 
@@ -40,7 +40,7 @@ def test_calibrate_gaussian_intcal_parity(legacy_script):
         np.testing.assert_allclose(a, b)
 
 
-def test_calibrate_gaussian_intcal_normalizes_to_sum_one():
+def test_calibrate_gaussian_intcal_normalizes_to_sum_one(intcal20_cache):
     years = np.arange(7300, 9500, 10, dtype=float)
     prob = calibrate_gaussian_intcal(8500, 40, years)
     assert prob.sum() == pytest.approx(1.0, rel=1e-6)

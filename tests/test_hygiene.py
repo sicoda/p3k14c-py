@@ -45,7 +45,7 @@ def test_missing_loc_accuracy_column_is_fine():
     assert len(result) == 1
 
 
-def test_parity_with_original_scripts_05_and_06(legacy_script):
+def test_parity_with_original_scripts_05_and_06(legacy_script, intcal20_cache):
     """Direct numeric/behavioral parity check against the actual
     Scripts/05 and Scripts/06 hygiene functions on identical input,
     confirming they're truly interchangeable before being unified here.

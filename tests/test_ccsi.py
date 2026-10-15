@@ -15,7 +15,7 @@ from paleopy.ccsi import (
 
 
 @pytest.fixture(scope="module")
-def orig06(legacy_script):
+def orig06(legacy_script, intcal20_cache):
     return legacy_script("06_Composite_Human_Environment.py", "orig06_ccsi_test")
 
 
@@ -62,7 +62,7 @@ def test_fit_resilience_with_uncertainty_too_few_points():
     assert uncertain is True
 
 
-def test_build_spd_from_scratch_returns_normalized_series():
+def test_build_spd_from_scratch_returns_normalized_series(intcal20_cache):
     rng = np.random.default_rng(0)
     n = 12
     df = pd.DataFrame({

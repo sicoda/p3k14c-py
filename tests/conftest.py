@@ -52,3 +52,15 @@ def legacy_script():
         return mod
 
     return load
+
+
+@pytest.fixture(scope="session")
+def intcal20_cache():
+    """Skip tests that need the cached IntCal20 curve when it's absent.
+
+    load_intcal20() (and Scripts/05, 06 at import) read intcal20.npz from the
+    working directory and otherwise download it, which the no_network fixture
+    blocks. The cache isn't shipped in the sdist.
+    """
+    if not os.path.isfile("intcal20.npz"):
+        pytest.skip("intcal20.npz not present (IntCal20 cache not shipped)")
