@@ -45,14 +45,11 @@ def test_missing_loc_accuracy_column_is_fine():
     assert len(result) == 1
 
 
-def test_parity_with_original_scripts_05_and_06():
+def test_parity_with_original_scripts_05_and_06(legacy_script, intcal20_cache):
     """Direct numeric/behavioral parity check against the actual
     Scripts/05 and Scripts/06 hygiene functions on identical input,
     confirming they're truly interchangeable before being unified here.
     """
-    import importlib.util
-    import sys
-
     df = pd.DataFrame({
         "Age": [1000, 2000, 3000, 4000, 5000, 6000, 7000],
         "Error": [30, 40, 200, 30, 30, 30, 9999],
@@ -62,19 +59,8 @@ def test_parity_with_original_scripts_05_and_06():
         "LocAccuracy": [1, 1, 1, 0, 1, 1, 1],
     })
 
-    spec5 = importlib.util.spec_from_file_location(
-        "orig05_hygiene_test", "Scripts/05_Human_Climate_Interaction.py"
-    )
-    orig5 = importlib.util.module_from_spec(spec5)
-    sys.modules["orig05_hygiene_test"] = orig5
-    spec5.loader.exec_module(orig5)
-
-    spec6 = importlib.util.spec_from_file_location(
-        "orig06_hygiene_test", "Scripts/06_Composite_Human_Environment.py"
-    )
-    orig6 = importlib.util.module_from_spec(spec6)
-    sys.modules["orig06_hygiene_test"] = orig6
-    spec6.loader.exec_module(orig6)
+    orig5 = legacy_script("05_Human_Climate_Interaction.py", "orig05_hygiene_test")
+    orig6 = legacy_script("06_Composite_Human_Environment.py", "orig06_hygiene_test")
 
     result_new = apply_chronometric_hygiene(
         df.copy(), max_error=orig5.MAX_ERROR, time_min=orig5.TIME_MIN, time_max=orig5.TIME_MAX

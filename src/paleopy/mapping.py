@@ -4,16 +4,16 @@ Ported from Scripts/07_KDE.py. The original disabled HTTPS certificate
 verification GLOBALLY at import time
 (`ssl._create_default_https_context = ssl._create_unverified_context`)
 and raised the process-wide recursion limit to 5000 - both as permanent
-side effects of merely importing the module. Here both are scoped to just
-the one call that needs them (cartopy's Natural Earth geometry download in
-build_land_mask), via paleopy.net's context managers, and restored
-afterward.
+side effects of merely importing the module. Here certificate
+verification is left on, and the recursion limit is raised only around the
+one call that needs it (cartopy's Natural Earth geometry download in
+build_land_mask) and restored afterward.
 """
 
 import numpy as np
 import pandas as pd
 
-from paleopy.net import temporary_recursion_limit, temporary_unverified_ssl
+from paleopy.net import temporary_recursion_limit
 
 REGIONS = {
     "1": {"name": "North America", "lon": [-170, -50], "lat": [15, 80]},
@@ -33,8 +33,8 @@ def build_land_mask(lon_range: list, lat_range: list, res: int = 300, mask_res: 
     matplotlib.path.Path.contains_points().
 
     Fetching the Natural Earth geometry (via cartopy) is wrapped in
-    temporary_unverified_ssl()/temporary_recursion_limit(5000), scoped to
-    just this call, rather than the original's permanent global side effects.
+    temporary_recursion_limit(5000), scoped to just this call, rather than
+    the original's permanent global side effect.
     """
     import cartopy.feature as cfeature
     from matplotlib.path import Path
@@ -49,7 +49,7 @@ def build_land_mask(lon_range: list, lat_range: list, res: int = 300, mask_res: 
 
     binary = np.zeros(res * res, dtype=bool)
 
-    with temporary_unverified_ssl(), temporary_recursion_limit(5000):
+    with temporary_recursion_limit(5000):
         geometries = list(cfeature.NaturalEarthFeature("physical", "land", mask_res).geometries())
 
     for geom in geometries:

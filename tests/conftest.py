@@ -1,6 +1,11 @@
+import importlib.util
+import os
 import socket
+import sys
 
 import pytest
+
+SCRIPTS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Scripts")
 
 
 @pytest.fixture(autouse=True)
@@ -25,3 +30,37 @@ def no_network(request, monkeypatch):
 @pytest.fixture
 def tmp_outdir(tmp_path):
     return tmp_path
+
+
+@pytest.fixture(scope="session")
+def legacy_script():
+    """Return a loader for the original Scripts/ modules used by parity tests.
+
+    Scripts/ is kept in the repo for reference but not shipped in the sdist,
+    so any test depending on it is skipped when the directory is absent.
+    """
+    def load(filename, module_name, argv=None):
+        path = os.path.join(SCRIPTS_DIR, filename)
+        if not os.path.isfile(path):
+            pytest.skip(f"legacy script {filename} not present (Scripts/ not shipped)")
+        spec = importlib.util.spec_from_file_location(module_name, path)
+        mod = importlib.util.module_from_spec(spec)
+        if argv is not None:
+            sys.argv = argv
+        sys.modules[module_name] = mod
+        spec.loader.exec_module(mod)
+        return mod
+
+    return load
+
+
+@pytest.fixture(scope="session")
+def intcal20_cache():
+    """Skip tests that need the cached IntCal20 curve when it's absent.
+
+    load_intcal20() (and Scripts/05, 06 at import) read intcal20.npz from the
+    working directory and otherwise download it, which the no_network fixture
+    blocks. The cache isn't shipped in the sdist.
+    """
+    if not os.path.isfile("intcal20.npz"):
+        pytest.skip("intcal20.npz not present (IntCal20 cache not shipped)")

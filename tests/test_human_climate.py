@@ -18,7 +18,7 @@ def synthetic_df():
     })
 
 
-def test_build_spd_returns_normalized_series(synthetic_df):
+def test_build_spd_returns_normalized_series(synthetic_df, intcal20_cache):
     years, spd_un, spd_no = build_spd(synthetic_df, time_min=7300, time_max=9500, bin_h=50, resolution=10)
     assert len(years) == len(spd_un) == len(spd_no)
     assert spd_un.sum() == pytest.approx(1.0, rel=1e-6)
@@ -36,7 +36,7 @@ def test_build_spd_uses_gaussian_fallback_when_age_error_missing():
     assert abs(peak_year - 8000) < 200  # peak roughly where the Gaussian fallback was centered
 
 
-def test_spd_significance_envelope_shapes(synthetic_df):
+def test_spd_significance_envelope_shapes(synthetic_df, intcal20_cache):
     years, spd_un, _ = build_spd(synthetic_df, time_min=7300, time_max=9500, bin_h=50, resolution=10)
     curve = load_intcal20()
     lo, hi, pvals = spd_significance_envelope(
