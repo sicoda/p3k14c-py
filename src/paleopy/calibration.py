@@ -316,14 +316,14 @@ def load_intcal20(cache_path: str = "intcal20.npz") -> tuple:
     if _INTCAL20_CACHE_STATE["loaded"] is not None:
         return _INTCAL20_CACHE_STATE["loaded"]
 
-    from paleopy.net import fetch_with_fallback
+    from paleopy.net import fetch
 
     if os.path.exists(cache_path):
         d = np.load(cache_path)
         cal_bp, c14_age, c14_error = d["cal_bp"], d["c14_age"], d["c14_error"]
     else:
         url = "https://intcal.org/curves/intcal20.14c"
-        resp = fetch_with_fallback(url, timeout=60)
+        resp = fetch(url, timeout=60)
         text = resp.text
 
         cal_bp_l, c14_age_l, c14_error_l = [], [], []

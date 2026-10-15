@@ -33,6 +33,8 @@ pip install -e .[all]
 
 This installs the core dependencies (numpy, pandas, scipy, matplotlib, requests) plus every optional extra: `calibration` (iosacal, radiocarbon), `stats` (scikit-learn, seaborn), `mapping` (cartopy), `text` (ftfy), `progress` (tqdm). Install a subset instead if you only need part of the pipeline, e.g. `pip install -e .[calibration]`.
 
+`paleopy` downloads some reference data on first use (the IntCal20 calibration curve, proxy records, and Natural Earth land geometry for maps) and always verifies HTTPS certificates. If you installed Python from python.org on macOS and see an `SSL: CERTIFICATE_VERIFY_FAILED` error, run the **Install Certificates.command** script in your `/Applications/Python 3.x/` folder once, then try again.
+
 If you'd rather run the original standalone scripts directly (see `Scripts/`, kept for reference — see the note below), install the same libraries manually:
 
 ```Bash
